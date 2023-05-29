@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+:root {
+    --dark: #606c38;
+    --medium: #97AF46 ;
+    --light: #DAEAA5;
+    --neutral: #BD9C5F;
+    --white: #fefae0;
+}
+
+html, body {
+    /* background-color: var(--dark); */
+    background-image: url('../images/background.jpg') ;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark);
+    height: 80px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-family: "Press Start 2P";
+    padding-top: 20px;
+    color: var(--light);
+    text-shadow: 5px 2px var(--medium);
+
+}
+
+main h1 {
+    font-size: 30px;
+    font-family: "Press Start 2P";
+    padding-top: 20px;
+    color: var(--dark);
+    text-align: center;
+}
+
+nav { 
+    position: absolute;
+    top: 35px;
+    right: 25px;
+}
+
+
+
+main { 
+    margin-top: 0.25%;
+    border-radius: 37.5px;
+    border: 3.75px solid var(--dark);
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 50px;
+    background-color: var(--white);
+}
+
+
+
+.nav1 {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav1-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.nav1-link:hover {
+    color: var(--light);
+    text-decoration: none;
+  }
+
+.nav1-item {
+  margin-bottom: 0.5rem;
+}
+
+.nav1-link.active {
+  color: var(--dark);
+  background-color: var(--light);
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.nav1-link.active:hover {
+    color: var(--white);
+
+  }
+
