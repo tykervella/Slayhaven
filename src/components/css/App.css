@@ -16,7 +16,7 @@ html, body {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: var(--dark);
     height: 80px;
 }
