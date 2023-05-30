@@ -4,10 +4,14 @@
 
 ## DESCRIPTION 
 
-Week 20 Challenge for Full-Stack Programming bootcamp at the University of Washington in partnership with edX. This is a portfolio of my works and skills made using react. 
+Week 20 Challenge for Full-Stack Programming bootcamp at the University of Washington in partnership with edX. This is my second go at a portfolio! I used react, bootstrap and my own css styling to show off my works and let potential employers know more about me. 
 
-![License: MIT](./src/components/images/preview.png)
+[Repository](https://github.com/tykervella/tyler-two-point-oh)
 
+[Deployed Link](https://tykervella.github.io/tyler-two-point-oh/)
+
+![Preview](./src/components/images/preview.png)
+![Preview 2](./src/components/images/preview2.png)
 
 ---
 
@@ -34,20 +38,22 @@ Week 20 Challenge for Full-Stack Programming bootcamp at the University of Washi
 
 ## INSTALLATION 
 
-This project is viewable at the deployment link included within this README. No installation required!
+This project is meant to be viewed at the deployment link included within this README. No installation required!
 
 ---
 
 
 ## USAGE
 
-This runs in the browser at the deployed link! You start by viewing the About page to learn a bit more about me. You can then navigate to Portfolio, Resume or Contact from the Nav element in the top right corner of the page. 
+This runs in the browser at the deployed link! 
 
-Clicking Portfolio will display my five most recent projects, with a featured project highlighted at the top of the page. Each project contains a title, description and can be clicked to navigate to that project's corresponding github repository. 
+You start by viewing the <b>About</b> page to learn a bit more about me. You can then navigate to Portfolio, Resume or Contact from the Nav element in the top right corner of the page. 
 
-Clicking Resume will allow the viewer to click on an embedded link and download my resume. It also showcases badges of the top 12 marketable skills I have to offer for easy viewing.
+Clicking <b>Portfolio</b> will display my five most recent projects, with a featured project highlighted at the top of the page. Each project contains a title, description and can be clicked to navigate to that project's corresponding github repository. 
 
-Finally, clicking on Contact will render a form that allows the user to enter their name, email and a brief message. This form does not currently work. 
+Clicking <b>Resume</b> will allow the viewer to click on an embedded link and download my resume. It also showcases badges of the top 12 marketable skills I have to offer for easy viewing.
+
+Finally, clicking on <b>Contact</b> will render a form that allows the user to enter their name, email and a brief message. This form does not currently work. 
 
 At the bottom of the page, links to my linked in, github and my phone number are displayed 
 
@@ -56,7 +62,7 @@ At the bottom of the page, links to my linked in, github and my phone number are
 
 ## CONTRIBUTIONS
 
-The general file structure and some logic from the NavTabs/PortfolioContainer were taken from Week 20, activity 24 from the coding bootcamp I attended. 
+The  file structure and some logic for the NavTabs and PortfolioContainer files were referenced from Week 20, activity 24 from the coding bootcamp I attended. 
 
 
 ---
