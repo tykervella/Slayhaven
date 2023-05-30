@@ -41,7 +41,15 @@ export default function PortfolioContainer() {
       </div>
 
       <footer> 
+        <p> You can find me at: </p>
+        <a href="https://github.com/tykervella" target="_blank"> 
+          <button> Github </button>
+        </a>
+        <a href="https://www.linkedin.com/in/tyler-kervella-32a4a1117" target="_blank"> 
+          <button> Linked In </button>
+        </a>
 
+        <a><button> (757)-672-0386 </button></a>
       </footer>
     </div>
   );

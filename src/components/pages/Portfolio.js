@@ -4,21 +4,66 @@ export default function Portfolio() {
   return (
     <main>
       <h1>Portfolio Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <div className="row align-items-center portfolio">
+
+        <div className= "col-12 col-md-12">
+          <div className='featuredProject'>
+            <a href="https://github.com/Ally27/Music-to-My-Ears" target="_blank">
+              <img src={require('../images/featured-project.png')}/>
+              <div class="info-box">
+                <h3>Music to My Ears</h3>
+                <p><b>Full stack Webpage.</b> A blogsite website that allows users to signup/login to create posts that share their spotify playlists. The spotify API is called to render relevant data and allow user accessibility. A design focus is placed on fostering community with user interacts</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div className= "col-12 col-md-6">
+          <div className='projectBox'>
+            <a href="https://github.com/tykervella/send-News" target="_blank">
+              <img src={require('../images/project2.png')}/>
+              <div class="info-box">
+                <h3>Send News</h3>
+                  <p><b>Front-End Application.</b> Utilzes Javascript, newsdata IO and voiceRSS to create a news search engine that finds news articles, save them for later, or read them aloud!</p>
+              </div>
+            </a>
+          </div>
+          <div className='projectBox'>
+            <a href="https://github.com/tykervella/Are-you-Smarter-than-a-Coder" target="_blank">
+              <img src={require('../images/project4.png')}/>
+              <div class="info-box">
+                <h3>Are you Smarter than a Coder?</h3>
+                <p><b>Front-End Application.</b> Utilizes Javascript to create an interactive game that test your knowledge on coding!</p>
+              </div>
+            </a>
+          </div>
+         
+        </div>
+
+        <div className= "col-12 col-md-6">
+          <div className='projectBox'>
+            <a href="https://github.com/tykervella/Do-I-Need-A-Raincoat-" target="_blank">
+              <img src={require('../images/project3.png')}/>
+              <div class="info-box">
+                <h3>Do I need a Raincoat?</h3>
+                <p><b>Front-End Application</b> Utilizes JavaScript and Open Weather Map API to create an application that allows users to search a city and get a 5-day forecast.</p>
+              </div>
+            </a>
+          </div>
+          <div className='projectBox'>
+            <a href="https://github.com/tykervella/send-News" target="_blank">
+              <img src={require('../images/project5.png')}/>
+              <div class="info-box">
+                <h3>Password Generator</h3>
+                <p><b>Front-End Application.</b> Utilizes Javascript to create a random, secure password generator</p>
+              </div>
+            </a>
+          </div>
+         
+        </div>
+
+        
+      </div>
     </main>
   );
 }
