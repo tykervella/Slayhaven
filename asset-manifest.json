@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tyler-two-point-oh/static/css/main.0b759714.css",
+    "main.js": "/tyler-two-point-oh/static/js/main.f243c603.js",
+    "static/media/me.JPEG": "/tyler-two-point-oh/static/media/me.b1e93554317db79e8512.JPEG",
+    "static/media/project3.png": "/tyler-two-point-oh/static/media/project3.aeac755c48f0881ed1cb.png",
+    "static/media/featured-project.png": "/tyler-two-point-oh/static/media/featured-project.c654953b43b43e74a3a0.png",
+    "static/media/project4.png": "/tyler-two-point-oh/static/media/project4.9cf55eb22f0397843c36.png",
+    "static/media/project2.png": "/tyler-two-point-oh/static/media/project2.e6338d25b0ee5482f966.png",
+    "static/media/background.jpg": "/tyler-two-point-oh/static/media/background.5a377b6163b94fa15546.jpg",
+    "static/media/Tkervella_FS_webdev_resume.pdf": "/tyler-two-point-oh/static/media/Tkervella_FS_webdev_resume.09fb116d3f6369c9043d.pdf",
+    "static/media/project5.png": "/tyler-two-point-oh/static/media/project5.438025f618b8dc3ba7e4.png",
+    "index.html": "/tyler-two-point-oh/index.html",
+    "main.0b759714.css.map": "/tyler-two-point-oh/static/css/main.0b759714.css.map",
+    "main.f243c603.js.map": "/tyler-two-point-oh/static/js/main.f243c603.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b759714.css",
+    "static/js/main.f243c603.js"
+  ]
+}
