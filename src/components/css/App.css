@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
 
 :root {
     --dark: #606c38;
@@ -34,8 +35,10 @@ main h1 {
     font-size: 30px;
     font-family: "Press Start 2P";
     padding-top: 20px;
+    padding-bottom: 20px;
     color: var(--dark);
     text-align: center;
+    padding-bottom: 20px;
 }
 
 nav { 
@@ -44,7 +47,10 @@ nav {
     right: 25px;
 }
 
-
+.badge img {
+  width: 100px;
+  height: auto;
+}
 
 main { 
     margin-top: 0.25%;
@@ -53,11 +59,29 @@ main {
     padding-left: 5%;
     padding-right: 5%;
     width: 85%;
+    margin: 0 auto;
     margin-left: 7.5%;
     margin-top: 50px;
     background-color: var(--white);
-}
 
+    }
+
+
+    form { 
+      padding-top: 25px;
+      font-family: 'Red Hat Mono', monospace;
+      font-size: 18px;
+    }
+
+    label {
+      width: 10%;
+      font-weight: bold;
+      font-style: oblique;
+    }
+
+    input, textarea {
+      width: 80%;
+    }
 
 
 .nav1 {
@@ -95,3 +119,45 @@ main {
 
   }
 
+  .text {
+    font-family: 'Red Hat Mono', monospace;
+    text-align: center;
+    font-size: 18px;
+
+  }
+
+  .text2 {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 18px;
+
+  }
+
+  .resume {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+  }
+
+  .badge {
+    margin-bottom: 15px;
+    width: auto;
+ 
+  }
+
+
+  .badgeLabel {
+    color: black;
+    font-family: 'Red Hat Mono', monospace;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 10px;
+  }
+
+  #self {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 10%;
+
+  }

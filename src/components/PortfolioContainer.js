@@ -5,9 +5,11 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
+// sets the default state to About to render #about page upon loading portfolio 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
+  // function that returns a different main body based on the currentPage that is selected in NavTabs
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
@@ -23,6 +25,8 @@ export default function PortfolioContainer() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
+
+  // sets up HTML document for entire portfolio. Returns a header/footer and then the main is determined from the handlePageChange function
   return (
     <div>
       <header>
@@ -35,6 +39,10 @@ export default function PortfolioContainer() {
       <div>
         {renderPage()}
       </div>
+
+      <footer> 
+
+      </footer>
     </div>
   );
 }

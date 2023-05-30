@@ -1,22 +1,113 @@
-import React from 'react';
+import React, { useState } from 'react';
 
+
+//Sets form to be blank states as the contact section is selected from nav bar 
+const ContactForm = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [nameError, setNameError] = useState('');
+  const [emailError, setEmailError] = useState('');
+
+  const validateEmail = (email) => {
+    // A simple email validation regex pattern
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+
+  // event handlers for name, email and message changes 
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleMessageChange = (e) => {
+    setMessage(e.target.value);
+  };
+
+  // handles blur for the inputed field to make sure that the name and email inputs are not left blank when the user clicks out of the field
+  const handleBlur = (field) => {
+    if (field === 'name') {
+      if (!name) {
+        setNameError('Name is required');
+      } else {
+        setNameError('');
+      }
+    } else if (field === 'email') {
+      if (!email) {
+        setEmailError('Email is required');
+      } else if (!validateEmail(email)) {
+        setEmailError('Invalid email address');
+      } else {
+        setEmailError('');
+      }
+    }
+  };
+
+  // logic to handle submitting the form 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    handleBlur('name');
+    handleBlur('email');
+
+  };
+
+
+  // what ContactForm function actually returns. Which is a form with a name, email and message field with a submit button at the end 
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          value={name}
+          onChange={handleNameChange}
+          onBlur={() => handleBlur('name')}
+        />
+        {nameError && <div className="error">{nameError}</div>}
+      </div>
+      <div>
+        <label htmlFor="email">Email:</label>
+        <input
+          type="text"
+          id="email"
+          value={email}
+          onChange={handleEmailChange}
+          onBlur={() => handleBlur('email')}
+        />
+        {emailError && <div className="error">{emailError}</div>}
+      </div>
+      <div>
+        <label htmlFor="message">Message:</label>
+        <textarea
+          id="message"
+          value={message}
+          onChange={handleMessageChange}
+        ></textarea>
+      </div>
+      <br />
+      <button type="submit">Submit</button>
+
+    </form>
+  );
+};
+
+
+// returns main body for the Contact function to export it and be used withing PortfolioContainer when on the #contact page
 export default function Contact() {
   return (
     <main>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <h1>Contact Me</h1>
+      <ContactForm />
+      <br />
     </main>
+
   );
-}
+};
+
