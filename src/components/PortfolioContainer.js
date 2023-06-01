@@ -41,15 +41,10 @@ export default function PortfolioContainer() {
       </div>
 
       <footer> 
-        <p> You can find me at: </p>
-        <a href="https://github.com/tykervella" target="_blank"> 
-          <button> Github </button>
-        </a>
-        <a href="https://www.linkedin.com/in/tyler-kervella-32a4a1117" target="_blank"> 
-          <button> Linked In </button>
-        </a>
-
-        <a><button> (757)-672-0386 </button></a>
+        <p> Find Me At: </p>
+      <a href="https://github.com/tykervella" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='html' /> </a>
+      <a href="https://www.linkedin.com/in/tyler-kervella-32a4a1117/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt='html' /></a>
+      <a href="mailto:tylerkervella@gmail.com"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt='html' /></a>
       </footer>
     </div>
   );

@@ -51,7 +51,7 @@ export default function Portfolio() {
             </a>
           </div>
           <div className='projectBox'>
-            <a href="https://github.com/tykervella/send-News" target="_blank">
+            <a href="https://github.com/tykervella/Password-dot-com" target="_blank">
               <img src={require('../images/project5.png')}/>
               <div class="info-box">
                 <h3>Password Generator</h3>

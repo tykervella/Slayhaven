@@ -198,36 +198,59 @@ input, textarea {
 }
 
 footer {
-  height: 50px;
+  height: 60px;
   margin-top: 2.5%;
   background-color: var(--dark);
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-right: 25px;
   padding-top: 10px;
   font-family: 'Red Hat Mono', monospace;
-  font-size: 18px;
-}
-
-footer button {
-  background-color: var(--medium);
-  border: 2px solid var(--medium);
-  padding-left: 7.5px;
-  padding-right: 7.5px;
-  border-radius: 10px;
-  margin: 0 10px;
-  
-}
-footer button:hover {
-  background-color: var(--light);
-  border-color:  var(--dark);
-  
-
+  font-size: 20px;
 }
 
 footer p {
   color: var(--medium);
   font-family: "Press Start 2P";
+  padding-top: 10px;
 
 }
 
+footer img {
+  height: 85%;
+  width: auto;
+}
 
+footer a {
+  margin: 0 40px;
+}
+
+footer a:hover {
+  opacity: 0.5;
+}
+
+
+@media screen and (max-width: 960px) { 
+
+  header{
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    height: 110px;
+  }
+  header h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  nav { 
+    position: relative;
+    top: 0px;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  header h1 {
+    font-size: 30px;
+  }
+}
