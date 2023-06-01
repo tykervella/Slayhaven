@@ -14,7 +14,7 @@ export default function Resume() {
         <div className="col-6 col-md-2">
           <div className="badge">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='html' />
-            <p className='badgeLabel'>HTML</p>
+            <p className='badgeLabel'>HTML5</p>
           </div>
           <div className="badge">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt='mysql' />
@@ -25,7 +25,7 @@ export default function Resume() {
         <div className="col-6 col-md-2">
           <div className="badge">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt='CSS' />
-            <p className='badgeLabel'>CSS</p>
+            <p className='badgeLabel'>CSS 3</p>
           </div>
           <div className="badge">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt='sequelize' />

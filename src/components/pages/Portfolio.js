@@ -3,7 +3,7 @@ import React from 'react';
 export default function Portfolio() {
   return (
     <main>
-      <h1>Portfolio Page</h1>
+      <h1>Featured Projects</h1>
       <div className="row align-items-center portfolio">
 
         <div className= "col-12 col-md-12">
