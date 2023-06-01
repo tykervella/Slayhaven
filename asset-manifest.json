@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tyler-two-point-oh/static/css/main.270cb338.css",
-    "main.js": "/tyler-two-point-oh/static/js/main.33983ee7.js",
+    "main.js": "/tyler-two-point-oh/static/js/main.7642adb6.js",
     "static/media/me.JPEG": "/tyler-two-point-oh/static/media/me.b1e93554317db79e8512.JPEG",
     "static/media/project3.png": "/tyler-two-point-oh/static/media/project3.aeac755c48f0881ed1cb.png",
     "static/media/featured-project.png": "/tyler-two-point-oh/static/media/featured-project.c654953b43b43e74a3a0.png",
@@ -12,10 +12,10 @@
     "static/media/project5.png": "/tyler-two-point-oh/static/media/project5.438025f618b8dc3ba7e4.png",
     "index.html": "/tyler-two-point-oh/index.html",
     "main.270cb338.css.map": "/tyler-two-point-oh/static/css/main.270cb338.css.map",
-    "main.33983ee7.js.map": "/tyler-two-point-oh/static/js/main.33983ee7.js.map"
+    "main.7642adb6.js.map": "/tyler-two-point-oh/static/js/main.7642adb6.js.map"
   },
   "entrypoints": [
     "static/css/main.270cb338.css",
-    "static/js/main.33983ee7.js"
+    "static/js/main.7642adb6.js"
   ]
 }
