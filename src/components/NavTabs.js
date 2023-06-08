@@ -39,7 +39,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
 
-      <li className="nav1-item">
+      {/* <li className="nav1-item">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -48,7 +48,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 }

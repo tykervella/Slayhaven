@@ -60,41 +60,44 @@ const ContactForm = () => {
 
   // what ContactForm function actually returns. Which is a form with a name, email and message field with a submit button at the end 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input
-          type="text"
-          id="name"
-          value={name}
-          onChange={handleNameChange}
-          onBlur={() => handleBlur('name')}
-        />
-        {nameError && <div className="error">{nameError}</div>}
-      </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input
-          type="text"
-          id="email"
-          value={email}
-          onChange={handleEmailChange}
-          onBlur={() => handleBlur('email')}
-        />
-        {emailError && <div className="error">{emailError}</div>}
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea
-          id="message"
-          value={message}
-          onChange={handleMessageChange}
-        ></textarea>
-      </div>
-      <br />
-      <button type="submit">Submit</button>
+    // <form onSubmit={handleSubmit}>
+    //   <div>
+    //     <label htmlFor="name">Name:</label>
+    //     <input
+    //       type="text"
+    //       id="name"
+    //       value={name}
+    //       onChange={handleNameChange}
+    //       onBlur={() => handleBlur('name')}
+    //     />
+    //     {nameError && <div className="error">{nameError}</div>}
+    //   </div>
+    //   <div>
+    //     <label htmlFor="email">Email:</label>
+    //     <input
+    //       type="text"
+    //       id="email"
+    //       value={email}
+    //       onChange={handleEmailChange}
+    //       onBlur={() => handleBlur('email')}
+    //     />
+    //     {emailError && <div className="error">{emailError}</div>}
+    //   </div>
+    //   <div>
+    //     <label htmlFor="message">Message:</label>
+    //     <textarea
+    //       id="message"
+    //       value={message}
+    //       onChange={handleMessageChange}
+    //     ></textarea>
+    //   </div>
+    //   <br />
+    //   <button type="submit">Submit</button>
 
-    </form>
+    // </form>
+    <div> 
+      
+    </div>
   );
 };
 

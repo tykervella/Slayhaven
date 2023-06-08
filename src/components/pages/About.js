@@ -24,6 +24,10 @@ export default function About() {
         <p class="text">
           I look forward to connecting with you! Please reach out to me with any questions, opportunities, or even just to chat~ 
         </p>
+
+        <p class="text">
+          You can send me an email at <u>tylerkervella@gmail.com</u>!
+        </p>
       </div>
 
       <div className="col-md-4">
