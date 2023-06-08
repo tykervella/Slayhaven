@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/tyler-two-point-oh/static/css/main.270cb338.css",
-    "main.js": "/tyler-two-point-oh/static/js/main.7642adb6.js",
-    "static/media/me.JPEG": "/tyler-two-point-oh/static/media/me.b1e93554317db79e8512.JPEG",
-    "static/media/project3.png": "/tyler-two-point-oh/static/media/project3.aeac755c48f0881ed1cb.png",
-    "static/media/featured-project.png": "/tyler-two-point-oh/static/media/featured-project.c654953b43b43e74a3a0.png",
-    "static/media/project4.png": "/tyler-two-point-oh/static/media/project4.9cf55eb22f0397843c36.png",
-    "static/media/project2.png": "/tyler-two-point-oh/static/media/project2.e6338d25b0ee5482f966.png",
-    "static/media/background.jpg": "/tyler-two-point-oh/static/media/background.5a377b6163b94fa15546.jpg",
-    "static/media/Tkervella_FS_webdev_resume.pdf": "/tyler-two-point-oh/static/media/Tkervella_FS_webdev_resume.09fb116d3f6369c9043d.pdf",
-    "static/media/project5.png": "/tyler-two-point-oh/static/media/project5.438025f618b8dc3ba7e4.png",
-    "index.html": "/tyler-two-point-oh/index.html",
-    "main.270cb338.css.map": "/tyler-two-point-oh/static/css/main.270cb338.css.map",
-    "main.7642adb6.js.map": "/tyler-two-point-oh/static/js/main.7642adb6.js.map"
+    "main.css": "/static/css/main.9c87e17a.css",
+    "main.js": "/static/js/main.2c2b5203.js",
+    "static/media/me.JPEG": "/static/media/me.b1e93554317db79e8512.JPEG",
+    "static/media/project3.png": "/static/media/project3.aeac755c48f0881ed1cb.png",
+    "static/media/featured-project.png": "/static/media/featured-project.c654953b43b43e74a3a0.png",
+    "static/media/project4.png": "/static/media/project4.9cf55eb22f0397843c36.png",
+    "static/media/project2.png": "/static/media/project2.e6338d25b0ee5482f966.png",
+    "static/media/background.jpg": "/static/media/background.5a377b6163b94fa15546.jpg",
+    "static/media/Tkervella_FS_webdev_resume.pdf": "/static/media/Tkervella_FS_webdev_resume.09fb116d3f6369c9043d.pdf",
+    "static/media/project5.png": "/static/media/project5.438025f618b8dc3ba7e4.png",
+    "index.html": "/index.html",
+    "main.9c87e17a.css.map": "/static/css/main.9c87e17a.css.map",
+    "main.2c2b5203.js.map": "/static/js/main.2c2b5203.js.map"
   },
   "entrypoints": [
-    "static/css/main.270cb338.css",
-    "static/js/main.7642adb6.js"
+    "static/css/main.9c87e17a.css",
+    "static/js/main.2c2b5203.js"
   ]
 }
