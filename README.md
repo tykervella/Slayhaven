@@ -8,7 +8,7 @@ Week 20 Challenge for Full-Stack Programming bootcamp at the University of Washi
 
 [Repository](https://github.com/tykervella/tyler-two-point-oh)
 
-[Deployed Link](https://tykervella.github.io/tyler-two-point-oh/)
+[Deployed Link](https://tylerkervella.com)
 
 ![Preview](./src/components/images/preview.png)
 ![Preview 2](./src/components/images/preview2.png)
