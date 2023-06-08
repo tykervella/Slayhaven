@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c87e17a.css",
+    "main.css": "/static/css/main.9111bc5a.css",
     "main.js": "/static/js/main.2c2b5203.js",
     "static/media/me.JPEG": "/static/media/me.b1e93554317db79e8512.JPEG",
     "static/media/project3.png": "/static/media/project3.aeac755c48f0881ed1cb.png",
@@ -11,11 +11,11 @@
     "static/media/Tkervella_FS_webdev_resume.pdf": "/static/media/Tkervella_FS_webdev_resume.09fb116d3f6369c9043d.pdf",
     "static/media/project5.png": "/static/media/project5.438025f618b8dc3ba7e4.png",
     "index.html": "/index.html",
-    "main.9c87e17a.css.map": "/static/css/main.9c87e17a.css.map",
+    "main.9111bc5a.css.map": "/static/css/main.9111bc5a.css.map",
     "main.2c2b5203.js.map": "/static/js/main.2c2b5203.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c87e17a.css",
+    "static/css/main.9111bc5a.css",
     "static/js/main.2c2b5203.js"
   ]
 }
