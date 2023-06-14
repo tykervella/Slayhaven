@@ -5,14 +5,26 @@ export default function Portfolio() {
     <main>
       <h1>Featured Projects</h1>
       <div className="row align-items-center portfolio">
-
-        <div className= "col-12 col-md-12">
-          <div className='featuredProject'>
-            <a href="https://github.com/Ally27/Music-to-My-Ears" target="_blank">
+        
+        <div className= "col-12 col-md-6">
+          <div className='projectBox'>
+            <a href="https://github.com/tykervella/palette-town" target="_blank">
               <img src={require('../images/featured-project.png')}/>
               <div class="info-box">
+                <h3>Palette Town</h3>
+                <p><b>Full stack Webpage.</b> A pokemon TCG deck builder that creates a five color palette based on the pokemon that make up their deck. This includes a full functional deckbuilder, a user login system, and a mock marketplace that accepts test payments through Stripe. This runs using the full MERN stack plus graphQL</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div className= "col-12 col-md-6">
+          <div className='projectBox'>
+            <a href="https://github.com/Ally27/Music-to-My-Ears" target="_blank">
+              <img src={require('../images/project1.png')}/>
+              <div class="info-box">
                 <h3>Music to My Ears</h3>
-                <p><b>Full stack Webpage.</b> A blogsite website that allows users to signup/login to create posts that share their spotify playlists. The spotify API is called to render relevant data and allow user accessibility. A design focus is placed on fostering community with user interacts</p>
+                <p><b>Full stack Webpage.</b> A blogsite website that allows users to signup/login to create posts that share their spotify playlists. The spotify API is called to render relevant data and allow user accessibility. A design focus is placed on fostering community with user interactions. This project was created using node, express, sql, and handlebars. </p>
               </div>
             </a>
           </div>
@@ -28,6 +40,7 @@ export default function Portfolio() {
               </div>
             </a>
           </div>
+
           <div className='projectBox'>
             <a href="https://github.com/tykervella/Are-you-Smarter-than-a-Coder" target="_blank">
               <img src={require('../images/project4.png')}/>
@@ -50,6 +63,7 @@ export default function Portfolio() {
               </div>
             </a>
           </div>
+
           <div className='projectBox'>
             <a href="https://github.com/tykervella/Password-dot-com" target="_blank">
               <img src={require('../images/project5.png')}/>
