@@ -7,7 +7,7 @@ export default function Portfolio() {
       <div className="row align-items-center portfolio">
         
         <div className= "col-12 col-md-6">
-          <div className='projectBox'>
+          <div className='featuredProject'>
             <a href="https://github.com/tykervella/palette-town" target="_blank">
               <img src={require('../images/featured-project.png')}/>
               <div class="info-box">
@@ -19,7 +19,7 @@ export default function Portfolio() {
         </div>
         
         <div className= "col-12 col-md-6">
-          <div className='projectBox'>
+          <div className='featuredProject'>
             <a href="https://github.com/Ally27/Music-to-My-Ears" target="_blank">
               <img src={require('../images/project1.png')}/>
               <div class="info-box">
