@@ -17,7 +17,7 @@ function App() {
     <Router>
         <div className="flex-column justify-flex-start min-100-vh">
           <Navbar />
-          <div className="container">
+          <div className="container" style={{marginBottom:"2.5%"}}>
             <Routes>
               <Route 
                 path="/" 

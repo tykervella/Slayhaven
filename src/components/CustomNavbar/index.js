@@ -11,7 +11,7 @@ const CustomNavbar = () => {
         expand="lg"
         className="text-white mb-4 py-3 mt-100"
         id="custom-navbar"
-        style={{ backgroundColor: "var(--dark)", color: "#ffffff" }}
+        style={{ backgroundColor: "var(--dark)", color: "var(--darkest)" }}
       >
   
 
@@ -71,17 +71,15 @@ const CustomNavbar = () => {
                 className="nav-dropdown"
                 style={{margin: "0 3.5%"}}
               >
-                {/* <div className="dropdown-items-container"> */}
-                <NavDropdown.Item as={Link} to="#">
-                  Menus
+                <NavDropdown.Item as={Link} to="/creation">
+                  Character Creation
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="#">
-                  Days Closed
+                <NavDropdown.Item as={Link} to="/rules">
+                  Rule Changes
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="#">
-                  FAQs
+                <NavDropdown.Item as={Link} to="/archetypes">
+                  Archetypes
                 </NavDropdown.Item>
-                {/* </div> */}
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
