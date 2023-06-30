@@ -14,8 +14,8 @@ import Witherbloom from './pages/locations/Witherbloom';
 
 function App() {
   return (
-    <Router>
-        <div className="flex-column justify-flex-start min-100-vh">
+    <Router style={{backgroundColor: "var(--darkest)"}}>
+        <div className="flex-column justify-flex-start min-100-vh" style={{backgroundColor: "var(--light)"}}>
           <Navbar />
           <div className="container" style={{marginBottom:"2.5%"}}>
             <Routes>

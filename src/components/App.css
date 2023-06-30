@@ -17,3 +17,10 @@
 html {
   background-color: var(--darkest);
 }
+
+
+@media (max-width: 968px) {
+  .container {
+    height: auto;
+  }
+}
