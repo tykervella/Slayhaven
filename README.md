@@ -1,4 +1,4 @@
-# Tyler 2.0
+# SlayHaven: A Curriculm of Yas Gawd!
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
