@@ -4,14 +4,13 @@ import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 const CustomNavbar = () => {
   return (
-    <div>
-      {/* <div style={{ backgroundColor: "#ffffff", height: "30px" }}></div> */}
+    <div style={{position: 'sticky', top: 0, zIndex: 1}}>
       <Navbar
         variant="dark"
         expand="lg"
         className="text-white mb-4 py-3 mt-100"
         id="custom-navbar"
-        style={{ background: "linear-gradient(to right, var(--darkest), var(--light)" }}
+        style={{ background: "linear-gradient(to right, var(--darkest), var(--light)",borderBottom: "3px solid var(--darkest)" }}
       >
   
 

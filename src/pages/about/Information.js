@@ -34,32 +34,24 @@ export default function Information() {
             Finally, in this campaign Strixhaven sits within its own demiplane floating through the Astral Sea. Our students will have the opportunity to explore many different planes, worlds and maybe even universes! The Astral Sea is endless and ever-changing and there is always a new discovery hidden just beyond your horizon! 
           </p>
         </div>
-        <table style={{width:"80%", margin: "0 auto"}}>
-          <tr style={{textAlign:"center", backgroundColor: "var(--dark)"}}>
-            <th style={{border: "3px solid var(--darkest)", padding: "10px"}}>College</th>
-            <th style={{border: "3px solid var(--darkest)", padding: "10px"}}>Description</th>
-          </tr>
-          <tr style={{backgroundColor: "var(--light)"}}>
-            <td style={{border: "3px solid var(--darkest)", padding: "10px", textAlign:"center"}}>Lorehold</td>
-            <td style={{border: "3px solid var(--darkest)", padding: "10px"}}>Explores the past and preserves its lessons for future generations. Also called the College of Archaeomancy.</td>
-          </tr>
-          <tr style={{backgroundColor: "var(--lightest)"}}>
-            <td style={{border: "3px solid var(--darkest)", padding: "10px", textAlign:"center"}}>Prismari</td>
-            <td style={{border: "3px solid var(--darkest)", padding: "10px"}}>Uses the elements to practice the arts. Also called the College of Elemental Arts.</td>
-          </tr>
-          <tr style={{backgroundColor: "var(--light)"}}>
-            <td style={{border: "3px solid var(--darkest)", padding: "10px", textAlign:"center"}}>Quandrix</td>
-            <td style={{border: "3px solid var(--darkest)", padding: "10px"}}>Focuses on the mathematics of nature. Also called the College of Numeromancy.</td>
-          </tr>
-          <tr style={{backgroundColor: "var(--lightest)"}}>
-            <td style={{border: "3px solid var(--darkest)", padding: "10px", textAlign:"center"}}>Silverquill</td>
-            <td style={{border: "3px solid var(--darkest)", padding: "10px"}}>Teaches the magic of rhetoric, poetry, oration, and writing. Also called the College of Eloquence.</td>
-          </tr>
-          <tr style={{backgroundColor: "var(--light)"}}>
-            <td style={{border: "3px solid var(--darkest)", padding: "10px", textAlign:"center"}} >Witherbloom</td>
-            <td style={{border: "3px solid var(--darkest)", padding: "10px"}}>Harnesses the forces of life and death. Also called the College of Essence Studies.</td>
-          </tr>
-        </table> 
+        <h4> Colleges of Strixhaven: </h4>
+        <ul> 
+          <li>
+            <b><u>College of Lorehold</u></b>, Explores the past and preserves its lessons for future generations. Also called the College of Archaeomancy.
+          </li>
+          <li>
+            <b><u>College of Prismari</u></b>, Uses the elements to practice the arts. Also called the College of Elemental Arts.
+          </li>
+          <li>
+            <b><u>College of Quandrix</u></b>, Focuses on the mathematics of nature. Also called the College of Numeromancy.
+          </li>
+          <li>
+            <b><u>College of Silverquill</u></b>, Teaches the magic of rhetoric, poetry, oration, and writing. Also called the College of Eloquence.
+          </li>
+          <li>
+            <b><u>College of Witherbloom</u></b>, Harnesses the forces of life and death. Also called the College of Essence Studies.
+          </li>
+        </ul>
       </Row>
         <br />
         <Row className="infoBox2"> 
