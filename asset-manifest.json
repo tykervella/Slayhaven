@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Slayhaven/static/css/main.2a8e8005.css",
-    "main.js": "/Slayhaven/static/js/main.81f57204.js",
+    "main.js": "/Slayhaven/static/js/main.f9368f93.js",
     "static/media/lh-Losheel.png": "/Slayhaven/static/media/lh-Losheel.da9c0de96d8bb7976b1b.png",
     "static/media/sq-Fain.png": "/Slayhaven/static/media/sq-Fain.3aa581066b1812f291fc.png",
     "static/media/wb-Willowdusk.png": "/Slayhaven/static/media/wb-Willowdusk.3f46400c0dd3a0481498.png",
@@ -71,10 +71,10 @@
     "static/media/sq-symbol.png": "/Slayhaven/static/media/sq-symbol.98c43d884bf3774f9e98.png",
     "index.html": "/Slayhaven/index.html",
     "main.2a8e8005.css.map": "/Slayhaven/static/css/main.2a8e8005.css.map",
-    "main.81f57204.js.map": "/Slayhaven/static/js/main.81f57204.js.map"
+    "main.f9368f93.js.map": "/Slayhaven/static/js/main.f9368f93.js.map"
   },
   "entrypoints": [
     "static/css/main.2a8e8005.css",
-    "static/js/main.81f57204.js"
+    "static/js/main.f9368f93.js"
   ]
 }
