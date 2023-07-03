@@ -375,11 +375,11 @@ h6 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 3.5rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h3 {
@@ -387,19 +387,19 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 0.92rem;
   margin: 0 0 1rem;
   line-height: 1.5;
 }
@@ -423,12 +423,12 @@ button {
 }
 
 a {
-  color: #1b89bc;
+  color: #A927B0;
   text-decoration: none;
 }
 
 a:hover {
-  color: #065b83;
+  color: #6A2AA2;
   text-decoration: underline;
 }
 
@@ -1168,7 +1168,7 @@ label form [type='radio'] {
 }
 
 .container {
-  width: 75%;
+  width: 100%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -1618,6 +1618,9 @@ label form [type='radio'] {
 
 /* col-xl */
 @media screen and (min-width: 1200px) {
+  .float-right-img {
+    order: 0
+  }
   .col-xl-1 {
     flex: 0 0 8.33333%;
     max-width: 8.33333%;

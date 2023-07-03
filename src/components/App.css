@@ -1,26 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 :root {
-  --darkest: #22577a;
-  --dark: #38a3a5;
-  --medium: #57cc99 ;
-  --light: #80ed99;
-  --lightest: #c7f9cc;
-
-  --press-start: 'Press Start 2P', cursive;
-  --vt323: 'VT323', monospace;
-  --red-hat-mono: 'Red Hat Mono', monospace;
-  
+  /* colors */
+  --darkest: #133c55;
+  --dark: #386fa4;
+  --medium: #59A5D8 ;
+  --light: #84D2F6;
+  --lightest: #91E5F6;
+  /* fonts */
+  --header: 'Lobster', cursive;
+  --subheader: 'VT323', monospace;
+  --typewriter: 'Red Hat Mono', monospace;
+  /* border radius */
+  --bRad: 20px;
 }
 
 html {
   background-color: var(--darkest);
 }
 
+h1 {
+  font-family: var(--header);
+}
+
+
+h2 {
+  font-family: var(--subheader);
+  padding-bottom: 1.5%; 
+  text-align: center;
+           
+}
+
+h3 {
+  font-family: var(--header);
+  font-style: oblique;
+  /* padding-top: 1.5%;  */
+  text-align: center;
+  margin-bottom: 1.25%
+           
+}
+
+h4 {
+  font-family: var(--header);
+  font-style: oblique;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 1.25%;
+
+}
+
+h5 {
+  font-family: var(--subheader);
+  text-align: center;
+}
+
+h6 {
+  font-family: var(--subheader);
+  text-align: center;
+}
+
+p { 
+  font-family: var(--typewriter)
+}
+
+
+
+.nav-dropdown {
+  margin: 0 3.5%; 
+  font-family: var(--typewriter);
+  font-size: large;
+
+}
+
+.infoBox1 {
+  background-color: var(--medium); 
+  border: 3.5px solid var(--darkest);
+  text-align:justify;
+  padding: 2.5%;
+  border-radius: var(--bRad)
+}
+
+.infoBox2 {
+  background-color: var(--lightest); 
+  border: 3.5px solid var(--darkest);
+  text-align:justify;
+  padding: 2.5%;
+  border-radius: var(--bRad)
+}
+
+
+
+table { 
+  border: 2.5px solid var(--darkest);
+  border-radius: var(--bRad);
+  font-family: var(--typewriter)
+}
+
+th {
+  font-family: var(--subheader);
+  font-size: x-large;
+}
+
+ul {
+  font-family: var(--typewriter);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  width: 80%;
+}
+
 
 @media (max-width: 968px) {
   .container {
     height: auto;
+  }
+
+  .float-right-img {
+    order: 0
+  }
+  .float-left-text {
+    order: 1
   }
 }

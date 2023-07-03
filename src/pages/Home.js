@@ -4,18 +4,19 @@ import campusmap from '../components/images/strixhaven-campus-map.jpg';
 
 export default function Home() {
   return (
-    <Container style={{ backgroundColor: "var(--medium)", height: '90vh', overflow: 'hidden', borderRadius: "25px"}}>
+    <Container style={{ backgroundColor: "var(--medium)", height: '80vh', overflow: 'hidden', borderRadius: "var(--bRad)", border: "3px solid var(--darkest)"}}>
       <Row style={{ height: '100%', display: "flex", padding: "0 2.5%" }}>
 
 
-        <Col xs={12} md={6} style={{ height: "100%", overflowY: "auto"}}>
-          <div style={{ position: 'sticky', top: 0, zIndex: 1 }}>
-            <h1 style={{ fontFamily: "var(--vt323)", backgroundColor: "var(--medium)", paddingBottom: "1.5%" }}>
+        <Col xs={12} md={7} style={{ height: "100%", overflowY: "auto"}}>
+          {/* keep the header for the letter sticky to top with the scroll bar  */}
+          <div style={{ position: 'sticky', top: 0, zIndex: 1, backgroundColor: "var(--medium)" }}>
+            <h2>
               An Invitation to Attend...
-            </h1>
+            </h2>
           </div>
 
-          <div style={{ paddingRight: "15px", fontFamily: "var(--red-hat-mono)" }}>
+          <div style={{ paddingRight: "15px" }}>
 
             <p>
               Welcome to Strixhaven University, the premier institution of magical learning in the entire multiverse! As a new student, we extend our warmest greetings. We know that you have come here with a thirst for knowledge, an unquenchable curiosity, and a spark of magic that has the potential to light up the world.
@@ -47,7 +48,7 @@ export default function Home() {
           </div>
         </Col>
 
-        <Col xs={12} md={6} style={{ display: "flex", overflow: "hidden", alignItems: "flex-start" }}>
+        <Col xs={12} md={5} style={{ display: "flex", overflow: "hidden", alignItems: "flex-start" }}>
           <div style={{ width: "100%", paddingBottom: "2.5%"}}>
             <div style={{ width: "100%", height: "100%"}}>
               <img src={campusmap} 
