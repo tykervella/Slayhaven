@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2a8e8005.css",
-    "main.js": "/static/js/main.416cd7f6.js",
+    "main.js": "/static/js/main.81a77f2f.js",
     "static/media/lh-Losheel.png": "/static/media/lh-Losheel.da9c0de96d8bb7976b1b.png",
     "static/media/sq-Fain.png": "/static/media/sq-Fain.3aa581066b1812f291fc.png",
     "static/media/wb-Willowdusk.png": "/static/media/wb-Willowdusk.3f46400c0dd3a0481498.png",
@@ -15,6 +15,7 @@
     "static/media/sq-Nils.png": "/static/media/sq-Nils.1a53debdea1af4a50380.png",
     "static/media/wb-dean2.png": "/static/media/wb-dean2.7d22dd2fb76aaab54588.png",
     "static/media/damager.png": "/static/media/damager.ce5111c91aadd70ffcb3.png",
+    "static/media/adventuring-party.jpg": "/static/media/adventuring-party.555254ea74f8d3242617.jpg",
     "static/media/wb-dean1.png": "/static/media/wb-dean1.8d1fc252a5cb49b432d6.png",
     "static/media/qd-Ruxa.png": "/static/media/qd-Ruxa.5084d12637883fe47045.png",
     "static/media/wb-Tivash.png": "/static/media/wb-Tivash.13216dc61d73190466ba.png",
@@ -71,10 +72,10 @@
     "static/media/sq-symbol.png": "/static/media/sq-symbol.98c43d884bf3774f9e98.png",
     "index.html": "/index.html",
     "main.2a8e8005.css.map": "/static/css/main.2a8e8005.css.map",
-    "main.416cd7f6.js.map": "/static/js/main.416cd7f6.js.map"
+    "main.81a77f2f.js.map": "/static/js/main.81a77f2f.js.map"
   },
   "entrypoints": [
     "static/css/main.2a8e8005.css",
-    "static/js/main.416cd7f6.js"
+    "static/js/main.81a77f2f.js"
   ]
 }
