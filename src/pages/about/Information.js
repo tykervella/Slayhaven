@@ -66,7 +66,7 @@ export default function Information() {
         <p>
           To this day, the Founder Dragons roam the world. They no longer associate directly with Strixhaven, preferring to let the deans of the colleges speak in their stead. The dragons’ knowledge is vast, but their tempers can prove short. Mages seek them out only to learn the most elusive secrets. 
         </p>
-        <Row style={{display:"flex", justifyContent:"space-between"}}>
+        <Row style={{display:"flex", justifyContent:"center"}}>
           <Col md={2} xs={6}>
             <img 
               src={Lorehold} 
@@ -143,13 +143,13 @@ export default function Information() {
       <Row className='infoBox2'>
         <h2>Oracle and Archaics</h2>
         <Row style={{display:"flex", justifyContent:"space-between"}}>
-          <Col md={8} style={{display:"flex",alignItems: "center"}}>
+          <Col className="float-left-text" md={8} style={{display:"flex",alignItems: "center"}}>
             <p>
               The <b><u>Oracle of Strixhaven</u></b>, selected by the Founder Dragons, is often said to be the wisest and most accomplished mage in the multiverse. The Oracle’s lifelong task is to ensure that magic is used to help people and not twisted to evil ends. To be the Oracle, one must understand fundamental truths about the nature of magic, know and wield hundreds of spells, and possess impeccable judgment and virtue. The current Oracle is known as Jadzi, a wise and accomplished mage that lives somewhere in the lands between Strixhaven’s borders
             </p>
           
           </Col>
-          <Col md={4}>
+          <Col className="float-right-img" md={4}>
             <img 
                 src={Oracle} 
                 style={{ width: "100%", marginBottom: "2.5%"}} 
