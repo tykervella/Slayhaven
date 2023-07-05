@@ -109,6 +109,14 @@ td {
 
 }
 
+.float-container {
+  display:flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content:center;
+}
+
+
 
 .college-symbol {
   width: 25%;
@@ -118,6 +126,12 @@ td {
 .map-img {
   width: 70%; 
   margin-bottom:2.5%;
+}
+
+.student-portait {
+  width: 75%;
+  margin-bottom:2.5%;
+
 }
 
 

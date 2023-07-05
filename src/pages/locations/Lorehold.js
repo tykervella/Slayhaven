@@ -9,12 +9,12 @@ export default function Lorehold() {
   return (
     <Container >
       <Row className="infoBox1" >
-        <Row style={{display:"flex", justifyContent: "center"}}>
+        <Row style={{ display: "flex", justifyContent: "center" }}>
           <h2>College of Lorehold</h2>
-          <img 
-            src={symbol} 
-            className = "college-symbol"
-            alt="Lorehold College Symbol" 
+          <img
+            src={symbol}
+            className="college-symbol"
+            alt="Lorehold College Symbol"
           />
         </Row>
         <p>
@@ -22,18 +22,17 @@ export default function Lorehold() {
         </p>
         <Row>
           <h2>Studies and Philosphies</h2>
-
-          <p> 
+          <p>
             Lorehold College is devoted to the study of history, broadly understood to include the various aspects of culture, behavior, and social relationships that shape historical events. Its studies include various subdivisions of history (military history, social history, cultural history), archaeology, anthropology, psychology, sociology, religion, and economics. It overlaps with Prismari College in the field of art history, with some students splitting their studies between the two colleges. Lorehold mages use their magic to unearth secrets and share illumination.
           </p>
-          <Col md={6} style={{display:"flex",alignItems: "center"}}>
-            <img 
-            src={building} 
-            style={{ width: "100%", marginBottom:"2.5%"}} 
-            alt="Lorehold College Building" 
+          <Col md={6} style={{ display: "flex", alignItems: "center" }}>
+            <img
+              src={building}
+              style={{ width: "100%", marginBottom: "2.5%" }}
+              alt="Lorehold College Building"
             />
           </Col>
-          <Col md={6} style={{display:"flex", flexDirection:"column", justifyContent: "center"}}>
+          <Col md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <p>
               Lorehold’s two deans carry the titles <b><u>Dean of Order</u></b> and <b><u>Dean of Chaos</u></b>, as order versus chaos encapsulates the fundamental conflict at the heart of Lorehold’s philosophy. This conflict revolves around the forces that underlie and drive history. Is the course of time driving toward a well-ordered ideal state or slowly devolving into chaos? Are deep patterns hidden in historical texts, or is time a series of coincidence and happenstance?
             </p>
@@ -41,7 +40,6 @@ export default function Lorehold() {
               The <b><u>perspective of order</u></b> emphasizes the structures that pull people together—law, religion, economics, education, social class, and so on—and how those structures drive historical events. Order focuses on systemic changes and the actions of people collectively.
             </p>
           </Col>
-          
           <p>
             The <b><u>perspective of chaos</u></b>, by contrast, emphasizes individual actions, personal bonds of families and friends, and the disruptive force of lone, passionate people in history. Scholars of chaos gravitate toward reckless discovery and the spirit of adventure in their research of the past—the essence and emotion of history over precision or procedure.
           </p>
@@ -50,13 +48,13 @@ export default function Lorehold() {
       <br />
       <Row className="infoBox2">
         <h2>Lorehold Campus</h2>
-        <p> 
+        <p>
           The Lorehold campus is situated northwest of the central campus in a region of stark vertical relief. Rugged mesas and steep hills rise from a wide plain, and a great chasm holds the excavated ruins of an ancient settlement. Several star arches encircle rocky peaks and outcroppings, testifying to the powerful magical energy in the vicinity—energy once harnessed by the ancients who used to inhabit this area.        </p>
-        <Row style={{display:"flex", justifyContent:"center"}}>
-          <img 
-            src={map} 
-            className= "map-img"
-            alt="Lorehold Campus Map" 
+        <Row style={{ display: "flex", justifyContent: "center" }}>
+          <img
+            src={map}
+            className="map-img"
+            alt="Lorehold Campus Map"
           />
         </Row>
         <h4>Pillardrop</h4>
