@@ -10,8 +10,30 @@ import Tilana from '../../../components/images/characters/students/03-023.tilana
 export default function Quandrix() {
   return (
     <Container >
+      <Row className="infoBox1">
+      <h2>Quandrix Student Representative</h2>
+
+        <Row>
+          <Col md={6} className="float-container">
+            <img
+              src="#"
+              className="student-portait"
+              alt=""
+            />
+          </Col>
+          <Col md={6} className="float-container">
+            <h3></h3>
+            <h6></h6>
+            <p>
+            </p>
+            <p>
+            </p>
+          </Col>
+        </Row>
+      </Row>
+      <br />
       <Row className="infoBox2"> 
-        <h2>Quandrix Students</h2>
+        <h2>Other Quandrix Students</h2>
         <Row>
           <Col md={6} className="float-container">
             <img 

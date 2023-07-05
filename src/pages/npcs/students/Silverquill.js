@@ -11,7 +11,29 @@ import Shuvadri from '../../../components/images/characters/students/03-022.shuv
 export default function Silverquill() {
   return (
     <Container >
-      <Row className="infoBox2"> 
+      <Row className="infoBox2">
+      <h2>Silverquill Student Representative</h2>
+
+        <Row>
+          <Col md={6} className="float-container">
+            <img
+              src="#"
+              className="student-portait"
+              alt=""
+            />
+          </Col>
+          <Col md={6} className="float-container">
+            <h3></h3>
+            <h6></h6>
+            <p>
+            </p>
+            <p>
+            </p>
+          </Col>
+        </Row>
+      </Row>
+      <br />
+      <Row className="infoBox1"> 
         <h2>Silverquill Students</h2>
         <Row>
           <Col md={6} className="float-container">

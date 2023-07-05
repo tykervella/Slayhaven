@@ -37,7 +37,7 @@ export default function Home() {
             </p>
 
           </Col>
-          <Col md={6} className="float-container" style={{ justifyContent: "space-evenly" }}>
+          <Col md={6} className="float-container" style={{ justifyContent: "space-evenly", padding: "0 2.5%" }}>
 
             <img
               src={campusmap}

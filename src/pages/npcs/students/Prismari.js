@@ -10,7 +10,29 @@ export default function Prismari() {
   return (
     <Container >
       <Row className="infoBox2">
-        <h2>Prismari Students</h2>
+      <h2>Prismari Student Representative</h2>
+
+        <Row>
+          <Col md={6} className="float-container">
+            <img
+              src="#"
+              className="student-portait"
+              alt=""
+            />
+          </Col>
+          <Col md={6} className="float-container">
+            <h3></h3>
+            <h6></h6>
+            <p>
+            </p>
+            <p>
+            </p>
+          </Col>
+        </Row>
+      </Row>
+      <br />
+      <Row className="infoBox1">
+        <h2>Other Prismari Students</h2>
         <Row>
           <Col md={6} className="float-container">
             <img
