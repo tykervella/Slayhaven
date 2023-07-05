@@ -13,7 +13,7 @@ export default function Witherbloom() {
           <h2>College of Witherbloom</h2>
           <img 
             src={symbol} 
-            style={{ width: "25%", textAlign:"center"}} 
+            className = "college-symbol"
             alt="Witherbloom College Symbol" 
           />
         </Row>
@@ -56,7 +56,7 @@ export default function Witherbloom() {
         <Row style={{display:"flex", justifyContent:"center"}}>
           <img 
             src={map} 
-            style={{ width: "70%", marginBottom:"2.5%"}} 
+            className= "map-img"
             alt="Witherbloom Campus Map" 
           />
         </Row>

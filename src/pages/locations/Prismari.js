@@ -13,7 +13,7 @@ export default function Prismari() {
           <h2>College of Prismari</h2>
           <img 
             src={symbol} 
-            style={{ width: "25%", marginBottom:"2.5%"}} 
+            className = "college-symbol"
             alt="Prismari College Symbol" 
           />
         </Row>
@@ -56,7 +56,7 @@ export default function Prismari() {
         <Row style={{display:"flex", justifyContent:"center"}}>
           <img 
             src={map} 
-            style={{ width: "70%", marginBottom:"2.5%"}} 
+            className= "map-img"
             alt="Prismari Campus Map" 
           />
         </Row>

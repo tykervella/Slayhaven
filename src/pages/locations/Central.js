@@ -13,7 +13,7 @@ export default function Central() {
           <h2>Strixhaven Central Campus</h2>
           <img 
             src={symbol} 
-            style={{ width: "25%", textAlign:"center", marginBottom:"2.5%"}} 
+            className = "college-symbol"            
             alt="Strixhaven College Symbol" 
           />
         </Row>
@@ -47,7 +47,7 @@ export default function Central() {
         <Row style={{display:"flex", justifyContent:"center"}}>
           <img 
             src={map} 
-            style={{ width: "70%", marginBottom:"2.5%"}} 
+            className= "map-img"
             alt="Central Campus Map" 
           />
         </Row>

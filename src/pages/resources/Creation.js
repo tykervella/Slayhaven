@@ -18,14 +18,14 @@ export default function Creation() {
         <Row className="infoBox2">
             <h2>Logisitics</h2>
             <p>
-                If you're like me, making characters is one of the most entertaining parts of playing dnd! All of the tiny details of what to include in your character sheet will be contained here!
+                If you're like me, making characters is one of the most entertaining parts of playing dnd! All of the tiny details of what to include in your character sheet will be contained below. 
             </p>
             <h4>Base Stats Total (BST)</h4>
             <p>
-                This campaign we will be using a BST of 74, before adding racial benefits. This BST will be used to do a point-buy system of character creation with a straight one-for-one exchange system. The minimum for each stat is 8 and the maximum (before racial benefits) is 16. 
+                This campaign we will be using a BST of 74, before any racial benefits. This BST will be used for a point-buy system of character creation with a straight one-for-one exchange system. The minimum for each stat is 8 and the maximum (before adding racial benefits) is 16. 
             </p>
             <p>
-                With this system players can create a wide-variety of stat array such as: 8 10 12 12 16 16, 8 8 10 16 16 16, or 10 10 12 14 14 14. Remember this is before you add any racial benefits, so be sure to add that to the appropriate stats after creating your stat array!
+                With this system players can create a wide-variety of stat array such as: 8 8 10 16 16 16 or  12 12 12 12 12 14. Remember this is before you add any racial benefits, so be sure to add that to the appropriate stats after creating your stat array!
             </p>
             <h4> Races </h4>
             <p>
@@ -58,7 +58,6 @@ export default function Creation() {
         </Row>
         <br />
         <Row className="infoBox1">
-            <Row>
             <h2 >
                 Choosing your College
             </h2>
@@ -66,17 +65,18 @@ export default function Creation() {
                 At Strixhaven, students choose their colleges at the start of their second year. But even during a character’s first year, you make college-related decisions for your character, such as a background choice. From the start, your character is making decisions that will lead to their eventual college choice.          
             </p>
             <p>
-                You do Not need to feel married to this choice. If your character naturally migrates from one college to another, we will discuss what that means as far as your background and other logisitics.
+               Please do NOT feel married to this choice. If your character naturally migrates from one college to another, we will discuss what that means as far as your background and other logisitics.
             </p>
             <p>
-                Each college will have an associated spell list and Scholars list. Your character will always have the spells of an appropriate level prepared from their background's spell list. Moreover, please choose a type of Scholar for your character when creating a character on top of the other background items. If you would like to choose a type of Scholar not included on the provided lists, please don't hesitate to ask me!
+                Each college will have an associated spell list and Scholars list. Your character will always have the spells of the appropriate levels prepared from their background's spell list. Moreover, please choose a type of Scholar for your character when creating a character on top of the other background items. If you would like to choose a type of Scholar not included on the provided lists, please don't hesitate to ask me!
             </p>
-            </Row>
-            <Row style={{display:"flex", flexDirection:"column", alignItems: "center", marginBottom: "2.5%"}}>
+        </Row>
+        <br />
+        <Row className="infoBox2" style={{display:"flex", flexDirection:"column", alignItems: "center"}}>
             <h3 style={{marginBottom:"2.5%"}}>College of Lorehold</h3>
                 <img 
                     src={LHsymbol} 
-                    style={{ width: "25%", marginBottom:"2.5%"}} 
+                    className = "college-symbol"
                     alt="Lorehold College Symbol" 
                 />
                 <Row>
@@ -85,7 +85,7 @@ export default function Creation() {
                             You have spent your youth preparing to be a student of Lorehold College, reading every book on the college’s recommended reading list for prospective students. Your academic passions are in the broad field of history. You might dream of using magic to contact great historical figures or your own ancestors or of recreating the mighty magic of a distant age.
                         </p>
                         <p>
-                            If you are interested in pursing a Lorehold character, please check out the background information available on <a href="http://dnd5e.wikidot.com/background:lorehold-student" target="_blank">Wikidot</a>. Additionally, remember to take the associated <a href="http://dnd5e.wikidot.com/feat:strixhaven-initiate" target="_blank">feat</a> at level 1. 
+                            If you are interested in pursing a Lorehold character, please check out the <a href="http://dnd5e.wikidot.com/background:lorehold-student" target="_blank">background information</a>. Additionally, remember to take the associated <a href="http://dnd5e.wikidot.com/feat:strixhaven-initiate" target="_blank">feat</a> at level 1. 
                         </p>
                         <p></p>
                     </Col>
@@ -119,10 +119,10 @@ export default function Creation() {
                     </Col>
                     
                 </Row>
-                <h5>
+                        <h4>
                             Lorehold Scholars
-                        </h5>
-                        <ul>   
+                        </h4>
+                        <ul style={{listStyleType:"decimal"}}>   
                             <li>
                                 <u>Archaeoscribe</u>, chronicling historical truths for posterity (Order)
                             </li>
@@ -155,11 +155,12 @@ export default function Creation() {
                             </li>
                         </ul>
             </Row>
-            <Row style={{display:"flex", flexDirection:"column", alignItems: "center", marginBottom: "2.5%"}}>
+            <br />
+            <Row className="infoBox1" style={{display:"flex", flexDirection:"column", alignItems: "center"}}>
             <h3 style={{marginBottom:"2.5%"}}>College of Prismari</h3>
                 <img 
                     src={PSsymbol} 
-                    style={{ width: "25%", marginBottom:"2.5%"}} 
+                    className = "college-symbol"
                     alt="Prismari College Symbol" 
                 />
                 <Row>
@@ -197,16 +198,16 @@ export default function Creation() {
                             You are an artist, and you have been preparing to hone your craft according to the traditions of Prismari College. Whatever your medium-sculpture, dance, paint, music, drama, architecture, or any other field-you have grand visions of bringing your art to life in a fusion of magic and creativity.                    
                         </p>
                         <p>
-                            If you are interested in pursing a Prismari character, please check out the background information available on <a href="http://dnd5e.wikidot.com/background:prismari-student" target="_blank">Wikidot</a>. Additionally, remember to take the associated <a href="http://dnd5e.wikidot.com/feat:strixhaven-initiate" target="_blank">feat</a> at level 1. 
+                            If you are interested in pursing a Prismari character, please check out the <a href="http://dnd5e.wikidot.com/background:prismari-student" target="_blank">background information</a>. Additionally, remember to take the associated <a href="http://dnd5e.wikidot.com/feat:strixhaven-initiate" target="_blank">feat</a> at level 1. 
                         </p>
                         <p></p>
                     </Col>
                     
                 </Row>
-                        <h5>
+                        <h4>
                             Prismari Scholars
-                        </h5>
-                        <ul>   
+                        </h4>
+                        <ul style={{listStyleType:"decimal"}}>   
                             <li>
                                 <u>Aesthemancer</u>, studying abstract principles of beauty for insight into the workings of the multiverse (Perfection)
                             </li>
@@ -245,11 +246,12 @@ export default function Creation() {
                             </li>
                         </ul>
             </Row>
-            <Row style={{display:"flex", flexDirection:"column", alignItems: "center", marginBottom: "2.5%"}}>
+            <br />
+            <Row className= "infoBox2" style={{display:"flex", flexDirection:"column", alignItems: "center"}}>
             <h3 style={{marginBottom:"2.5%"}}>College of Quandrix</h3>
                 <img 
                     src={QDsymbol} 
-                    style={{ width: "25%", marginBottom:"2.5%"}} 
+                    className = "college-symbol"
                     alt="Quandrix College Symbol" 
                 />
                 <Row>
@@ -258,7 +260,7 @@ export default function Creation() {
                             In preparation to become a student of Quandrix College, you have spent years working through the college's math problems for prospective students. Your interests concentrate on the mathematical principles and patterns found in the natural world. You might lean more toward mathematics or physics, or you delve into more abstract studies of metaphysics, arcana, or logic.               
                         </p>
                         <p>
-                            If you are interested in pursing a Quandrix character, please check out the background information available on <a href="http://dnd5e.wikidot.com/background:quandrix-student" target="_blank">Wikidot</a>. Additionally, remember to take the associated <a href="http://dnd5e.wikidot.com/feat:strixhaven-initiate" target="_blank">feat</a> at level 1. 
+                            If you are interested in pursing a Quandrix character, please check out the <a href="http://dnd5e.wikidot.com/background:quandrix-student" target="_blank">background information</a>. Additionally, remember to take the associated <a href="http://dnd5e.wikidot.com/feat:strixhaven-initiate" target="_blank">feat</a> at level 1. 
                         </p>
                         <p></p>
                     </Col>
@@ -294,10 +296,10 @@ export default function Creation() {
                     </Col>
                     
                 </Row>
-                        <h5>
+                        <h4>
                             Quandrix Scholars
-                        </h5>
-                        <ul>   
+                        </h4>
+                        <ul style={{listStyleType:"decimal"}}>   
                             <li>
                                 <u>Abstractor</u>, using magic to stretch the possibilities of space (Theory)
                             </li>
@@ -324,11 +326,12 @@ export default function Creation() {
                             </li>
                         </ul>
             </Row>
-            <Row style={{display:"flex", flexDirection:"column", alignItems: "center", marginBottom: "2.5%"}}>
+            <br />
+            <Row className= "infoBox1" style={{display:"flex", flexDirection:"column", alignItems: "center"}}>
             <h3 style={{marginBottom:"2.5%"}}>College of Silverquill</h3>
                 <img 
                     src={SQsymbol} 
-                    style={{ width: "25%", marginBottom:"2.5%"}} 
+                    className = "college-symbol"
                     alt="Silverquill College Symbol" 
                 />
                 <Row>
@@ -366,16 +369,16 @@ export default function Creation() {
                             You have spent years practicing your writing and oration in the hope of becoming a student of Silverquill College. Your studies focus on language, literature, and the power of words, both magical and otherwise. The metaphorical power of words to illuminate or conceal is joined with the literal ability of magic to do the same in your academic pursuits.                 
                         </p>
                         <p>
-                            If you are interested in pursing a Silverquill character, please check out the background information available on <a href="http://dnd5e.wikidot.com/background:silverquill-student" target="_blank">Wikidot</a>. Additionally, remember to take the associated <a href="http://dnd5e.wikidot.com/feat:strixhaven-initiate" target="_blank">feat</a> at level 1. 
+                            If you are interested in pursing a Silverquill character, please check out the <a href="http://dnd5e.wikidot.com/background:silverquill-student" target="_blank">background information</a>. Additionally, remember to take the associated <a href="http://dnd5e.wikidot.com/feat:strixhaven-initiate" target="_blank">feat</a> at level 1. 
                         </p>
                         <p></p>
                     </Col>
                     
                 </Row>
-                        <h5>
+                        <h4>
                             Silverquill Scholars
-                        </h5>
-                        <ul>   
+                        </h4>
+                        <ul style={{listStyleType:"decimal"}}>   
                             <li>
                                 <u>Bantermage</u>, sing incisive observation to pierce rivals’ confidence (Shadow)
                             </li>
@@ -403,11 +406,12 @@ export default function Creation() {
                         
                         </ul>
             </Row>
-            <Row style={{display:"flex", flexDirection:"column", alignItems: "center", marginBottom: "2.5%"}}>
+            <br /> 
+            <Row className="infoBox2" style={{display:"flex", flexDirection:"column", alignItems: "center"}}>
             <h3 style={{marginBottom:"2.5%"}}>College of Witherbloom</h3>
                 <img 
                     src={WBsymbol} 
-                    style={{ width: "25%", marginBottom:"2.5%"}} 
+                    className = "college-symbol"
                     alt="Witherbloom College Symbol" 
                 />
                 <Row>
@@ -416,7 +420,7 @@ export default function Creation() {
                             You filled your childhood with rudimentary alchemical experiments, all in the hope of becoming a student of Witherbloom College. The life sciences are the focus of your reading, which include biology and necromancy. Brewing strange concoctions with medicinal properties, exploring the anatomies of monsters, and cataloging swamp flora are the kinds of studies you might pursue at Witherbloom College.                  
                         </p>
                         <p>
-                            If you are interested in pursing a Witherbloom character, please check out the background information available on <a href="http://dnd5e.wikidot.com/background:witherbloom-student" target="_blank">Wikidot</a>. Additionally, remember to take the associated <a href="http://dnd5e.wikidot.com/feat:strixhaven-initiate" target="_blank">feat</a> at level 1. 
+                            If you are interested in pursing a Witherbloom character, please check out the  <a href="http://dnd5e.wikidot.com/background:witherbloom-student" target="_blank">background information</a>. Additionally, remember to take the associated <a href="http://dnd5e.wikidot.com/feat:strixhaven-initiate" target="_blank">feat</a> at level 1. 
                         </p>
                         <p></p>
                     </Col>
@@ -450,10 +454,10 @@ export default function Creation() {
                     </Col>
                     
                 </Row>
-                        <h5>
+                        <h4>
                             Witherbloom Scholars
-                        </h5>
-                        <ul>   
+                        </h4>
+                        <ul style={{listStyleType:"decimal"}}>   
                             <li>
                                 <u>Banelock</u>, using concoctions of noxious ingredients for withering magic (Decay)
                             </li>
@@ -481,7 +485,7 @@ export default function Creation() {
                             
                         </ul>
             </Row>                        
-        </Row>
+        
     </Container>
    
   );

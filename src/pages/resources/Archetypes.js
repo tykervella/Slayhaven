@@ -21,14 +21,14 @@ export default function Archetypes() {
             </p>
 
             <p>
-                Mechanically speaking, choosing an archetype will grant you additional active and passive abilities as your character reaches certain levels. Each archetype has a combination of passive and active abilities that are available for your characters to learn. You will choose one passive ability for your character at levels 2 and 6 and one active ability for your character at levels 5 and 9. 
+                Mechanically speaking, choosing an archetype will grant you additional active and passive abilities as your character reaches certain levels. Each archetype has a combination of passive and active abilities that are available for your characters to learn. You will choose a passive ability for your character at levels 2 and 6 and a active ability for your character at levels 5 and 9. 
             </p>
         </Row>
         <br />
 
 
         <Row className="infoBox2">
-                <h4>The Damager</h4>
+                <h2>The Damager</h2>
 
                 <Col md={6}>
                     <img 
@@ -42,10 +42,10 @@ export default function Archetypes() {
                         The Damager is a raw  power within the group, often acting primarily as an offensive unit. Equipped with formidable weapons or destructive magic, they wield strength with unflinching boldness, tearing through enemy lines and reducing obstacles to rubble. While they can occasionally seem brash or uncontrollable, their courage is undeniable, and their role is pivotal in any battle. However, their power often comes with a price – an internal struggle, a dangerous secret, or a past that continues to haunt them.
                     </p>
                 </Col>
-                <h5>Passive Abilities:</h5>
+                <h4>Passive Abilities:</h4>
                 <ul>
                     <li>
-                        <b><u>Playing the Numbers</u></b>, requires level 2, add +2 to any stat of your choice, up to a maximum of 20. 
+                        <b><u>Playing the Numbers</u></b>, requires level 2, add +2 to any stat of your choice, up to a maximum of 20. Additionally, you gain a permanent +1 to all attacks rolls, magical or otherwise. 
                     </li>
                     <li>
                         <b><u>Elemental Adept</u></b>, requires level 2, choice a damage type from acid, cold, fire, lighting, necrotic, thunder, or radiant. You ignore resistances and can reroll 1s for damage of the selected type. You must use the damage roll even if it is another 1 (unless you have another ability that allows you to reroll for the selected damage type). 
@@ -54,31 +54,50 @@ export default function Archetypes() {
                         <b><u>Arcane Excellence</u></b>, requires level 6, you have pushed past the limits of what is consider possible. Add +2 to your choice of Charisma, Intellegence, or Wisdom. This also raises your ability score cap from 20 to 22 for the selected ability. 
                     </li>
                     <li>
-                        <b><u>Elemental Expert</u></b>, requires level 6, choice a damage type from acid, cold, fire, lighting, necrotic, thunder, or radiant. You now crit on attack rolls of 19 or 20 for any spell of the selected damage type. Additionally, you can add you spellcasting modifier to any damage rolls of the selected type. 
+                        <b><u>Elemental Expert</u></b>, requires level 6, choice a damage type from acid, cold, fire, lighting, necrotic, thunder, or radiant. You now crit on attack rolls of 19 or 20 for any spell of the selected damage type. Additionally, you now add your spellcasting modifier to any damage rolls of the selected type. 
                     </li>
                 </ul>
-                <h5>Active Abilities:</h5>
+                <h4>Active Abilities:</h4>
                 <ul>
                     <li>
-                        <b><u>Catastrophic Spark</u></b>, requires level 5, chose from either fireball or lightning bolt. You learn the selected spell and always have it prepared, even if it is not typically on your class's spell list. Once per day, you may cast the selected spell at its lowest level without expending a spell slot. When you cast the selected spell this way, you may choose a number of creatures up to your proficiency bonus to to have disadvantage on their saving throw.
+                        <b><u>Catastrophic Spark</u></b>, requires level 5, chose from either <a href="http://dnd5e.wikidot.com/spell:fireball" target="_blank">fireball</a> or <a href="http://dnd5e.wikidot.com/spell:lightning-bolt" target="_blank">lightning bolt</a>. You learn the selected spell and always have it prepared, even if it is not typically on your class's spell list. Once per day, you may cast the selected spell at its lowest level without expending a spell slot. When you cast the selected spell this way, you may choose a number of creatures up to your proficiency bonus to to have disadvantage on their saving throw.
                     </li>
                     <li>
-                        <b><u>Moment of Brilliance</u></b>, requires level 5, once per long rest you are able to push past the limits of what is considered possible. You gain the ability to cast a spell that would normally take an action as a bonus action. Additionally, you can cast two spells in the same turn when casting a spell as a bonus action in this way. 
+                        <b><u>Moment of Brilliance</u></b>, requires level 5, once per long rest you are able to push past the limits of what is considered possible. You gain the ability to cast a spell of 3rd level or lower that would normally take an action as a bonus action. More importantly, you can cast two spells that expend a spell slot in the same turn when casting a spell as a bonus action in this way. 
+                    </li>
+                    <li>
+                        <b><u>Force of nature</u></b>, requires level 9, you learn the spell <a href="http://dnd5e.wikidot.com/spell:conjure-elemental" target="_blank">conjure elemental</a> and always have it prepared, even if it is not typically on your class's spell list. You can cast it once per long rest without expending a spell slot. When you cast the selected spell this way, it does not require concentration.                  
                     </li>
                     <li>
                         <b><u>Elemental Supernova</u></b>, requires level 9, once per long rest when you cast a spell of 5th level or lower that deals acid, cold, fire, lighting, necrotic, thunder, or radiant damage, you may use your reaction to deal maximum damage instead instead of rolling for damage. 
-                    </li>
-                    <li>
-                        <b><u>Force of nature</u></b>, requires level 9, you learn the spell conjure elemental and always have it prepared, even if it is not typically on your class's spell list. You can cast it once per long rest without expending a spell slot. When you cast the selected spell this way, it does not require concentration.                  
                     </li>
                 </ul>
 
             </Row>
             <br />
 
-
             <Row className="infoBox1">
-                <h4>The Healer</h4>
+                <h2>The Expert</h2>
+                <Col md={6} style={{display:"Flex",justifyContent:"center"}}>
+                    <img 
+                        src={Expert} 
+                        style={{ width: "80%", marginBottom:"2.5%"}} 
+                        alt="Mage unlocking new skills with the borrowed knowledge spell" 
+                    />
+                </Col>
+                <Col md={6} style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
+                    <p>
+                        The Expert is the intellectual powerhouse of the group. They are the masters of a specific field, be it magic, history, or politics, bringing depth and clarity to the team's understanding of the world. Their knowledge often uncovers hidden paths, deciphers ancient languages, or unravels the mysteries that block the group's progress. Even though they might not be frontline fighters, their intellectual contributions are pivotal to the group's success. With their vast knowledge comes the burden of the truths they uncover, often revealing harsh realities or uncomfortable truths.
+                    </p>
+                </Col>
+                <h4>Passive Abilities:</h4>
+                <h4>Active Abilities:</h4>
+                
+            </Row>
+            <br />
+
+            <Row className="infoBox2">
+                <h2>The Healer</h2>
                 <Col className="float-left-text" md={6} style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
                     <p>
                     The Healer is the backbone of any group, often maintaining the vitality and health of the team during and after encounters. They may be a cleric, druid, or a magic user whose abilities focus on restoration and cure. While they might not be the most effective in direct combat, their ability to mend wounds, cure ailments, and even resurrect fallen comrades is invaluable. Despite being cast in a supportive role, the Healer's wisdom and compassion often make them a moral compass, guiding the group through ethical dilemmas and reminding them of the humanity they fight to protect.
@@ -91,43 +110,44 @@ export default function Archetypes() {
                         alt="Mage healing ally with cure wounds spell" 
                     />
                 </Col>
-                <h5>Passive Abilities:</h5>
+                <h4>Passive Abilities:</h4>
                 <ul>
                     <li>
-                        <b><u>Playing the Numbers</u></b>, requires level 2, add +2 to any stat of your choice, up to a maximum of 20. 
+                        <b><u>Studied Healer</u></b>, requires level 2, you may learn one cantrip and any two first level spells of your choice from the <a href="http://dnd5e.wikidot.com/spells:cleric" target="_blank">cleric spell list</a>. You can cast each of the spells once at their lowest level without expending a spell slot. 
                     </li>
                     <li>
-                        <b><u>Healing Adept</u></b>, requires level 2, you can reroll 1s and 2s when restoring HP to yourself or others. You must use the roll even if it is another 1 or 2 (unless you have another ability that allows you to reroll). Additionally, when you restore HP to another you regain HP equal to your total level. 
+                        <b><u>Healing Adept</u></b>, requires level 2, when casting a spell of 1st level or higher you can reroll 1s and 2s when restoring HP to yourself or others. You must use the roll even if it is another 1 or 2 (unless you have another ability that allows you to reroll). Additionally, when you restore HP to another creature you also regain HP equal to your proficiency bonus. 
                     </li>
                     <li>
                         <b><u>Arcane Excellence</u></b>, requires level 6, you have pushed past the limits of what is consider possible. Add +2 to your choice of Charisma, Intellegence, or Wisdom. This also raises your ability score cap from 20 to 22 for the selected ability. 
                     </li>
                     <li>
-                        <b><u>Healing Expert</u></b>, requires level 6, when casting a spell of 1st level or higher that restores HP, increase the amount of HP regained by an amount equal to your total level plus spellcasting modifier. Additionally, you can end one of the following conditions affecting the target: charmed, exhausted, or poisoned. 
+                        <b><u>Healing Expert</u></b>, requires level 6, when casting a spell of 1st level or higher that restores HP, increase the amount of HP regained by an amount equal to your proficiency bonus plus your spell casting modifier. Additionally, you can end one of the following conditions affecting the target: charmed, exhausted, or poisoned. 
                     </li>
                 </ul>
 
-                <h5>Active Abilities:</h5>
+                <h4>Active Abilities:</h4>
                 <ul>
                     <li>
-                        <b><u>Group Healer</u></b>, requires level 5, you learn the spell mass healing word and always have it prepared, even if it is not typically on your class's spell list. Once per day, you may cast the selected spell at its lowest level without expending a spell slot. Whenever you cast mass healing word, the dice rolled to regain HP increases from a d4 to a d6. 
+                        <b><u>Group Healer</u></b>, requires level 5, you learn the spell <a href="http://dnd5e.wikidot.com/spell:mass-healing-word" target="_blank">mass healing word</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Whenever you cast mass healing word, the dice rolled to regain HP increases from a d4 to a d8. 
                     </li>
                     <li>
-                        <b><u>Guardian Angel</u></b>, requires level 5, once per long rest you are able to manipulate the forces of life and death. As a reaction, when an ally within 30ft of you would be reduced to 0HP you can prevent all damage that would've been inflicted on them. 
+                        <b><u>Essence Drain</u></b>, requires level 5, once per long rest you are able to manipulate the forces of life and death. When you deal damage to an enemy you can use your reaction to cause one creature within 60ft of you to restore HP equal to the damage you just inflicted.                
                     </li>
                     <li>
-                        <b><u>Elemental Supernova</u></b>, requires level 9, once per long rest when you cast a spell of 5th level or lower that deals acid, cold, fire, lighting, necrotic, thunder, or radiant damage, you may use your reaction to deal maximum damage instead instead of rolling for damage. 
+                        <b><u></u></b>, requires level 9,                
                     </li>
                     <li>
-                        <b><u>Force of nature</u></b>, requires level 9, you learn the spell conjure elemental and always have it prepared, even if it is not typically on your class's spell list. You can cast it once per long rest without expending a spell slot. When you cast the selected spell this way, it does not require concentration.                  
+                        <b><u>Life weaver</u></b>, requires level 9, once per long rest you may raise a fallen ally as an action. An ally within 30ft of you that has been dead for no longer than 1 hour can be raised with half of their maximum HP.  
                     </li>
+                    
                 </ul>
             </Row>
             <br />
 
 
-            <Row className="infoBox2">
-                <h4>The Protector</h4>
+            <Row className="infoBox1">
+                <h2>The Protector</h2>
                 <Col md={6} style={{display:"Flex",justifyContent:"center"}}>
                     <img 
                         src={Protector} 
@@ -141,14 +161,46 @@ export default function Archetypes() {
 
                     </p>
                 </Col>
-                <h5>Active Abilities:</h5>
-                <h5>Passive Abilities:</h5>
+            
+                <h4>Passive Abilities:</h4>
+                <ul>
+                    <li>
+                        <b><u>Heavy Mage Armor</u></b>, requires level 2, you learn the spell <a href="http://dnd5e.wikidot.com/spell:mage-armor" target="_blank">mage armor</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. In addition, you add your proficiency bonus to the AC granted to you from this spell's affect. 
+                    </li>
+                    <li>
+                        <b><u>Unyielding</u></b>, requires level 2, you gain resistance to bludgeoning, piercing, and slashing damage. Additionally you are immune to poison and disease. 
+                    </li>
+                    <li>
+                        <b><u>Arcane Excellence</u></b>, requires level 6, you have pushed past the limits of what is consider possible. Add +2 to your choice of Charisma, Intellegence, or Wisdom. This also raises your ability score cap from 20 to 22 for the selected ability. 
+                    </li>
+                    <li>
+                        <b><u>Protective Presence</u></b>, requires level 6, your solid presence allows it such that after a short or long rest, you and your party members gain a number of temporary HP equal to your total level plus your constitution modifier. 
+                    </li>
+                    
+                </ul>
+
+                <h4>Active Abilities:</h4>
+                <ul>
+                    <li>
+                        <b><u>Elastic Shield</u></b>, requires level 5, you learn the spell <a href="http://dnd5e.wikidot.com/spell:shield" target="_blank">shield</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, you learn to target an ally within 30ft of you instead of targeting yourself. When cast in this way, the effects of the shield on last until the end of the triggering attack and your reaction is still consumed. 
+                    </li>
+                    <li>
+                        <b><u>Guardian Angel</u></b>, requires level 5, once per long rest you are able to manipulate the forces of life and death to protect an ally. As a reaction, when an ally within 60ft of you would be reduced to 0HP you can prevent all damage that would've been inflicted on them. The protected ally is then teleported to a spot within 5ft of you of your choice. 
+                    </li>
+                    <li>
+                        <b><u>Luxury Accomodations</u></b>, requires level 9, your mastery of protective magic has grown so vastly that you are able to manipulate time and space itself in order to keep your allies from danger. You learn the spell <a href="http://dnd5e.wikidot.com/spell:mordenkainens-magnificent-mansion" target="_blank">Mordenkainen's Magnificent Mansion</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. 
+                    </li>
+                    <li>
+                        <b><u>Aura of Safety</u></b>, requires level 9, once per long rest you can activate a 15ft-radius aura as a bonus action. You can declare an ability score (such as strength or intellegence) and all associated saving throws and ability checks will be made with advantage for any friendly creature within your aura. Additionally, all friendly creatures also gain a +2 to their AC when within the aura of safety. 
+                    </li>
+                    
+                </ul>
             </Row>
             <br />
 
 
-            <Row className="infoBox1">
-                <h4>The Trickster</h4>
+            <Row className="infoBox2">
+                <h2>The Trickster</h2>
                 <Col className="float-left-text" md={6} style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
                     <p>
                         The Trickster is an unpredictable force, often a rogue or a mage with a fondness for illusions. They revel in cunning, stealth, and deception, always having an ace up their sleeve and a witty retort on their lips. Their unconventional methods often save the day in the most unexpected ways, turning the tide of battles and outsmarting opponents. Despite their often lighthearted demeanor, they carry a depth of character that reveals itself in moments of crisis. The Trickster's resourcefulness and unpredictability often challenge the group's dynamic, pushing them to think beyond their conventional means.
@@ -161,30 +213,53 @@ export default function Archetypes() {
                         alt="Mage attempting to steal an important artifact with mage hand spell " 
                     />
                 </Col>
-                <h5>Active Abilities:</h5>
-                <h5>Passive Abilities:</h5>
-            </Row>
-            <br />
+                <h4>Passive Abilities:</h4>
+                <ul>
+                    <li>
+                        <b><u> Trickster's Legerdemain</u></b>, requires level 2, you gain proficiency in sleight of hand. Additionally, you learn the cantrip <a href="http://dnd5e.wikidot.com/spell:mage-hand" target="_blank">mage hand</a>, and when you cast it you can make the spectral hand invisible. You can perform the following additional tasks with it:
 
-            <Row className="infoBox2">
-                <h4>The Expert</h4>
-                <Col md={6} style={{display:"Flex",justifyContent:"center"}}>
-                    <img 
-                        src={Expert} 
-                        style={{ width: "80%", marginBottom:"2.5%"}} 
-                        alt="Mage unlocking new skills with the borrowed knowledge spell" 
-                    />
-                </Col>
-                <Col md={6} style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
-                    <p>
-                        The Expert is the intellectual powerhouse of the group. They are the masters of a specific field, be it magic, history, or politics, bringing depth and clarity to the team's understanding of the world. Their knowledge often uncovers hidden paths, deciphers ancient languages, or unravels the mysteries that block the group's progress. Even though they might not be frontline fighters, their intellectual contributions are pivotal to the group's success. With their vast knowledge comes the burden of the truths they uncover, often revealing harsh realities or uncomfortable truths.
-                    </p>
-                </Col>
-                <h5>Active Abilities:</h5>
-                <h5>Passive Abilities:</h5>
-            </Row>
-        
-        
+                        <ul>
+                            <li>
+                                You can stow one object the hand is holding in a container worn or carried by another creature.
+                            </li>
+                            <li> 
+                                You can retrieve an object in a container worn or carried by another creature.
+                            </li>
+                            <li>
+                                You can use thieves' tools to pick locks and disarm traps at range.
+                            </li>
+                        </ul>
+
+                        You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.
+                    </li>
+                    <li>
+                        <b><u>Infallable Charm</u></b>, requires level 2, you learn how to charm people without them even knowing. If you attempt to charm someone and they succeed on their saving throw, they do not become aware they were almost charmed. 
+                    </li>
+                    <li>
+                        <b><u>Arcane Excellence</u></b>, requires level 6, you have pushed past the limits of what is consider possible. Add +2 to your choice of Charisma, Intellegence, or Wisdom. This also raises your ability score cap from 20 to 22 for the selected ability. 
+                    </li>
+                    <li>
+                        <b><u></u></b>, requires level 6,
+                    </li>
+                </ul>
+
+                <h4>Active Abilities:</h4>
+                <ul>
+                    <li>
+                        <b><u>Multi Step</u></b>, requires level 5, you learn the spell <a href="http://dnd5e.wikidot.com/spell:misty-step" target="_blank">misty step</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, you learn how to manipulate the weave and take someone else with you as you teleport. You may target a willing creature within 5ft of you and bring them with you as you misty step. They must appear within 5ft of where you teleport to in a position of your choice. 
+                    </li>
+                    <li>
+                        <b><u>Uncanny Redirection</u></b>, requires level 5, once per long rest you can use your reaction in response to being hit by a melee weapon attack. Utilizing techniques of misdirection, you cause the attacker to instead harm themselves. Roll critical damage for the weapon damage they would normally have inflicted against you.                
+                    </li>
+                    <li>
+                        <b><u>Disappearing act</u></b>, requires level 9, you learn the spell <a href="http://dnd5e.wikidot.com/spell:greater-invisibility" target="_blank">greater invisibility</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, you gain the ability to cast this spell as a reaction in response to taking damage. When cast in this way, you gain resistance to all damage until the start of your next turn. 
+                    </li>
+                    <li>
+                        <b><u>Smoke and Mirrors</u></b>, requires level 9, once per long rest you can activate a 15ft-radius aura as a bonus action. You can declare an ability score (such as strength or intellegence) and all associated saving throws and ability checks will be made with advantage for any friendly creature within your aura. Additionally, all friendly creatures also gain a +2 to their AC when within the aura of safety. 
+                    </li>
+                </ul>
+                
+            </Row>  
     </Container>
   );
 }

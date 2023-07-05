@@ -37,7 +37,7 @@ export default function Faculty() {
                     style={{ width: "90%"}} 
                     alt="Guidance Counselor: Mavinda Sharpbeak" 
                     />
-                    <h3>Mavinda Sharpbeak</h3>
+                    <h5>Mavinda Sharpbeak</h5>
                 </Row>
                 <Row>
                     <img 
@@ -45,7 +45,7 @@ export default function Faculty() {
                     style={{ width: "90%"}} 
                     alt="Witherbloom Chef: Gyome" 
                     />
-                    <h3>Gyome</h3>
+                    <h5>Gyome</h5>
                 </Row>
             </Col>
         </Row>
@@ -80,7 +80,7 @@ export default function Faculty() {
             <p> 
                 The five kinds of mascots act as companions for students and faculty, sometimes serving as willing subjects for experiments or demonstrations, and occasionally even helping out in a duel or a more serious combat situation. Most notably, mascots are also playing pieces of sorts in the Strixhaven sport of Mage Towe
             </p>
-            <Row style={{display:"flex", justifyContent:"space-between", marginBottom:"2.5%"}}>
+            <Row style={{display:"flex", justifyContent:"space-between", margin:"2.5% 0"}}>
             
             <Col md={2} xs={6} style={{margin:"0 auto"}}>
                 <img 
@@ -88,7 +88,7 @@ export default function Faculty() {
                 style={{ height: "180px", width:"100%"}} 
                 alt="Spirit Statue Mascot" 
                 />
-                <h3>Spirit Statue Mascot</h3>
+                <h5>Spirit Statue Mascot</h5>
             </Col>
 
             <Col md={2} xs={6} style={{margin:"0 auto"}}>
@@ -97,7 +97,7 @@ export default function Faculty() {
                 style={{height: "180px", width:"100%"}} 
                 alt="Art Elemental Mascot" 
                 />
-                <h3>Art Elemental Mascot</h3>
+                <h5>Art Elemental Mascot</h5>
             </Col>
 
             <Col md={2} xs={6}style={{margin:"0 auto"}}>
@@ -106,7 +106,7 @@ export default function Faculty() {
                 style={{ height: "180px", width:"100%"}} 
                 alt="Fractal Mascot" 
                 />
-                <h3>Fractal Mascot</h3>
+                <h5>Fractal <br /> Mascot</h5>
             </Col>
 
             <Col md={2} xs={6} style={{margin:"0 auto"}}>
@@ -115,7 +115,7 @@ export default function Faculty() {
                 style={{ height: "180px", width:"100%"}} 
                 alt="Inkling Mascot" 
                 />
-                <h3>Inkling Mascot</h3>
+                <h5>Inkling  <br />  Mascot</h5>
             </Col>
 
             <Col md={2} xs={6} style={{margin:"0 auto"}}>
@@ -124,7 +124,7 @@ export default function Faculty() {
                 style={{ height: "180px", width:"100%"}} 
                 alt="Pest Mascot" 
                 />
-                <h3>Pest <br /> Mascot</h3>
+                <h5>Pest <br /> Mascot</h5>
             </Col>
 
             </Row>

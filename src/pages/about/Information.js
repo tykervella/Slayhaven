@@ -66,7 +66,7 @@ export default function Information() {
         <p>
           To this day, the Founder Dragons roam the world. They no longer associate directly with Strixhaven, preferring to let the deans of the colleges speak in their stead. The dragons’ knowledge is vast, but their tempers can prove short. Mages seek them out only to learn the most elusive secrets. 
         </p>
-        <Row style={{display:"flex", justifyContent:"center"}}>
+        <Row style={{display:"flex", justifyContent:"space-evenly"}}>
           <Col md={2} xs={6}>
             <img 
               src={Lorehold} 
@@ -88,7 +88,7 @@ export default function Information() {
           <Col md={2} xs={6}>
             <img 
               src={Quandrix} 
-              style={{ width: "110%"}} 
+              style={{ width: "110%",}} 
               alt="Tanazir Quandrix founding dragon" 
             />
             <h3>Tanazir Quandrix</h3>
@@ -170,13 +170,13 @@ export default function Information() {
           <p>
             Mysteriously linked to the Oracle, <b><u>archaics</u></b> are wise, giant, long-lived beings with an innate talent for magic. They can be seen striding through the wilds, exploring sources of magic with their many arms or contemplating existence through their “eye,” which functions as a magical focus of some kind. Scholars seek out archaics for their vast knowledge of history and magic, but archaics tend to communicate in obscure allusions and cryptic metaphors.
           </p>
-          <p> 
-            Few know that archaics’ existence is linked to a time-warping phenomenon involving the Oracle. When an Oracle dies, their mind and spirit is swept off to the distant past, drawn backward through time toward the intense magical power that brought the world into being. Splinters of that Oracle’s soul and its fragmented memories coalesce into a newborn archaic. Every archaic alive today was born at the dawn of time from the mind of someone who has lived and died (or who will one day live and die) as an Oracle. Archaics speak in cryptic allegories not only to tease and test the eager minds of young mages, but also to cleverly sidestep time paradoxes.
-          </p>
-          
           </Col>
           
         </Row>
+
+        <p> 
+            Few know that archaics’ existence is linked to a time-warping phenomenon involving the Oracle. When an Oracle dies, their mind and spirit is swept off to the distant past, drawn backward through time toward the intense magical power that brought the world into being. Splinters of that Oracle’s soul and its fragmented memories coalesce into a newborn archaic. Every archaic alive today was born at the dawn of time from the mind of someone who has lived and died (or who will one day live and die) as an Oracle. Archaics speak in cryptic allegories not only to tease and test the eager minds of young mages, but also to cleverly sidestep time paradoxes.
+        </p>
 
         
         

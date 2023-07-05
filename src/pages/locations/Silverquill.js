@@ -13,7 +13,7 @@ export default function Silverquill() {
           <h2>College of Silverquill</h2>
           <img 
             src={symbol} 
-            style={{ width: "25%", textAlign:"center"}} 
+            className = "college-symbol"
             alt="Silverquill College Symbol" 
           />
         </Row>
@@ -54,7 +54,7 @@ export default function Silverquill() {
         <Row style={{display:"flex", justifyContent:"center"}}>
           <img 
             src={map} 
-            style={{ width: "70%", marginBottom:"2.5%"}} 
+            className= "map-img"
             alt="Silverquill Campus Map" 
           />
         </Row>

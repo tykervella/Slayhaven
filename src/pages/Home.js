@@ -36,19 +36,23 @@ export default function Home() {
             </p>
 
           </Col>
-          <Col md={6} style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"space-between"}}>
-              <img 
-                src={campusmap} 
-                style={{ width: "100%"}} 
-                alt="Illustrated map of the entire strixhaven campus, including its five children campuses" 
-              />
-              <h6>Strixhaven's Campus, including its five children campuses</h6>
-              <img 
-                src={adventureparty} 
-                style={{ width: "100%"}} 
-                alt="Three first year students get ready to set out for an adventure" 
-              />
-              <h6>Three first year students get ready to set out for an adventure</h6>
+          <Col md={6} style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"space-evenly"}}>
+          
+                <img 
+                  src={campusmap} 
+                  style={{ width: "100%"}} 
+                  alt="Illustrated map of the entire strixhaven campus, including its five children campuses" 
+                />
+                <h6>Strixhaven's Campus, including its five children campuses</h6>
+              
+                <img 
+                  src={adventureparty} 
+                  style={{ width: "100%"}} 
+                  alt="Three first year students ready to set out for an adventure" 
+                />
+                <h6>Three first year students ready to set out for an adventure</h6>
+          
+          
           </Col>
         </Row>
        

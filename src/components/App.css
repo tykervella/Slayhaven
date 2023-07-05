@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 :root {
@@ -9,10 +9,12 @@
   --medium: #59A5D8 ;
   --light: #84D2F6;
   --lightest: #91E5F6;
+  --navbar: #90e0ef;
+  --link: #042CBC;
   /* fonts */
   --header: 'Lobster', cursive;
   --subheader: 'VT323', monospace;
-  --typewriter: 'Red Hat Mono', monospace;
+  --typewriter: 'Cardo', serif;
   /* border radius */
   --bRad: 20px;
 }
@@ -36,15 +38,13 @@ h2 {
 h3 {
   font-family: var(--header);
   font-style: oblique;
-  /* padding-top: 1.5%;  */
+  padding-top: 1.5%; 
   text-align: center;
-  margin-bottom: 1.25%
            
 }
 
 h4 {
-  font-family: var(--header);
-  font-style: oblique;
+  font-family: var(--subheader);
   text-decoration: underline;
   text-align: center;
   margin-bottom: 1.25%;
@@ -65,12 +65,25 @@ p {
   font-family: var(--typewriter)
 }
 
+td {
+  text-align: left;
+}
+
 
 
 .nav-dropdown {
   margin: 0 3.5%; 
   font-family: var(--typewriter);
   font-size: large;
+  color: var(--darkest)
+
+}
+
+.nav-dropdown .dropdown-toggle {
+  color: var(--navbar);
+  font-family: var(--header);
+  font-size: x-large;
+
 
 }
 
@@ -78,18 +91,33 @@ p {
   background-color: var(--medium); 
   border: 3.5px solid var(--darkest);
   text-align:justify;
-  padding: 2.5%;
-  border-radius: var(--bRad)
+  padding: 1.25% 5%;
+  border-radius: var(--bRad);
+  
 }
+.infoBox1 a {
+  color: var(--link)
+}
+
 
 .infoBox2 {
   background-color: var(--lightest); 
   border: 3.5px solid var(--darkest);
   text-align:justify;
-  padding: 2.5%;
-  border-radius: var(--bRad)
+  padding: 1.25% 5%;
+  
 }
 
+
+.college-symbol {
+  width: 25%;
+  margin-bottom: 2.5%;
+}
+
+.map-img {
+  width: 70%; 
+  margin-bottom:2.5%;
+}
 
 
 table { 
@@ -108,16 +136,25 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: left;
 }
 
 li {
-  width: 80%;
+  width: 90%;
 }
 
 
 @media (max-width: 968px) {
   .container {
     height: auto;
+  }
+
+  .college-symbol {
+    width: 85%;
+  }
+  .map-img {
+    width: 100%; 
+  
   }
 
   .float-right-img {

@@ -13,7 +13,7 @@ export default function Lorehold() {
           <h2>College of Lorehold</h2>
           <img 
             src={symbol} 
-            style={{ width: "25%", textAlign:"center"}} 
+            className = "college-symbol"
             alt="Lorehold College Symbol" 
           />
         </Row>
@@ -55,7 +55,7 @@ export default function Lorehold() {
         <Row style={{display:"flex", justifyContent:"center"}}>
           <img 
             src={map} 
-            style={{ width: "70%", marginBottom:"2.5%"}} 
+            className= "map-img"
             alt="Lorehold Campus Map" 
           />
         </Row>

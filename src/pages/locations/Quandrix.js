@@ -13,7 +13,7 @@ export default function Quandrix() {
           <h2>College of Quandrix</h2>
           <img 
             src={symbol} 
-            style={{ width: "25%", textAlign:"center"}} 
+            className = "college-symbol"
             alt="Quandrix College Symbol" 
           />
         </Row>
@@ -56,7 +56,7 @@ export default function Quandrix() {
         <Row style={{display:"flex", justifyContent:"center"}}>
           <img 
             src={map} 
-            style={{ width: "70%", marginBottom:"2.5%"}} 
+            className= "map-img"
             alt="Quandrix Campus Map" 
           />
         </Row>

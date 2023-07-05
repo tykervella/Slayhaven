@@ -14,13 +14,13 @@ export default function Quandrix() {
     <Container >
       <Row className="infoBox1" >
         <h2>Quandrix's Deans of Magic</h2>
-        <Col md={6} style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
+        <Col md={6} style={{display:"flex", flexDirection:"column", alignItems:"center", padding: "0 2.5%"}}>
           <img 
             src={dean1} 
             style={{ height:"300px", width: "90%", paddingBottom:"2.5%"}} 
             alt="Kianne, Dean of Substance" 
           />
-          <h4>Kianne, Dean of Substance</h4>
+          <h3>Kianne, Dean of Substance</h3>
           <h6>
             Neutral, elf, Quandrix professor of substance</h6>
           <p>
@@ -30,13 +30,13 @@ export default function Quandrix() {
             Brilliant and eccentric, Dean Kianne  is one of the preeminent mana scholars of the world. She has visited and studied countless bizarre magical phenomena, from snarls to star arches to ancient shrines. She loves to share her wild theories with anyone who will listen.
           </p>
         </Col>
-        <Col md={6} style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
+        <Col md={6} style={{display:"flex", flexDirection:"column", alignItems:"center", padding: "0 2.5%"}}>
           <img 
             src={dean2} 
             style={{ height:"300px", width: "100%", paddingBottom:"2.5%"}} 
             alt="Imbraham, Dean of Theory" 
           />
-          <h4>Imbraham, Dean of Theory</h4>
+          <h3>Imbraham, Dean of Theory</h3>
           <h6>
             Neutral, owlin, Quandrix professor of theory
           </h6>
@@ -60,7 +60,7 @@ export default function Quandrix() {
             />
           </Col>
           <Col md={6} style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
-            <h4>Adrix and Nev, Twincasters</h4>
+            <h3>Adrix and Nev, Twincasters</h3>
             <h6>Adrix: Neutral Good, triton, Quandrix professor of substance</h6>
             <h6>Nev: Neutral Good, triton, Quandrix professor of theory</h6>
             <p>
@@ -75,7 +75,7 @@ export default function Quandrix() {
         </Row>
         <Row>
           <Col md={6} className="float-left-text" style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
-            <h4>Ruxa, Patient Professor</h4>
+            <h3>Ruxa, Patient Professor</h3>
             <h6>Neutral Good, awakened brown bear, Quandrix professor of substance</h6>
             <p>
               Ruxa looks like a bipedal brown bear and knows that wild new theories, though exciting, are worthless without a deep understanding of the basics. He teaches students of all levels, and even his most experienced pupils benefit from a much deeper understanding of the fundamental building blocks of the world.            
@@ -101,7 +101,7 @@ export default function Quandrix() {
             />
           </Col>
           <Col md={6} style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
-            <h4>Deekah, Fractal Theorist</h4>
+            <h3>Deekah, Fractal Theorist</h3>
             <h6>Lawful Neutral, human, Quandrix professor of theory</h6>
             <p>
               Deekah sees the world as an endless sequence of interconnected equations, which to her is the most beautiful thing imaginable. She explores new theorems by giving them physical form, and her exquisite geometric creations are thrilling sights on campus.            </p>

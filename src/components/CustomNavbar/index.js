@@ -1,40 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 const CustomNavbar = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const handleNavClose = () => {
+    setIsNavOpen(false);
+  };
+
   return (
-    <div style={{position: 'sticky', top: 0, zIndex: 1}}>
+    <div style={{ position: "sticky", top: 0, zIndex: 1 }}>
       <Navbar
         variant="dark"
         expand="lg"
         className="text-white mb-4 py-3 mt-100"
         id="custom-navbar"
-        style={{ background: "linear-gradient(to right, var(--darkest), var(--light)",borderBottom: "3px solid var(--darkest)" }}
+        style={{
+          background: "linear-gradient(to right, var(--darkest), var(--medium)",
+          borderBottom: "3px solid var(--darkest)",
+        }}
+        expanded={isNavOpen}
       >
-  
-
-        <Container id="dropdown-titles" >
-          <Nav as={Link} to="/" style={{textDecoration: "none", marginRight: "5%"}}>
-            <h1 style={{color: "var(--light)", textShadow: "10px 5px 2px var(--darkest)"}}>SlayHaven</h1>
+        <Container id="dropdown-titles">
+          <Nav as={Link} to="/" style={{ textDecoration: "none", marginRight: "5%" }}>
+            <h1 style={{ color: "var(--light)", textShadow: "10px 5px 2px var(--darkest)" }}>SlayHaven</h1>
           </Nav>
-         
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={() => setIsNavOpen(!isNavOpen)}
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <NavDropdown 
+              <NavDropdown
                 title="About"
                 id="nav-dropdown-about-us"
                 className="nav-dropdown"
               >
-                <NavDropdown.Item as={Link} to="/information">
-                  General Information
+                <NavDropdown.Item as={Link} to="/information" onClick={handleNavClose}>
+                  About Strixhaven
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/campuslife">
-                  Life at StrixHaven
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/faculty">
+                <NavDropdown.Item as={Link} to="/faculty" onClick={handleNavClose}>
                   Faculty
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/campuslife" onClick={handleNavClose}>
+                  Life at StrixHaven
                 </NavDropdown.Item>
               </NavDropdown>
 
@@ -42,69 +53,67 @@ const CustomNavbar = () => {
                 title="Colleges"
                 id="nav-dropdown-colleges"
                 className="nav-dropdown"
-                style={{margin: "0 3.5%"}}
               >
-                <NavDropdown.Item as={Link} to="/central">
+                <NavDropdown.Item as={Link} to="/central" onClick={handleNavClose}>
                   Central Campus
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/lorehold">
+                <NavDropdown.Item as={Link} to="/lorehold" onClick={handleNavClose}>
                   Lorehold
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/prismari">
+                <NavDropdown.Item as={Link} to="/prismari" onClick={handleNavClose}>
                   Prismari
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/quandrix">
+                <NavDropdown.Item as={Link} to="/quandrix" onClick={handleNavClose}>
                   Quandrix
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/silverquill">
+                <NavDropdown.Item as={Link} to="/silverquill" onClick={handleNavClose}>
                   Silverquill
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/witherbloom">
-                  Witherbloom
-                </NavDropdown.Item>
-              
-              </NavDropdown>
-
-              <NavDropdown 
-                title="Faculty"
-                id="nav-dropdown-faculty"
-                className="nav-dropdown"
-              >
-                <NavDropdown.Item as={Link} to="/npcs/faculty/lorehold">
-                  Lorehold
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/npcs/faculty/prismari">
-                  Prismari
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/npcs/faculty/quandrix">
-                  Quandrix
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/npcs/faculty/silverquill">
-                  Silverquill
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/npcs/faculty/witherbloom">
+                <NavDropdown.Item as={Link} to="/witherbloom" onClick={handleNavClose}>
                   Witherbloom
                 </NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown 
-                title="Students"
-                id="nav-dropdown-students"
+                title="Faculty" 
+                id="nav-dropdown-faculty" 
                 className="nav-dropdown"
               >
-                <NavDropdown.Item as={Link} to="/npcs/students/lorehold">
+                <NavDropdown.Item as={Link} to="/npcs/faculty/lorehold" onClick={handleNavClose}>
                   Lorehold
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/npcs/students/prismari">
+                <NavDropdown.Item as={Link} to="/npcs/faculty/prismari" onClick={handleNavClose}>
                   Prismari
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/npcs/students/quandrix">
+                <NavDropdown.Item as={Link} to="/npcs/faculty/quandrix" onClick={handleNavClose}>
                   Quandrix
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/npcs/students/silverquill">
+                <NavDropdown.Item as={Link} to="/npcs/faculty/silverquill" onClick={handleNavClose}>
                   Silverquill
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/npcs/students/witherbloom">
+                <NavDropdown.Item as={Link} to="/npcs/faculty/witherbloom" onClick={handleNavClose}>
+                  Witherbloom
+                </NavDropdown.Item>
+              </NavDropdown>
+
+              <NavDropdown 
+                title="Students" 
+                id="nav-dropdown-students" 
+                className="nav-dropdown"
+              >
+                <NavDropdown.Item as={Link} to="/npcs/students/lorehold" onClick={handleNavClose}>
+                  Lorehold
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/npcs/students/prismari" onClick={handleNavClose}>
+                  Prismari
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/npcs/students/quandrix" onClick={handleNavClose}>
+                  Quandrix
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/npcs/students/silverquill" onClick={handleNavClose}>
+                  Silverquill
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/npcs/students/witherbloom" onClick={handleNavClose}>
                   Witherbloom
                 </NavDropdown.Item>
               </NavDropdown>
@@ -113,15 +122,14 @@ const CustomNavbar = () => {
                 title="Resources"
                 id="nav-dropdown-resources"
                 className="nav-dropdown"
-                style={{margin: "0 3.5%"}}
               >
-                <NavDropdown.Item as={Link} to="/creation">
-                  Character Creation
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/archetypes">
+                <NavDropdown.Item as={Link} to="/archetypes" onClick={handleNavClose}>
                   Archetypes
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/rules">
+                <NavDropdown.Item as={Link} to="/creation" onClick={handleNavClose}>
+                  Character Creation
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/rules" onClick={handleNavClose}>
                   Rule Changes
                 </NavDropdown.Item>
               </NavDropdown>
@@ -130,16 +138,15 @@ const CustomNavbar = () => {
                 title="Campaign"
                 id="nav-dropdown-campaign"
                 className="nav-dropdown"
-                style={{margin: "0 3.5%"}}
               >
-                <NavDropdown.Item as={Link} to="/pcs">
+                <NavDropdown.Item as={Link} to="/pcs" onClick={handleNavClose}>
                   Our Characters
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/sessions">
+                <NavDropdown.Item as={Link} to="/sessions" onClick={handleNavClose}>
                   Session Notes
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="#">
-                  
+                <NavDropdown.Item as={Link} to="#" onClick={handleNavClose}>
+                  {/* Additional dropdown item */}
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
