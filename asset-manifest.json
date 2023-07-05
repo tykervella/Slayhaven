@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.738e0132.css",
-    "main.js": "/static/js/main.23546003.js",
+    "main.css": "/static/css/main.9c9b879e.css",
+    "main.js": "/static/js/main.7cfc6c4e.js",
     "static/media/lh-Losheel.png": "/static/media/lh-Losheel.da9c0de96d8bb7976b1b.png",
     "static/media/sq-Fain.png": "/static/media/sq-Fain.3aa581066b1812f291fc.png",
     "static/media/wb-Willowdusk.png": "/static/media/wb-Willowdusk.3f46400c0dd3a0481498.png",
@@ -38,13 +38,31 @@
     "static/media/ps-Minexes.png": "/static/media/ps-Minexes.717d5f7cd95abfc4bc0d.png",
     "static/media/sq-Blackstone.png": "/static/media/sq-Blackstone.1430b04058451b9fb952.png",
     "static/media/lh-dean1.png": "/static/media/lh-dean1.c56db19a72ecf3cffa90.png",
+    "static/media/03-020.rosie.png": "/static/media/03-020.rosie.0c6a5312d4ece4fe9082.png",
+    "static/media/03-024.urzmaktok.png": "/static/media/03-024.urzmaktok.9a345437248116e71f7b.png",
     "static/media/qd-map.jpg": "/static/media/qd-map.2895441846903746d0c2.jpg",
+    "static/media/03-017.mina-lee.png": "/static/media/03-017.mina-lee.52e4f34b311e33a956db.png",
     "static/media/wb-map.jpg": "/static/media/wb-map.98726406a9865fa3f82e.jpg",
     "static/media/sq-map.jpg": "/static/media/sq-map.d891d1bdf1db242606c1.jpg",
+    "static/media/03-016.melwythorne.png": "/static/media/03-016.melwythorne.f41485f82193f30ad155.png",
+    "static/media/03-014.javenesh.png": "/static/media/03-014.javenesh.ca344e272f34bec8bd88.png",
+    "static/media/03-009.bhedum.png": "/static/media/03-009.bhedum.ef6f51c23bfd7e401d78.png",
+    "static/media/03-022.shuvadri.png": "/static/media/03-022.shuvadri.3fa9932a3662dbd1562c.png",
     "static/media/sq-breena.jpg": "/static/media/sq-breena.72554f7363a760e6a2a5.jpg",
+    "static/media/03-015.larine.png": "/static/media/03-015.larine.ae116fc8f56f948bff37.png",
+    "static/media/03-021.rubina.png": "/static/media/03-021.rubina.af348bf36c99d80e626b.png",
+    "static/media/03-018.nora-ann-wu.png": "/static/media/03-018.nora-ann-wu.19f0bdcdb06fb42b2230.png",
     "static/media/lh-map.jpg": "/static/media/lh-map.f8b18eb10ba9ed82f2ce.jpg",
+    "static/media/03-012.grayson.png": "/static/media/03-012.grayson.4e50acb7f057a92fd550.png",
+    "static/media/03-010.cadoras.png": "/static/media/03-010.cadoras.73251c6337ce6c7cda3a.png",
+    "static/media/03-008.aurora.png": "/static/media/03-008.aurora.f139cfb5519a05e3c557.png",
     "static/media/cc-map.jpg": "/static/media/cc-map.3547882ff099ef4e245c.jpg",
     "static/media/ps-map.jpg": "/static/media/ps-map.195d88f8d3e34402d75a.jpg",
+    "static/media/03-013.greta.png": "/static/media/03-013.greta.49c410654600a64bcc89.png",
+    "static/media/03-023.tilana.png": "/static/media/03-023.tilana.ea59341dd6de6cb935f0.png",
+    "static/media/03-011.drazhomir.png": "/static/media/03-011.drazhomir.395580a77a4828aa8810.png",
+    "static/media/03-019.quentillius.png": "/static/media/03-019.quentillius.f7ae0bf7690b947debe6.png",
+    "static/media/03-025.zanther.png": "/static/media/03-025.zanther.b1d01c66c95c70973205.png",
     "static/media/expert.png": "/static/media/expert.2f7f232a635c20989663.png",
     "static/media/oracle-of-strixhaven.png": "/static/media/oracle-of-strixhaven.656d37dc824008a59f0a.png",
     "static/media/strixhaven-colleges.jpg": "/static/media/strixhaven-colleges.4d0a60330cc1eb09bd90.jpg",
@@ -71,11 +89,11 @@
     "static/media/ps-symbol.png": "/static/media/ps-symbol.a2cb4015604e396c80b4.png",
     "static/media/sq-symbol.png": "/static/media/sq-symbol.98c43d884bf3774f9e98.png",
     "index.html": "/index.html",
-    "main.738e0132.css.map": "/static/css/main.738e0132.css.map",
-    "main.23546003.js.map": "/static/js/main.23546003.js.map"
+    "main.9c9b879e.css.map": "/static/css/main.9c9b879e.css.map",
+    "main.7cfc6c4e.js.map": "/static/js/main.7cfc6c4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.738e0132.css",
-    "static/js/main.23546003.js"
+    "static/css/main.9c9b879e.css",
+    "static/js/main.7cfc6c4e.js"
   ]
 }
