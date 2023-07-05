@@ -45,7 +45,7 @@ const CustomNavbar = () => {
                   Faculty
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/campuslife" onClick={handleNavClose}>
-                  Life at StrixHaven
+                  Life at Strixhaven
                 </NavDropdown.Item>
               </NavDropdown>
 

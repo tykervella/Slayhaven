@@ -9,7 +9,7 @@ export default function Lorehold() {
   return (
     <Container >
       <Row className="infoBox1" >
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <h2>College of Lorehold</h2>
           <img
             src={symbol}
@@ -25,14 +25,14 @@ export default function Lorehold() {
           <p>
             Lorehold College is devoted to the study of history, broadly understood to include the various aspects of culture, behavior, and social relationships that shape historical events. Its studies include various subdivisions of history (military history, social history, cultural history), archaeology, anthropology, psychology, sociology, religion, and economics. It overlaps with Prismari College in the field of art history, with some students splitting their studies between the two colleges. Lorehold mages use their magic to unearth secrets and share illumination.
           </p>
-          <Col md={6} style={{ display: "flex", alignItems: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={building}
               style={{ width: "100%", marginBottom: "2.5%" }}
               alt="Lorehold College Building"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <p>
               Lorehold’s two deans carry the titles <b><u>Dean of Order</u></b> and <b><u>Dean of Chaos</u></b>, as order versus chaos encapsulates the fundamental conflict at the heart of Lorehold’s philosophy. This conflict revolves around the forces that underlie and drive history. Is the course of time driving toward a well-ordered ideal state or slowly devolving into chaos? Are deep patterns hidden in historical texts, or is time a series of coincidence and happenstance?
             </p>
@@ -50,7 +50,7 @@ export default function Lorehold() {
         <h2>Lorehold Campus</h2>
         <p>
           The Lorehold campus is situated northwest of the central campus in a region of stark vertical relief. Rugged mesas and steep hills rise from a wide plain, and a great chasm holds the excavated ruins of an ancient settlement. Several star arches encircle rocky peaks and outcroppings, testifying to the powerful magical energy in the vicinity—energy once harnessed by the ancients who used to inhabit this area.        </p>
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <img
             src={map}
             className="map-img"

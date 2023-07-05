@@ -9,7 +9,7 @@ export default function Central() {
   return (
     <Container >
       <Row className="infoBox2" >
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <h2>Strixhaven Central Campus</h2>
           <img
             src={symbol}
@@ -21,14 +21,14 @@ export default function Central() {
           Strixhaven occupies hundreds of acres, spread out over six campuses. Each of the university’s five colleges has its own campus, and the central campus, home to the Biblioplex and Strixhaven Stadium, serves as a hub for university life. See the appendix or the poster map for a view of the entire university.
         </p>
         <Row>
-          <Col md={6} style={{ display: "flex", alignItems: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={building}
               style={{ width: "100%", paddingBottom: "2.5%" }}
               alt="Central College Building"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <p>
               Well-maintained roads connect the six campuses, and walking from one to another can take a half-hour or more. Regular shuttles—large carriages drawn by horselike automata—run on an hourly schedule between a station near the Biblioplex and each of the satellite campuses, making the journey in about 15 minutes. In addition, each campus has multiple permanent teleportation circles, which faculty and more advanced students can use when they require instantaneous travel, and several magical portals exist as well. These portals can be unpredictable: they aren’t necessarily open all the time, they don’t always lead to the same places, and some require complicated conditions or keys to open.
             </p>
@@ -40,7 +40,7 @@ export default function Central() {
         <h2>Central Campus</h2>
         <p>
           The central campus—shown on map 1.1—is the heart of Strixhaven. Its extensive grounds include residence halls for first-year students, dining halls, administration buildings, classrooms and laboratories (mostly used for first-year classes and interdisciplinary studies), and space for social gatherings.        </p>
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <img
             src={map}
             className="map-img"

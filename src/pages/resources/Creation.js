@@ -71,7 +71,7 @@ export default function Creation() {
                 </p>
             </Row>
             <br />
-            <Row className="infoBox2" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <Row className="infoBox2 row-center">
                 <h3 style={{ marginBottom: "2.5%" }}>College of Lorehold</h3>
                 <img
                     src={LHsymbol}
@@ -79,7 +79,7 @@ export default function Creation() {
                     alt="Lorehold College Symbol"
                 />
                 <Row>
-                    <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                    <Col md={6} className="float-container">
                         <p>
                             You have spent your youth preparing to be a student of Lorehold College, reading every book on the college’s recommended reading list for prospective students. Your academic passions are in the broad field of history. You might dream of using magic to contact great historical figures or your own ancestors or of recreating the mighty magic of a distant age.
                         </p>
@@ -88,31 +88,31 @@ export default function Creation() {
                         </p>
                         <p></p>
                     </Col>
-                    <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", marginBottom: "2.5%" }}>
-                        <table style={{ margin: "0 auto" }}>
+                    <Col md={6} className="float-container">
+                        <table>
                             <tr style={{ textAlign: "center", backgroundColor: "var(--dark)" }}>
-                                <th style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Spell Level</th>
-                                <th style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Spells</th>
+                                <th className="table-border">Spell Level</th>
+                                <th className="table-border">Spells</th>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>1st</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Comprehend Languages, Identify</td>
+                                <td className="table-border">1st</td>
+                                <td className="table-border">Comprehend Languages, Identify</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--lightest)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>2nd</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Borrowed Knowledge, Locate Object</td>
+                                <td className="table-border">2nd</td>
+                                <td className="table-border">Borrowed Knowledge, Locate Object</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>3rd</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Speak with Dead, Spirit Guardians</td>
+                                <td className="table-border">3rd</td>
+                                <td className="table-border">Speak with Dead, Spirit Guardians</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--lightest)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>4th</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Arcane Eye, Stone Shape</td>
+                                <td className="table-border">4th</td>
+                                <td className="table-border">Arcane Eye, Stone Shape</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }} >5th</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Flame Strike, Legend Lore</td>
+                                <td className="table-border" >5th</td>
+                                <td className="table-border">Flame Strike, Legend Lore</td>
                             </tr>
                         </table>
                     </Col>
@@ -162,35 +162,36 @@ export default function Creation() {
                     alt="Prismari College Symbol"
                 />
                 <Row>
-                    <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", marginBottom: "2.5%" }}>
-                        <table style={{ margin: "0 auto" }}>
+                    <Col md={6} className="float-container float-left-order">
+                        <table>
                             <tr style={{ textAlign: "center", backgroundColor: "var(--dark)" }}>
-                                <th style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Spell Level</th>
-                                <th style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Spells</th>
+                                <th className="table-border">Spell Level</th>
+                                <th className="table-border">Spells</th>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>1st</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Chromatic Orb, Thunderwave</td>
+                                <td className="table-border">1st</td>
+                                <td className="table-border">Chromatic Orb, Thunderwave</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--lightest)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>2nd</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Flaming Sphere, Kinetic Jaunt</td>
+                                <td className="table-border">2nd</td>
+                                <td className="table-border">Flaming Sphere, Kinetic Jaunt</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>3rd</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Haste, Water Walk</td>
+                                <td className="table-border">3rd</td>
+                                <td className="table-border">Haste, Water Walk</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--lightest)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>4th</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Freedom of Movement, Wall of Fire</td>
+                                <td className="table-border">4th</td>
+                                <td className="table-border">Freedom of Movement, Wall of Fire</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }} >5th</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Cone of Cold, Conjure Elemental</td>
+                                <td className="table-border" >5th</td>
+                                <td className="table-border">Cone of Cold, Conjure Elemental</td>
                             </tr>
                         </table>
                     </Col>
-                    <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                    <Col md={6} className="float-container float-right-order">
+
                         <p>
                             You are an artist, and you have been preparing to hone your craft according to the traditions of Prismari College. Whatever your medium-sculpture, dance, paint, music, drama, architecture, or any other field-you have grand visions of bringing your art to life in a fusion of magic and creativity.
                         </p>
@@ -251,7 +252,8 @@ export default function Creation() {
                     alt="Quandrix College Symbol"
                 />
                 <Row>
-                    <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                    <Col md={6} className="float-container">
+
                         <p>
                             In preparation to become a student of Quandrix College, you have spent years working through the college's math problems for prospective students. Your interests concentrate on the mathematical principles and patterns found in the natural world. You might lean more toward mathematics or physics, or you delve into more abstract studies of metaphysics, arcana, or logic.
                         </p>
@@ -260,32 +262,32 @@ export default function Creation() {
                         </p>
                         <p></p>
                     </Col>
-                    <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", marginBottom: "2.5%" }}>
-                        <table style={{ margin: "0 auto" }}>
+                    <Col md={6} className="float-container">
+                        <table>
                             <tr style={{ textAlign: "center", backgroundColor: "var(--dark)" }}>
-                                <th style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Spell Level</th>
-                                <th style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Spells</th>
+                                <th className="table-border">Spell Level</th>
+                                <th className="table-border">Spells</th>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>1st</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}> Entangle, Guiding Bolt</td>
+                                <td className="table-border">1st</td>
+                                <td className="table-border"> Entangle, Guiding Bolt</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--lightest)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>2nd</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Enlarge/Reduce, Vortex Warp</td>
+                                <td className="table-border">2nd</td>
+                                <td className="table-border">Enlarge/Reduce, Vortex Warp</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>3rd</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}> Aura of Vitality, Haste</td>
+                                <td className="table-border">3rd</td>
+                                <td className="table-border"> Aura of Vitality, Haste</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--lightest)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>4th</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Control Water, Freedom of Movement</td>
+                                <td className="table-border">4th</td>
+                                <td className="table-border">Control Water, Freedom of Movement</td>
 
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }} >5th</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}> 	Circle of Power, Passwall</td>
+                                <td className="table-border" >5th</td>
+                                <td className="table-border"> 	Circle of Power, Passwall</td>
 
                             </tr>
                         </table>
@@ -322,7 +324,7 @@ export default function Creation() {
                 </ul>
             </Row>
             <br />
-            <Row className="infoBox1" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <Row className="infoBox1 row-center">
                 <h3 style={{ marginBottom: "2.5%" }}>College of Silverquill</h3>
                 <img
                     src={SQsymbol}
@@ -331,35 +333,36 @@ export default function Creation() {
                 />
                 <Row>
 
-                    <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", marginBottom: "2.5%" }}>
-                        <table style={{ margin: "0 auto" }}>
-                            <tr style={{ textAlign: "center", backgroundColor: "var(--dark)" }}>
-                                <th style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Spell Level</th>
-                                <th style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Spells</th>
+                    <Col md={6} className="float-container float-left-container">
+                        <table>
+                            <tr style={{ backgroundColor: "var(--dark)" }}>
+                                <th className="table-border">Spell Level</th>
+                                <th className="table-border">Spells</th>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>1st</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}> 	Dissonant Whispers, Silvery Barbs</td>
+                                <td className="table-border">1st</td>
+                                <td className="table-border"> 	Dissonant Whispers, Silvery Barbs</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--lightest)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>2nd</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}> 	Calm Emotions, Darkness</td>
+                                <td className="table-border">2nd</td>
+                                <td className="table-border"> 	Calm Emotions, Darkness</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>3rd</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}> 	Beacon of Hope, Daylight</td>
+                                <td className="table-border">3rd</td>
+                                <td className="table-border"> 	Beacon of Hope, Daylight</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--lightest)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>4th</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Compulsion, Confusion</td>
+                                <td className="table-border">4th</td>
+                                <td className="table-border">Compulsion, Confusion</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }} >5th</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}> Dominate Person, Rary's Telepathic Bond</td>
+                                <td className="table-border" >5th</td>
+                                <td className="table-border"> Dominate Person, Rary's Telepathic Bond</td>
                             </tr>
                         </table>
                     </Col>
-                    <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                    <Col md={6} className="float-container">
+
                         <p>
                             You have spent years practicing your writing and oration in the hope of becoming a student of Silverquill College. Your studies focus on language, literature, and the power of words, both magical and otherwise. The metaphorical power of words to illuminate or conceal is joined with the literal ability of magic to do the same in your academic pursuits.
                         </p>
@@ -409,7 +412,8 @@ export default function Creation() {
                     alt="Witherbloom College Symbol"
                 />
                 <Row>
-                    <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                    <Col md={6} className="float-container">
+
                         <p>
                             You filled your childhood with rudimentary alchemical experiments, all in the hope of becoming a student of Witherbloom College. The life sciences are the focus of your reading, which include biology and necromancy. Brewing strange concoctions with medicinal properties, exploring the anatomies of monsters, and cataloging swamp flora are the kinds of studies you might pursue at Witherbloom College.
                         </p>
@@ -418,31 +422,31 @@ export default function Creation() {
                         </p>
                         <p></p>
                     </Col>
-                    <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", marginBottom: "2.5%" }}>
-                        <table style={{ margin: "0 auto" }}>
+                    <Col md={6} className="float-container">
+                        <table>
                             <tr style={{ textAlign: "center", backgroundColor: "var(--dark)" }}>
-                                <th style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Spell Level</th>
-                                <th style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Spells</th>
+                                <th className="table-border">Spell Level</th>
+                                <th className="table-border">Spells</th>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>1st</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}>Cure Wounds, Inflict Wounds</td>
+                                <td className="table-border">1st</td>
+                                <td className="table-border">Cure Wounds, Inflict Wounds</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--lightest)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>2nd</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}> 	Lesser Restoration, Wither and Bloom</td>
+                                <td className="table-border">2nd</td>
+                                <td className="table-border"> 	Lesser Restoration, Wither and Bloom</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>3rd</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}> 	Revivify, Vampiric Touch</td>
+                                <td className="table-border">3rd</td>
+                                <td className="table-border"> 	Revivify, Vampiric Touch</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--lightest)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }}>4th</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}> 	Blight, Death Ward</td>
+                                <td className="table-border">4th</td>
+                                <td className="table-border"> 	Blight, Death Ward</td>
                             </tr>
                             <tr style={{ backgroundColor: "var(--light)" }}>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px", textAlign: "center" }} >5th</td>
-                                <td style={{ border: "3px solid var(--darkest)", padding: "10px" }}> 	Antilife Shell, Greater Restoration</td>
+                                <td className="table-border" >5th</td>
+                                <td className="table-border"> 	Antilife Shell, Greater Restoration</td>
                             </tr>
                         </table>
                     </Col>

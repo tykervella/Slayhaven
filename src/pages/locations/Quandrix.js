@@ -9,7 +9,7 @@ export default function Quandrix() {
   return (
     <Container >
       <Row className="infoBox1" >
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <h2>College of Quandrix</h2>
           <img
             src={symbol}
@@ -25,14 +25,14 @@ export default function Quandrix() {
           <p>
             The studies undertaken within Quandrix College include mathematics, physics, logic, statistics, metaphysics, and various fields of theoretical magic. Students from the other colleges occasionally delve into Quandrix courses to bolster the theoretical underpinnings of their studies, and Quandrix’s studies of nature and Witherbloom’s explorations of practical biology have some significant overlap.
           </p>
-          <Col md={6} style={{ display: "flex", alignItems: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={building}
               style={{ width: "100%", paddingBottom: "2.5%" }}
               alt="Quandrix College Building"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <p>
               Quandrix’s two deans carry the titles <b><u>Dean of Substance</u></b> and <b><u>Dean of Theory</u></b>, reflecting the philosophical division within the college. Is mathematics a natural force that exists in the universe independent of the constructs of intelligent minds, or is it a theoretical framework created by those who study it? Is the work of the scholar to discover what is or to define what could be?
             </p>
@@ -52,7 +52,7 @@ export default function Quandrix() {
         <p>
           The Quandrix campus is situated in a coastal area to the northeast of the central campus, surrounded by lush woodland and abundant rivers and streams.
         </p>
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <img
             src={map}
             className="map-img"

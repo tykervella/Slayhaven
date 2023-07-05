@@ -9,7 +9,7 @@ export default function Silverquill() {
   return (
     <Container >
       <Row className="infoBox2" >
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <h2>College of Silverquill</h2>
           <img
             src={symbol}
@@ -24,14 +24,14 @@ export default function Silverquill() {
           <p>
             The curriculum of Silverquill College revolves around words, encompassing literature (including fiction, essays, drama, and poetry), languages, linguistics, oratory, rhetoric, and dramatic performance. Students from other colleges often take Silverquill courses to improve their communication skills, learning to speak and write more effectively about their primary field of study. Silverquill and Prismari see overlap in the area of performing arts, with Silverquill emphasizing verbal performance and Prismari focusing more on dance and other forms of movement.
           </p>
-          <Col md={6} style={{ display: "flex", alignItems: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={building}
               style={{ width: "100%", paddingBottom: "2.5%" }}
               alt="Silverquill College Building"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <p>
               The two deans of Silverquill are called the <b><u>Dean of Radiance</u></b> and the <b><u>Dean of Shadow</u></b>, highlighting the college’s use of metaphor in describing its philosophical differences. The metaphor of radiance and shadow takes concrete form in Silverquill magic, as students learn to manifest brilliant light or inky darkness with their spells. The fundamental argument among Silverquill’s scholars centers on the purpose of communication. Is it to help others or further a personal agenda? Does literature selflessly better society or selfishly advance one’s own goals?            </p>
             <p>
@@ -49,7 +49,7 @@ export default function Silverquill() {
         <p>
           The Silverquill campus—shown on map 1.5—is located due north of the central Strixhaven campus and looks much like an extension of it. Silverquill is the most urban of the five colleges, with a campus that features buildings of stately elegance.
         </p>
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <img
             src={map}
             className="map-img"

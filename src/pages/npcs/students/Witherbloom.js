@@ -29,7 +29,7 @@ export default function Witherbloomx() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} className="float-container float-left-text">
+          <Col md={6} className="float-container float-left-order">
             <h3></h3>
             <h6></h6>
             <p>
@@ -37,7 +37,7 @@ export default function Witherbloomx() {
             <p>
             </p>
           </Col>
-          <Col md={6} className="float-container float-right-img">
+          <Col md={6} className="float-container float-right-order">
             <img 
               src={Melwythorne} 
               className= "student-portait"

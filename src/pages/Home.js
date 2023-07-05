@@ -10,7 +10,8 @@ export default function Home() {
       <Row className="infoBox2">
         <Row style={{ marginBottom: "2.5%" }}>
           <h2> An Invitation to Attend </h2>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
+
             <p>
               Welcome to Strixhaven University, the premier institution of magical learning in the entire multiverse! As a new student, we extend our warmest greetings. We know that you have come here with a thirst for knowledge, an unquenchable curiosity, and a spark of magic that has the potential to light up the world.
             </p>
@@ -36,7 +37,7 @@ export default function Home() {
             </p>
 
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-evenly" }}>
+          <Col md={6} className="float-container" style={{ justifyContent: "space-evenly" }}>
 
             <img
               src={campusmap}

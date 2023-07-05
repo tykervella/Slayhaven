@@ -18,7 +18,7 @@ export default function CampusLife() {
                         alt="Campus College shown together as Cartoon Image"
                     />
                 </ Col>
-                <Col md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                <Col md={6} className="float-container">
 
                     <p>
                         Even as your characters get caught up in the adventures, they have to continue going to class, doing homework, and studying for exams. Study at Strixhaven isn’t about learning to be a wizard but about learning to be a historian, an artist, an orator, a scientist, or some other profession—while using magic to enhance one’s studies.
@@ -36,13 +36,13 @@ export default function CampusLife() {
 
             <Row className="infoBox1">
                 <h2> Magical Study</h2>
-                <Row style={{ display: "flex", justifyContent: "center" }}>
-                    <Col md={6} style={{ display: "flex", alignItems: "center" }}>
+                <Row className="row-center">
+                    <Col md={6} className="float-container">                        
                         <p>
                             The fundamental work of Strixhaven University is the application of magic to academic study. Students and faculty aren’t limited to magical topics alone. They pursue studies in every facet of existence, magical or otherwis, applying magic to whatever they study. At Strixhaven, historians call the spirits of the dead to aid their lessons about the past, and arcano-biologists use necromancy to pull at life and coax out death when teaching about the natural world. Simultaneously, mage-artists sculpt elemental energy to create animate art, and arcane symbologists teach students how to recognize and understand the magical glyphs they encounter.
                         </p>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} className="float-container">                        
                         <img
                             src={magicalPolarity}
                             style={{ width: "100%", marginBottom: "2.5%", marginTop: "2.5%" }}

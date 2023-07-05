@@ -17,7 +17,7 @@ export default function Faculty() {
         <Container >
             <Row className="infoBox1">
                 <h2> Administration</h2>
-                <Col md={7} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                <Col md={7} className="float-container">
                     <p>
                         The day-to-day functioning of Strixhaven relies on hundreds of laborers, clerks, coaches, administrators, and others. These personnel include folk like Mavinda Sharpbeak, the kindly owlin guidance counselor who takes first-year students under her wing, and Gyome, the troll chef of Witherbloom College. In addition to legions of people who devote their lives to the university’s operations, numerous automatons and artificial life-forms—various kinds of Constructs—serve in various roles, including campus guides and library assistants.
                     </p>

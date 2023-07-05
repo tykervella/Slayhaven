@@ -13,7 +13,7 @@ export default function Prismari() {
     <Container >
       <Row className="infoBox1" >
         <h2>Prismari's Deans of Magic</h2>
-        <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0 2.5%" }}>
+        <Col md={6} className="float-container-dean">
           <img
             src={dean1}
             style={{ height: "300px", width: "90%", paddingBottom: "2.5%" }}
@@ -29,7 +29,7 @@ export default function Prismari() {
             Uvilda believes that good art comes from the head. To her, carefully measured strokes and deliberate object placement make the difference between fully realized art and a total mess. If Dean Nassari interrupts her careful work with bombastic expressions one more time, Uvilda is prepared to enroll in Quandrix to learn how to shrink Nassari.
           </p>
         </Col>
-        <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0 2.5%" }}>
+        <Col md={6} className="float-container-dean">
           <img
             src={dean2}
             style={{ height: "300px", width: "100%", paddingBottom: "2.5%" }}
@@ -50,14 +50,14 @@ export default function Prismari() {
       <Row className="infoBox2">
         <h2>Professors and Instructors</h2>
         <Row>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={Veyran}
               style={{ width: "100%", paddingBottom: "2.5%" }}
               alt="Veyran, Voice of Duality"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <h3>Veyran, Voice of Duality</h3>
             <h6>Chaotic Good, genasi, Prismari professor of perfection</h6>
             <p>
@@ -66,7 +66,7 @@ export default function Prismari() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} className="float-left-text" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-left-order float-container">
             <h3>Zaffai, Thunder Conductor</h3>
             <h6>Chaotic Neutral, human, Prismari professor of expression</h6>
             <p>
@@ -76,7 +76,7 @@ export default function Prismari() {
               In addition to teaching, he serves as Grand Maestro of Strixhaven’s Orchestra of the Arcane, an elite extracurricular activity for top Prismari students. They practice only outdoors, and their concerts fill the sky with beautiful explosions of elemental magic.
             </p>
           </Col>
-          <Col md={6} className="float-right-img" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-right-order float-container">
             <img
               src={Zaffai}
               style={{ width: "100%", paddingBottom: "2.5%" }}
@@ -85,14 +85,14 @@ export default function Prismari() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={Minexes}
               style={{ width: "68%", paddingBottom: "2.5%" }}
               alt="Arkin Minexes, Peppy Instructor"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <h3>Arkin Minexes, Peppy Instructor</h3>
             <h6>Lawful Good, human, Prismari professor of expression</h6>
             <p>

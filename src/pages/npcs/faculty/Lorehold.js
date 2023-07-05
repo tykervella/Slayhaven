@@ -13,7 +13,7 @@ export default function Lorehold() {
     <Container >
       <Row className="infoBox1" >
         <h2>Lorehold's Deans of Magic</h2>
-        <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0 2.5%" }}>
+        <Col md={6} className="float-container-dean">
           <img
             src={dean1}
             style={{ height: "300px", width: "100%", paddingBottom: "2.5%" }}
@@ -30,7 +30,7 @@ export default function Lorehold() {
             Augusta believes that history repeats itself as an orderly progression toward an ideal. In her view, the mistakes of the past can inform the choices of the present, creating a world of peace and order. She plays things by the book and frowns on students who embark on Dean Plargg’s dangerous field trips.
           </p>
         </Col>
-        <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0 2.5%" }}>
+        <Col md={6} className="float-container-dean">
           <img
             src={dean2}
             style={{ height: "300px", width: "90%", paddingBottom: "2.5%" }}
@@ -52,14 +52,14 @@ export default function Lorehold() {
       <Row className="infoBox2">
         <h2>Professors and Instructors</h2>
         <Row>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={Hofri}
               style={{ width: "100%", paddingBottom: "2.5%" }}
               alt="Hofri Ghostforge"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <h3>Hofri Ghostforge</h3>
             <h6>Neutral Good, dwarf, Lorehold professor of order</h6>
             <p>
@@ -69,9 +69,10 @@ export default function Lorehold() {
               His time at Prismari was hardly wasted, however. Combining his artistic skill with his keen spiritual sense, Hofri could visualize a spirit’s mortal appearance and construct a viable statue form for them to inhabit. No one in Lorehold’s history had previously created a spirit statue from scratch, and Hofri was offered a professorial position after graduation, which he happily accepted.
             </p>
           </Col>
+
         </Row>
         <Row>
-          <Col md={6} className="float-left-text" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-left-order float-container">
             <h3>Osgir, the Reconstructor</h3>
             <h6>Neutral, stone giant, Lorehold professor of order</h6>
             <p>
@@ -81,7 +82,7 @@ export default function Lorehold() {
               So, naturally, he mastered the magical art of duplicative restoration. Not only can he perfectly recreate an ancient object or device from the smallest scrap, but he can also produce a second, identical version for his personal collection. He displays something different every week in his Lorehold office, from a mighty sword of demon-slaying to a delicate elven music box.
             </p>
           </Col>
-          <Col md={6} className="float-right-img" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-right-order float-container">
             <img
               src={Osgir}
               style={{ width: "100%", paddingBottom: "2.5%" }}
@@ -91,14 +92,14 @@ export default function Lorehold() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={Losheel}
               style={{ width: "100%", paddingBottom: "2.5%" }}
               alt="Losheel, Clockwork Scholar"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <h3>Losheel, Clockwork Scholar</h3>
             <h6>Chaotic Good, loxodon, Lorehold professor of chaos</h6>
             <p>

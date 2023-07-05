@@ -109,14 +109,21 @@ td {
 
 }
 
-.float-container {
+.float-container, .float-container-dean {
   display:flex; 
   flex-direction: column; 
   align-items: center; 
-  justify-content:center;
 }
 
+.float-container {
+  justify-content: center;
+}
 
+.row-center {
+  display: flex;
+  justify-content: center;
+
+}
 
 .college-symbol {
   width: 25%;
@@ -134,11 +141,19 @@ td {
 
 }
 
+.table-border {
+  border: 3px solid var(--darkest); 
+  padding: 10px;
+  text-align: center;
+}
+
 
 table { 
   border: 2.5px solid var(--darkest);
   border-radius: var(--bRad);
-  font-family: var(--typewriter)
+  font-family: var(--typewriter);
+  margin: 0 auto;
+  margin-bottom: 5%;
 }
 
 th {
@@ -172,10 +187,10 @@ li {
   
   }
 
-  .float-right-img {
+  .float-right-order {
     order: 0
   }
-  .float-left-text {
+  .float-left-order {
     order: 1
   }
 }

@@ -9,14 +9,14 @@ import Zanther from '../../../components/images/characters/students/03-025.zanth
 export default function Prismari() {
   return (
     <Container >
-      <Row className="infoBox2"> 
+      <Row className="infoBox2">
         <h2>Prismari Students</h2>
         <Row>
           <Col md={6} className="float-container">
-            <img 
-              src={Nora} 
-              className= "student-portait"
-              alt="" 
+            <img
+              src={Nora}
+              className="student-portait"
+              alt=""
             />
           </Col>
           <Col md={6} className="float-container">
@@ -29,7 +29,7 @@ export default function Prismari() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} className="float-container float-left-text">
+          <Col md={6} className="float-container float-left-order">
             <h3></h3>
             <h6></h6>
             <p>
@@ -37,20 +37,20 @@ export default function Prismari() {
             <p>
             </p>
           </Col>
-          <Col md={6} className="float-container float-right-img">
-            <img 
-              src={Quentillius} 
-              className= "student-portait"
-              alt="" 
+          <Col md={6} className="float-container float-right-order">
+            <img
+              src={Quentillius}
+              className="student-portait"
+              alt=""
             />
           </Col>
         </Row>
         <Row>
           <Col md={6} className="float-container">
-            <img 
-              src={Zanther} 
-              className= "student-portait"
-              alt="" 
+            <img
+              src={Zanther}
+              className="student-portait"
+              alt=""
             />
           </Col>
           <Col md={6} className="float-container">
@@ -62,7 +62,7 @@ export default function Prismari() {
             </p>
           </Col>
         </Row>
-        
+
       </Row>
     </Container>
   );

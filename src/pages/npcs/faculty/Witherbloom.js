@@ -53,14 +53,16 @@ export default function Witherbloom() {
       <Row className="infoBox2">
         <h2>Professors and Instructors</h2>
         <Row>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                    <Col md={6} className="float-container">
+
             <img
               src={Willowdusk}
               style={{ width: "100%" }}
               alt="Willowdusk, Essence Seer"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                    <Col md={6} className="float-container">
+
             <h3>Willowdusk, Essence Seer</h3>
             <h6>Neutral Good, treant, professor of root</h6>
             <p>
@@ -73,14 +75,14 @@ export default function Witherbloom() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} className="float-left-text" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-left-order float-container">
             <h3>Tivash, Gloom Summoner</h3>
             <h6>Neutral, human, Witherbloom professor of decay</h6>
             <p>
               It’s tough to study the secrets of life and death without getting your hands dirty—which is the first thing Tivash teaches Witherbloom students. Some call the forces he manipulates evil, but he asserts that power is only as good or evil as how you use it.
             </p>
           </Col>
-          <Col md={6} className="float-right-img" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-right-order float-container">
             <img
               src={Tivash}
               style={{ width: "100%", paddingBottom: "2.5%" }}
@@ -89,14 +91,16 @@ export default function Witherbloom() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                    <Col md={6} className="float-container">
+
             <img
               src={Veralda}
               style={{ width: "62%", paddingBottom: "2.5%" }}
               alt="Verelda Lang, Arcano-Biologist"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                    <Col md={6} className="float-container">
+
             <h3>Verelda Lang, Arcano-Biologist</h3>
             <h6>Chaotic  Neutral, dryad, Witherbloom professor of root</h6>
             <p>

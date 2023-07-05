@@ -9,7 +9,7 @@ export default function Prismari() {
   return (
     <Container >
       <Row className="infoBox2" >
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <h2>College of Prismari</h2>
           <img
             src={symbol}
@@ -25,14 +25,14 @@ export default function Prismari() {
           <p>
             Prismari College is dedicated to the arts. Its scholars view art as the fundamental form of self-expression and magic as a tool, a medium, and an inspiration. Prismari studies focus on visual arts (including architecture, painting, and sculpture) and performing arts (such as dance, music, and theater). The curriculum overlaps with Lorehold in the field of art history and with Silverquill in the literary arts, and some students divide their time between Prismari and one of those other schools to pursue these interdisciplinary fields. Prismari mages use magic to weave the elements into their creations; they might juxtapose fire alongside paint, ceramics, or fabric, or they might choreograph elaborate works that unite a dancer’s movements with gusts and eddies of air.
           </p>
-          <Col md={6} style={{ display: "flex", alignItems: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={building}
               style={{ width: "100%" }}
               alt="Prismari College Building"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <p>
               Prismari’s two deans carry the titles <b><u>Dean of Perfection</u></b> and <b><u>Dean of Expression</u></b>, and they often express the fundamental conflict of their philosophy as perfection versus expression—or, sometimes, as intellect versus emotion. What is the purpose of art? Is it to make people think things or make people feel things? Is it supposed to be carefully thought out or raw and spontaneous? Is mastery of art a matter of honing precise techniques to a point of perfection or of perfectly expressing a raw emotional state? Does art aspire to express universal truths or intensely personal ones?
             </p>
@@ -52,7 +52,7 @@ export default function Prismari() {
         <p>
           Southwest of the central campus, the Prismari campus is situated in a region of jagged rocks, rugged spires, and intense geothermal activity.
         </p>
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <img
             src={map}
             className="map-img"

@@ -26,7 +26,6 @@ export default function Archetypes() {
             </Row>
             <br />
 
-
             <Row className="infoBox2" >
                 <h2 id="damager">The Damager</h2>
 
@@ -37,7 +36,8 @@ export default function Archetypes() {
                         alt="Mage causing destruction with fireball spell"
                     />
                 </Col>
-                <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                <Col md={6} className="float-container">
+
                     <p>
                         The Damager is a raw  power within the group, often acting primarily as an offensive unit. Equipped with formidable weapons or destructive magic, they wield strength with unflinching boldness, tearing through enemy lines and reducing obstacles to rubble. While they can occasionally seem brash or uncontrollable, their courage is undeniable, and their role is pivotal in any battle. However, their power often comes with a price – an internal struggle, a dangerous secret, or a past that continues to haunt them.
                     </p>
@@ -78,17 +78,19 @@ export default function Archetypes() {
 
             <Row className="infoBox1">
                 <h2>The Expert</h2>
-                <Col md={6} style={{ display: "Flex", justifyContent: "center" }}>
+
+                <Col md={6} className="float-container float-left-order">
+
+                    <p>
+                        The Expert is the intellectual powerhouse of the group. They are the masters of a specific field, be it magic, history, or politics, bringing depth and clarity to the team's understanding of the world. Their knowledge often uncovers hidden paths, deciphers ancient languages, or unravels the mysteries that block the group's progress. Even though they might not be frontline fighters, their intellectual contributions are pivotal to the group's success. With their vast knowledge comes the burden of the truths they uncover, often revealing harsh realities or uncomfortable truths.
+                    </p>
+                </Col>
+                <Col md={6} className="float-container float-right-order">
                     <img
                         src={Expert}
                         style={{ width: "80%", marginBottom: "2.5%" }}
                         alt="Mage unlocking new skills with the borrowed knowledge spell"
                     />
-                </Col>
-                <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-                    <p>
-                        The Expert is the intellectual powerhouse of the group. They are the masters of a specific field, be it magic, history, or politics, bringing depth and clarity to the team's understanding of the world. Their knowledge often uncovers hidden paths, deciphers ancient languages, or unravels the mysteries that block the group's progress. Even though they might not be frontline fighters, their intellectual contributions are pivotal to the group's success. With their vast knowledge comes the burden of the truths they uncover, often revealing harsh realities or uncomfortable truths.
-                    </p>
                 </Col>
                 <h4>Passive Abilities:</h4>
                 <ul>
@@ -126,18 +128,19 @@ export default function Archetypes() {
 
             <Row className="infoBox2">
                 <h2>The Healer</h2>
-                <Col className="float-left-text" md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-                    <p>
-                        The Healer is the backbone of any group, often maintaining the vitality and health of the team during and after encounters. They may be a cleric, druid, or a magic user whose abilities focus on restoration and cure. While they might not be the most effective in direct combat, their ability to mend wounds, cure ailments, and even resurrect fallen comrades is invaluable. Despite being cast in a supportive role, the Healer's wisdom and compassion often make them a moral compass, guiding the group through ethical dilemmas and reminding them of the humanity they fight to protect.
-                    </p>
-                </Col>
-                <Col className="float-right-img" md={6}>
+                <Col className="float-container" md={6}>
                     <img
                         src={Healer}
                         style={{ width: "100%", marginBottom: "2.5%" }}
                         alt="Mage healing ally with cure wounds spell"
                     />
                 </Col>
+                <Col className="float-container" md={6}>
+                    <p>
+                        The Healer is the backbone of any group, often maintaining the vitality and health of the team during and after encounters. They may be a cleric, druid, or a magic user whose abilities focus on restoration and cure. While they might not be the most effective in direct combat, their ability to mend wounds, cure ailments, and even resurrect fallen comrades is invaluable. Despite being cast in a supportive role, the Healer's wisdom and compassion often make them a moral compass, guiding the group through ethical dilemmas and reminding them of the humanity they fight to protect.
+                    </p>
+                </Col>
+
                 <h4>Passive Abilities:</h4>
                 <ul>
                     <li>
@@ -175,18 +178,18 @@ export default function Archetypes() {
 
             <Row className="infoBox1">
                 <h2>The Protector</h2>
-                <Col md={6} style={{ display: "Flex", justifyContent: "center" }}>
+
+                <Col md={6} className="float-left-order float-container">
+                    <p>
+                        The Protector, often seen as a guardian or tank, prioritizes the defense of the group. As a magical barrier wielder, they position themselves between harm and their companions. Their sense of duty and sacrifice are unparalleled, willing to endure the brunt of enemy attacks to keep their allies safe. Though they often bear the physical scars of battle, it's their emotional resilience and unwavering loyalty that truly define them. Their protective instincts extend beyond the battlefield as they often seek to mediate conflicts and maintain group cohesion.
+                    </p>
+                </Col>
+                <Col md={6} className="float-right-order float-container">
                     <img
                         src={Protector}
                         style={{ width: "80%", marginBottom: "2.5%" }}
                         alt="Mage deflecting a blow with the stone shape spell"
                     />
-                </Col>
-                <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-                    <p>
-                        The Protector, often seen as a guardian or tank, prioritizes the defense of the group. As a magical barrier wielder, they position themselves between harm and their companions. Their sense of duty and sacrifice are unparalleled, willing to endure the brunt of enemy attacks to keep their allies safe. Though they often bear the physical scars of battle, it's their emotional resilience and unwavering loyalty that truly define them. Their protective instincts extend beyond the battlefield as they often seek to mediate conflicts and maintain group cohesion.
-
-                    </p>
                 </Col>
 
                 <h4>Passive Abilities:</h4>
@@ -228,17 +231,18 @@ export default function Archetypes() {
 
             <Row className="infoBox2">
                 <h2>The Trickster</h2>
-                <Col className="float-left-text" md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-                    <p>
-                        The Trickster is an unpredictable force, often a rogue or a mage with a fondness for illusions. They revel in cunning, stealth, and deception, always having an ace up their sleeve and a witty retort on their lips. Their unconventional methods often save the day in the most unexpected ways, turning the tide of battles and outsmarting opponents. Despite their often lighthearted demeanor, they carry a depth of character that reveals itself in moments of crisis. The Trickster's resourcefulness and unpredictability often challenge the group's dynamic, pushing them to think beyond their conventional means.
-                    </p>
-                </Col>
-                <Col className="float-right-img" md={6}>
+
+                <Col className="float-container" md={6}>
                     <img
                         src={Trickster}
                         style={{ width: "100%", marginBottom: "2.5%" }}
                         alt="Mage attempting to steal an important artifact with mage hand spell "
                     />
+                </Col>
+                <Col className="float-container">
+                    <p>
+                        The Trickster is an unpredictable force, often a rogue or a mage with a fondness for illusions. They revel in cunning, stealth, and deception, always having an ace up their sleeve and a witty retort on their lips. Their unconventional methods often save the day in the most unexpected ways, turning the tide of battles and outsmarting opponents. Despite their often lighthearted demeanor, they carry a depth of character that reveals itself in moments of crisis. The Trickster's resourcefulness and unpredictability often challenge the group's dynamic, pushing them to think beyond their conventional means.
+                    </p>
                 </Col>
                 <h4>Passive Abilities:</h4>
                 <ul>

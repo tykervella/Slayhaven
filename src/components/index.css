@@ -1616,7 +1616,7 @@ label form [type='radio'] {
 
 /* col-xl */
 @media screen and (min-width: 1200px) {
-  .float-right-img {
+  .float-right-order {
     order: 0
   }
   .col-xl-1 {

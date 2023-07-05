@@ -14,7 +14,7 @@ export default function Quandrix() {
     <Container >
       <Row className="infoBox1" >
         <h2>Quandrix's Deans of Magic</h2>
-        <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0 2.5%" }}>
+        <Col md={6} className="float-container-dean">
           <img
             src={dean1}
             style={{ height: "300px", width: "90%", paddingBottom: "2.5%" }}
@@ -30,7 +30,7 @@ export default function Quandrix() {
             Brilliant and eccentric, Dean Kianne  is one of the preeminent mana scholars of the world. She has visited and studied countless bizarre magical phenomena, from snarls to star arches to ancient shrines. She loves to share her wild theories with anyone who will listen.
           </p>
         </Col>
-        <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0 2.5%" }}>
+        <Col md={6} sclassName="float-container-dean">
           <img
             src={dean2}
             style={{ height: "300px", width: "100%", paddingBottom: "2.5%" }}
@@ -52,14 +52,14 @@ export default function Quandrix() {
       <Row className="infoBox2">
         <h2>Professors and Instructors</h2>
         <Row>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={AdrixAndNev}
               style={{ width: "100%", paddingBottom: "2.5%" }}
               alt="Adrix and Nev, Twincasters"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <h3>Adrix and Nev, Twincasters</h3>
             <h6>Adrix: Neutral Good, triton, Quandrix professor of substance</h6>
             <h6>Nev: Neutral Good, triton, Quandrix professor of theory</h6>
@@ -73,14 +73,14 @@ export default function Quandrix() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} className="float-left-text" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-left-order float-container">
             <h3>Ruxa, Patient Professor</h3>
             <h6>Neutral Good, awakened brown bear, Quandrix professor of substance</h6>
             <p>
               Ruxa looks like a bipedal brown bear and knows that wild new theories, though exciting, are worthless without a deep understanding of the basics. He teaches students of all levels, and even his most experienced pupils benefit from a much deeper understanding of the fundamental building blocks of the world.
             </p>
           </Col>
-          <Col md={6} className="float-right-img" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-right-order float-container">
             <img
               src={Ruxa}
               style={{ width: "100%", paddingBottom: "2.5%" }}
@@ -90,14 +90,14 @@ export default function Quandrix() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={Deekah}
               style={{ width: "100%", paddingBottom: "2.5%" }}
               alt="Deekah, Fractal Theorist"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <h3>Deekah, Fractal Theorist</h3>
             <h6>Lawful Neutral, human, Quandrix professor of theory</h6>
             <p>

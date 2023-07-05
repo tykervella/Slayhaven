@@ -15,7 +15,7 @@ export default function Silverquill() {
     <Container >
       <Row className="infoBox1" >
         <h2>Silverquill's Deans of Magic</h2>
-        <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0 2.5%" }}>
+        <Col md={6} className="float-container-dean">
           <img
             src={dean1}
             style={{ height: "300px", width: "90%" }}
@@ -32,7 +32,7 @@ export default function Silverquill() {
             Shaile believes that all people have the potential for good and wishes to teach her students how to make the world a better place. She and Dean Lu often clash over Silverquill’s curriculum, but the balance found between them is far more eloquent than even their words can describe.
           </p>
         </Col>
-        <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0 2.5%" }}>
+        <Col md={6} className="float-container-dean">
           <img
             src={dean2}
             style={{ height: "300px", width: "100%" }}
@@ -54,14 +54,14 @@ export default function Silverquill() {
       <Row className="infoBox2">
         <h2>Professors and Instructors</h2>
         <Row>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={Breena}
               style={{ width: "100%", paddingBottom: "2.5%" }}
               alt="Breena, the Demagogue"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <h3>Breena, the Demagogue</h3>
             <h6>Neutral Good, owlin, Silverquill professor of shadow</h6>
             <p>
@@ -73,7 +73,7 @@ export default function Silverquill() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} className="float-left-text" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-left-order float-container">
             <h3>Nils, Discipline Enforcer</h3>
             <h6>Lawful Neutral, human, Silverquill professor of radiance</h6>
             <p>
@@ -81,7 +81,7 @@ export default function Silverquill() {
             </p>
 
           </Col>
-          <Col md={6} className="float-right-img" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-right-order float-container">
             <img
               src={Nils}
               style={{ width: "100%", paddingBottom: "2.5%" }}
@@ -91,7 +91,8 @@ export default function Silverquill() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                    <Col md={6} className="float-container">
+
             <img
               src={Fain}
               style={{ width: "100%", paddingBottom: "2.5%" }}
@@ -99,7 +100,8 @@ export default function Silverquill() {
 
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
+
             <h3>Fain, the Broker</h3>
             <h6>Neutral, human, Silverquill professor of shadow</h6>
             <p>
@@ -108,14 +110,14 @@ export default function Silverquill() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} className="float-left-text" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-left-order float-container">
             <h3> Brenneth Blackstone, Scriptology Star </h3>
             <h6>Neutral Good, dhampir, Silver­quill professor of shadow</h6>
             <p>
               Brenneth Blackstone is a rising star in the study of magical writing and symbols. With a dynamic lecturing style, this dhampir—a partial vampire—attracts students from across Strixhaven purely for his lessons’ value as performance art.
             </p>
           </Col>
-          <Col md={6} className="float-right-img" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Col md={6} className="float-right-order float-container">
             <img
               src={Blackstone}
               style={{ width: "62%", paddingBottom: "2.5%" }}

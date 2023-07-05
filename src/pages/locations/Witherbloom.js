@@ -9,7 +9,7 @@ export default function Witherbloom() {
   return (
     <Container >
       <Row className="infoBox1" >
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <h2>College of Witherbloom</h2>
           <img
             src={symbol}
@@ -25,14 +25,14 @@ export default function Witherbloom() {
           <p>
             The curriculum of Witherbloom College focuses on various sciences, revolving around the life sciences. Biology, ecology, botany, chemistry, and related sciences combine with the study and manipulation of the magical energy of the Positive Plane and the Negative Plane, the primal forces of life and death. Witherbloom’s curriculum shares some overlap with Quandrix’s analysis of the mathematical patterns in nature.
           </p>
-          <Col md={6} style={{ display: "flex", alignItems: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={building}
               style={{ width: "100%", paddingBottom: "2.5%" }}
               alt="Witherbloom College Building"
             />
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+          <Col md={6} className="float-container">
             <p>
               The two deans of Witherbloom are traditionally called the <b><u>Dean of the Root</u></b> and the <b><u>Dean of the Vein</u></b>. These titles are a somewhat abstract way of framing the core division in the college’s philosophy: is growth or decay the driving force in nature?
             </p>
@@ -51,7 +51,7 @@ export default function Witherbloom() {
         <p>
           Witherbloom’s campus is tucked away in a wide bayou to the southeast of Strixhaven’s central campus.
         </p>
-        <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Row className="row-center">
           <img
             src={map}
             className="map-img"

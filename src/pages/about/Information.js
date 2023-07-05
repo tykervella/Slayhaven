@@ -127,28 +127,31 @@ export default function Information() {
       <Row className='infoBox2'>
         <h2>Oracle and Archaics</h2>
         <Row style={{ display: "flex", justifyContent: "space-between" }}>
-          <Col className="float-left-text" md={8} style={{ display: "flex", alignItems: "center" }}>
+          <Col className="float-left-order float-container" md={8} >
             <p>
               The <b><u>Oracle of Strixhaven</u></b>, selected by the Founder Dragons, is often said to be the wisest and most accomplished mage in the multiverse. The Oracle’s lifelong task is to ensure that magic is used to help people and not twisted to evil ends. To be the Oracle, one must understand fundamental truths about the nature of magic, know and wield hundreds of spells, and possess impeccable judgment and virtue. The current Oracle is known as Jadzi, a wise and accomplished mage that lives somewhere in the lands between Strixhaven’s borders
             </p>
           </Col>
-          <Col className="float-right-img" md={4}>
+          <Col className="float-right-order" md={4}>
             <img
               src={Oracle}
               style={{ width: "100%", marginBottom: "2.5%" }}
               alt="Image of the Jadzi"
             />
+            <h6>Jadzi, the current oracle of Strixhaven</h6>
+
           </Col>
         </Row>
         <Row >
-          <Col md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+          <Col md={6} className="float-container">
             <img
               src={Archaics}
               style={{ width: "100%", marginBottom: "2.5%" }}
               alt="Image of an Archaic"
             />
+            <h6> Image of an Archaic</h6>
           </Col>
-          <Col md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+          <Col md={6} className="float-container">
             <p>
               Mysteriously linked to the Oracle, <b><u>archaics</u></b> are wise, giant, long-lived beings with an innate talent for magic. They can be seen striding through the wilds, exploring sources of magic with their many arms or contemplating existence through their “eye,” which functions as a magical focus of some kind. Scholars seek out archaics for their vast knowledge of history and magic, but archaics tend to communicate in obscure allusions and cryptic metaphors.
             </p>
