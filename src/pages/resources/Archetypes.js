@@ -17,7 +17,7 @@ export default function Archetypes() {
             <h2>Archetypes</h2>
 
             <p>
-                Archetypes, in the context of storytelling and character creation, are universally recognizable elements or figures that recur across different cultures and eras. They form the heart of our shared human experiences and tales, encompassing broad categories of characters who embody specific traits, roles, and patterns. In this campaign, you will choose from one of five archetypes for your character: the Damager, the Healer, the Protector, the Trickster, or the Expert. Each archetype represents a distinct facet of the heroic journey, shaping the course of the narrative and driving the team's success through their unique contributions.
+                Archetypes, in the context of storytelling and character creation, are universally recognizable elements or figures that recur across different cultures and eras. They form the heart of our shared human experiences and tales, encompassing broad categories of characters who embody specific traits, roles, and patterns. In this campaign, you will choose from one of five archetypes for your character: the Damager, the Expert, the Healer, the Protector, or the Trickster. Each archetype represents a distinct facet of the heroic journey, shaping the course of the narrative and driving the team's success through their unique contributions.
             </p>
 
             <p>
@@ -27,8 +27,8 @@ export default function Archetypes() {
         <br />
 
 
-        <Row className="infoBox2">
-                <h2>The Damager</h2>
+        <Row className="infoBox2" >
+                <h2 id="damager">The Damager</h2>
 
                 <Col md={6}>
                     <img 
