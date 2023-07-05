@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a02972c.css",
+    "main.css": "/static/css/main.738e0132.css",
     "main.js": "/static/js/main.23546003.js",
     "static/media/lh-Losheel.png": "/static/media/lh-Losheel.da9c0de96d8bb7976b1b.png",
     "static/media/sq-Fain.png": "/static/media/sq-Fain.3aa581066b1812f291fc.png",
@@ -71,11 +71,11 @@
     "static/media/ps-symbol.png": "/static/media/ps-symbol.a2cb4015604e396c80b4.png",
     "static/media/sq-symbol.png": "/static/media/sq-symbol.98c43d884bf3774f9e98.png",
     "index.html": "/index.html",
-    "main.1a02972c.css.map": "/static/css/main.1a02972c.css.map",
+    "main.738e0132.css.map": "/static/css/main.738e0132.css.map",
     "main.23546003.js.map": "/static/js/main.23546003.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a02972c.css",
+    "static/css/main.738e0132.css",
     "static/js/main.23546003.js"
   ]
 }
