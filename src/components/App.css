@@ -16,7 +16,7 @@
   --subheader: 'VT323', monospace;
   --typewriter: 'Cardo', serif;
   /* border radius */
-  --bRad: 20px;
+  --bRad: 40px;
 }
 
 html {
@@ -105,7 +105,8 @@ td {
   border: 3.5px solid var(--darkest);
   text-align:justify;
   padding: 1.25% 5%;
-  
+  border-radius: var(--bRad);
+
 }
 
 
