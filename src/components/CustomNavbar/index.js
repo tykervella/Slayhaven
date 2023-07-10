@@ -116,6 +116,9 @@ const CustomNavbar = () => {
                 <NavDropdown.Item as={Link} to="/npcs/students/witherbloom" onClick={handleNavClose}>
                   Witherbloom
                 </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/npcs/students/relationships" onClick={handleNavClose}>
+                  Student NPC Relationships
+                </NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown
@@ -130,7 +133,7 @@ const CustomNavbar = () => {
                   Character Creation
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/mechanics" onClick={handleNavClose}>
-                  Student Mechanics
+                  Student Life Mechanics
                 </NavDropdown.Item>
                 {/* <NavDropdown.Item as={Link} to="/rules" onClick={handleNavClose}>
                   Rule Changes
