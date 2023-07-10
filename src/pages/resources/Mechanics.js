@@ -172,7 +172,7 @@ export default function Mechanics() {
                         style={{width:"100%"}}
                         alt="Students discuss their shared interests during a sunset date"
                     />
-                    <h6>Students find many magical ways to celebrate their achievements</h6>
+                    <h6>Students discuss their shared interests during a sunset date</h6>
                 </Col>
                 <Col md={6} className="float-container">
                     <p>
