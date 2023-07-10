@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd909b93.css",
-    "main.js": "/static/js/main.ca79eb6a.js",
+    "main.js": "/static/js/main.b52fd6ba.js",
     "static/media/lh-Losheel.png": "/static/media/lh-Losheel.da9c0de96d8bb7976b1b.png",
     "static/media/sq-Fain.png": "/static/media/sq-Fain.3aa581066b1812f291fc.png",
     "static/media/wb-Willowdusk.png": "/static/media/wb-Willowdusk.3f46400c0dd3a0481498.png",
@@ -56,6 +56,7 @@
     "static/media/03-021.rubina.png": "/static/media/03-021.rubina.af348bf36c99d80e626b.png",
     "static/media/03-018.nora-ann-wu.png": "/static/media/03-018.nora-ann-wu.19f0bdcdb06fb42b2230.png",
     "static/media/lh-map.jpg": "/static/media/lh-map.f8b18eb10ba9ed82f2ce.jpg",
+    "static/media/job-image.png": "/static/media/job-image.90e9fdb015abfa8424c0.png",
     "static/media/03-012.grayson.png": "/static/media/03-012.grayson.4e50acb7f057a92fd550.png",
     "static/media/03-010.cadoras.png": "/static/media/03-010.cadoras.73251c6337ce6c7cda3a.png",
     "static/media/03-008.aurora.png": "/static/media/03-008.aurora.f139cfb5519a05e3c557.png",
@@ -93,10 +94,10 @@
     "static/media/sq-symbol.png": "/static/media/sq-symbol.98c43d884bf3774f9e98.png",
     "index.html": "/index.html",
     "main.cd909b93.css.map": "/static/css/main.cd909b93.css.map",
-    "main.ca79eb6a.js.map": "/static/js/main.ca79eb6a.js.map"
+    "main.b52fd6ba.js.map": "/static/js/main.b52fd6ba.js.map"
   },
   "entrypoints": [
     "static/css/main.cd909b93.css",
-    "static/js/main.ca79eb6a.js"
+    "static/js/main.b52fd6ba.js"
   ]
 }
