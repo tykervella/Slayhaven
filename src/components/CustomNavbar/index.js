@@ -137,21 +137,6 @@ const CustomNavbar = () => {
                 </NavDropdown.Item> */}
               </NavDropdown>
 
-              <NavDropdown
-                title="Campaign"
-                id="nav-dropdown-campaign"
-                className="nav-dropdown"
-              >
-                <NavDropdown.Item as={Link} to="/pcs" onClick={handleNavClose}>
-                  Our Characters
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/sessions" onClick={handleNavClose}>
-                  Session Notes
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="#" onClick={handleNavClose}>
-                  {/* Additional dropdown item */}
-                </NavDropdown.Item>
-              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>

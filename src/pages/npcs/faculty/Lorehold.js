@@ -21,7 +21,7 @@ export default function Lorehold() {
           />
           <h3>Augusta Tullus, Dean of Order</h3>
           <h6>
-            Lawful Neutral, human, Lorehold professor of order
+            Lawful Neutral, human, Lorehold professor of order, she/her
           </h6>
           <p>
             Augusta Tullus is the current Dean of Order. A professor of spirit studies, she has been called the college’s most talented pastraiser. She can conjure entire legions of ghostly apparitions to reenact historical events for her lectures.
@@ -38,13 +38,13 @@ export default function Lorehold() {
           />
           <h3>Plargg, Dean of Chaos</h3>
           <h6>
-            Chaotic Good, orc, Lorehold professor of chaos
+            Chaotic Good, orc, Lorehold professor of chaos, they/them
           </h6>
           <p>
-            Plargg  is the current Dean of Chaos. Specializing in military history, Plargg is known for his perfect recall of historical stories, as well as his potent scroll magic. Blind himself, he invented a form of magical embossing called heat lettering, which provides a tactile way to read texts.
+            Plargg  is the current Dean of Chaos. Specializing in military history, Plargg is known for their perfect recall of historical stories, as well as their potent scroll magic. Blind themself, they invented a form of magical embossing called heat lettering, which provides a tactile way to read texts.
           </p>
           <p>
-            Plargg believes that history is full of unpredictable, war-filled chaos and that his students must be ready for anything. He teaches that no rewards come without risk, and his excursions typically end with students heading to the infirmary. He pays little attention to Dean Tullus’s work, usually dismissing her attempts to find order in chaos as foolhardy.
+            Plargg believes that history is full of unpredictable, war-filled chaos and that their students must be ready for anything. They teach that no rewards come without risk, and their excursions typically end with students heading to the infirmary. They pay little attention to Dean Tullus’s work, usually dismissing her attempts to find order in chaos as foolhardy.
           </p>
         </Col>
       </Row>
@@ -61,7 +61,7 @@ export default function Lorehold() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Hofri Ghostforge</h3>
-            <h6>Neutral Good, dwarf, Lorehold professor of order</h6>
+            <h6>Neutral Good, dwarf, Lorehold professor of order, he/him</h6>
             <p>
               When Hofri first enrolled in Strixhaven, he believed his future lay with Prismari. A diligent student, he quickly mastered the technical skills of art, but his magic left something to be desired. After talking with the school’s counselor, Mavinda, Hofri decided to try his luck with Lorehold. It turned out he had a natural talent for Lorehold’s spirit magic.
             </p>
@@ -74,7 +74,7 @@ export default function Lorehold() {
         <Row>
           <Col md={6} className="float-left-order float-container">
             <h3>Osgir, the Reconstructor</h3>
-            <h6>Neutral, stone giant, Lorehold professor of order</h6>
+            <h6>Neutral, stone giant, Lorehold professor of order, he/him</h6>
             <p>
               Even by Lorehold standards, Osgir  is obsessed with relics of the past. A professor of order, he treasures every connection to old civilizations, whether it’s a magnificent jeweled crown or an old shovel. As a student, he constantly spent time in detention for hoarding the best finds from Lorehold dig sites in his room; he lost count of how many times he was sternly told, “History belongs to us all!”
             </p>
@@ -101,7 +101,7 @@ export default function Lorehold() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Losheel, Clockwork Scholar</h3>
-            <h6>Chaotic Good, loxodon, Lorehold professor of chaos</h6>
+            <h6>Chaotic Good, loxodon, Lorehold professor of chaos, she/her</h6>
             <p>
               Losheel is a Humanoid resembling a bipedal elephant. She proudly admits that she is willing to work hard to be as lazy as possible. She turns her brilliant mind to constructing increasingly efficient mechanical helpers, with the goal of one day being able to do anything she wants without standing up.
             </p>

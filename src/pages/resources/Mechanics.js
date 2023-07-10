@@ -22,7 +22,7 @@ export default function Mechanics() {
                 </Col>
                 <Col md={8} className="float-container">
                     <p>
-                        Extracurriculars are a key part of student life at Strixhaven. Characters can join extracurriculars to add flavor to the book’s adventures, gain minor rules benefits, and perhaps more easily befriend—or irritate—their classmates. For our adventure, characters will be able to enroll in a single extracurricular for their first year. In their second year, you can enroll in a second extracurricular or take up a campus job. 
+                        Extracurriculars are a key part of student life at Strixhaven. Characters can join extracurriculars to add flavor to the book’s adventures, gain minor rules benefits, and perhaps more easily befriend—or irritate—their classmates. For our adventure, characters will be able to enroll in a single extracurricular for their first year. In their second year, you can enroll in a second extracurricular, but not if your character already has a job.
                     </p>
                     <p>
                         Characters can gain the benefit from a new extracurricular only by joining it at the start of an academic year, which corresponds to the beginning of a new adventure. Typically, joining an extracurricular in between academic years isn’t eventful. Players should note the changes on their tracking sheet.

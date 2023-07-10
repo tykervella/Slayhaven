@@ -23,7 +23,7 @@ export default function Silverquill() {
           />
           <h3>Shaile Talonrook, Dean of Radiance</h3>
           <h6>
-            Lawful Good, owlin, Silverquill professor of radiance
+            Lawful Good, owlin, Silverquill professor of radiance, she/her 
           </h6>
           <p>
             Dean Shaile Talonrook is a perennially optimistic orator. A master of literature, she often quotes obscure passages from famous texts. Her soul-filling advice and educated references have been known to make people literally glow.
@@ -40,7 +40,7 @@ export default function Silverquill() {
           />
           <h3>Embrose Lu, Dean of Shadow</h3>
           <h6>
-            Lawful Neutral, human, Silverquill professor of shadow
+            Lawful Neutral, human, Silverquill professor of shadow, he/him
           </h6>
           <p>
             Dean Embrose Lu  is a master poet whose ink magic is merciless. Scant with praise and quick with a cutting remark, Dean Lu has seen many mage-students scrub out of Strixhaven and has nothing good to say about those who can’t hack it.
@@ -63,7 +63,7 @@ export default function Silverquill() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Breena, the Demagogue</h3>
-            <h6>Neutral Good, owlin, Silverquill professor of shadow</h6>
+            <h6>Neutral Good, owlin, Silverquill professor of shadow, she/her</h6>
             <p>
               Breena has a talent for getting her way. If she wants you to do something, you won’t just do it—you’ll be sure it was your idea all along. Her students and colleagues alike hang on her every word, and in front of a crowd, she’s a powerhouse of charisma, enhancing her speeches with elegant swirls of ink magic. Though she’s an elite mage who can easily hold her own in a fight, Breena prefers to defeat her foes with words alone.
             </p>
@@ -75,9 +75,9 @@ export default function Silverquill() {
         <Row>
           <Col md={6} className="float-left-order float-container">
             <h3>Nils, Discipline Enforcer</h3>
-            <h6>Lawful Neutral, human, Silverquill professor of radiance</h6>
+            <h6>Lawful Neutral, human, Silverquill professor of radiance, they/them</h6>
             <p>
-              Nils  is an optimist, as he believes in every student’s potential for greatness. However, this outlook also means he’s constantly disappointed by their suboptimal choices, and he is well known for his strictness and abrupt scoldings.
+              Nils is an optimist, as they believe in every student’s potential for greatness. However, this outlook also means they're constantly disappointed by their suboptimal choices, and they are well known for their strictness and abrupt scoldings.
             </p>
 
           </Col>
@@ -91,7 +91,7 @@ export default function Silverquill() {
           </Col>
         </Row>
         <Row>
-                    <Col md={6} className="float-container">
+          <Col md={6} className="float-container">
 
             <img
               src={Fain}
@@ -103,7 +103,7 @@ export default function Silverquill() {
           <Col md={6} className="float-container">
 
             <h3>Fain, the Broker</h3>
-            <h6>Neutral, human, Silverquill professor of shadow</h6>
+            <h6>Neutral, human, Silverquill professor of shadow, he/him</h6>
             <p>
               Lost an important textbook? Craving some rare delicacy from home? Need something inconveniently forbidden? Enter Fain. He has an extensive network of connections on and off campus, and he can procure just about anything—so long as you can afford his price.
             </p>
@@ -112,9 +112,9 @@ export default function Silverquill() {
         <Row>
           <Col md={6} className="float-left-order float-container">
             <h3> Brenneth Blackstone, Scriptology Star </h3>
-            <h6>Neutral Good, dhampir, Silver­quill professor of shadow</h6>
+            <h6>Neutral Good, dhampir, Silver­quill professor of shadow, Agender (he/she/they)</h6>
             <p>
-              Brenneth Blackstone is a rising star in the study of magical writing and symbols. With a dynamic lecturing style, this dhampir—a partial vampire—attracts students from across Strixhaven purely for his lessons’ value as performance art.
+              Brenneth Blackstone is a rising star in the study of magical writing and symbols. With a dynamic lecturing style, this dhampir—a partial vampire—attracts students from across Strixhaven purely for her lessons’ value as performance art.
             </p>
           </Col>
           <Col md={6} className="float-right-order float-container">

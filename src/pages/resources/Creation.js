@@ -459,7 +459,7 @@ export default function Creation() {
                         <u>Banelock</u>, using concoctions of noxious ingredients for withering magic (Decay)
                     </li>
                     <li>
-                        <u>Bleed doctor</u>, w drain the essence of living creatures to fuel sinister spells (Decay)
+                        <u>Bleed doctor</u>, drain the essence of living creatures to fuel sinister spells (Decay)
                     </li>
                     <li>
                         <u>Boon witch</u>, brewing drafts to empower the living (Growth)

@@ -151,6 +151,15 @@ td {
   text-align: center;
 }
 
+.student-info {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.student-info p {
+  line-height: 1.1;
+}
 
 table { 
   border: 2.5px solid var(--darkest);
