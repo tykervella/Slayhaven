@@ -125,9 +125,9 @@ export default function Quandrix() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Larine Arneza</h3>
-            <h6>Neutral Good, Human, First Year, Agender (he/she/they) </h6>
+            <h6>Neutral Good, Human, First Year, Agender any pronouns (he/she/they) </h6>
             <p>
-              Some think Larine is aloof to the point of being rude, but their friends say that nothing is further from the truth. She is a delightful presence and doesn’t ignore social obligations so much as get distracted easily. Larine is a member of the Intramural Water-Dancing Club, where they perform underwater balletic movements effortlessly. Despite his swimming ability, her tendency to lose focus means learning group choreography takes them more time and effort. Larine has a natural affinity with animals, especially aquatic species, and she’s working on a solo synchronized swimming routine that replaces the other students with a shoal of fish. Rehearsals aren’t going well. As an employee of the Strixhaven Performing Arts Society, Larine is a ticket taker, a job he’s recently switched to as a result of struggling to give correct change while working at the box office.
+              Some think Larine is aloof to the point of being rude, but their friends say that nothing is further from the truth. They are a delightful presence, who doesn’t ignore social obligations so much as get distracted easily. Larine is a member of the Intramural Water-Dancing Club, where they perform underwater balletic movements effortlessly. Despite their swimming ability, his tendency to lose focus means learning group choreography takes them more time and effort. Larine has a natural affinity with animals, especially aquatic species, and they're working on a solo synchronized swimming routine that replaces the other students with a shoal of fish. Rehearsals aren’t going well. As an employee of the Strixhaven Performing Arts Society, Larine is a ticket taker, a job he’s recently switched to as a result of struggling to give correct change while working at the box office.
             </p>
           </Col>
         </Row>

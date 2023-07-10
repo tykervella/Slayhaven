@@ -39,13 +39,13 @@ export default function Witherbloom() {
           />
           <h3> Valentin, Dean of the Vein </h3>
           <h6>
-            Neutral, vampire, Witherbloom professor of shadow, he/they
+            Neutral, vampire, Witherbloom professor of shadow, they/them
           </h6>
           <p>
-            Dean Valentin is ancient and drinks the blood of living creatures throughout the bayou. Valentin is a kind of sangromancer—he receives visions from the blood he consumes, which they use to learn things about a creature or place. They have no qualms about exploiting the bayou’s creatures for personal gain.
+            Dean Valentin is ancient and drinks the blood of living creatures throughout the bayou. Valentin is a kind of sangromancer—they receive visions from the blood they consume, which they use to learn things about a creature or place. They have no qualms about exploiting the bayou’s creatures for personal gain.
           </p>
           <p>
-            Valentin’s classes focus on dissection and decay. He and Dean Lisette often clash over his cavalier treatment of animals, but that hasn’t stopped her from using his discoveries for her research.
+            Their classes focus on dissection and decay; Valentin and Dean Lisette often clash over their cavalier treatment of animals, but that hasn’t stopped her from using his discoveries for her research.
           </p>
         </Col>
       </Row>
@@ -64,12 +64,12 @@ export default function Witherbloom() {
           <Col md={6} className="float-container">
 
             <h3>Willowdusk, Essence Seer</h3>
-            <h6>Neutral Good, treant, professor of root, she/her</h6>
+            <h6>Neutral Good, treant, professor of root, she/they</h6>
             <p>
-              No one knows how old Willowdusk really is. This professor of growth claims to be older than Strixhaven itself, and although many suspect that she exaggerates, no one else who has lived long enough to refute her cares to do so. Many years ago, a group of rebellious students got lost in Detention Bog and took shelter in what turned out to be Willowdusk’s roots. She protected them from a pack of hungry groffs and shepherded them back to Widdershins Hall, offering a lecture on proper herb-gathering practices during the journey.
+              No one knows how old Willowdusk really is. This professor of growth claims to be older than Strixhaven itself, and although many suspect that they exaggerate, no one else who has lived long enough to refute them cares to do so. Many years ago, a group of rebellious students got lost in Detention Bog and took shelter in what turned out to be Willowdusk’s roots. She protected them from a pack of hungry groffs and shepherded them back to Widdershins Hall, offering a lecture on proper herb-gathering practices during the journey.
             </p>
             <p>
-              Her lessons proved so effective that she was asked to stay as a professor. She loves passing on her knowledge of medicinal herbs, pest mascot cultivation, and dissection techniques to generations of new students, and she almost always has a pot of tea brewing.
+              Their lessons proved so effective that she was asked to stay as a professor. She loves passing on her knowledge of medicinal herbs, pest mascot cultivation, and dissection techniques to generations of new students, and they almost always has a pot of tea brewing.
             </p>
 
           </Col>

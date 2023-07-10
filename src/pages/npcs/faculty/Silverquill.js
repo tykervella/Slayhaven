@@ -75,9 +75,9 @@ export default function Silverquill() {
         <Row>
           <Col md={6} className="float-left-order float-container">
             <h3>Nils, Discipline Enforcer</h3>
-            <h6>Lawful Neutral, human, Silverquill professor of radiance, they/them</h6>
+            <h6>Lawful Neutral, human, Silverquill professor of radiance, he/him</h6>
             <p>
-              Nils is an optimist, as they believe in every student’s potential for greatness. However, this outlook also means they're constantly disappointed by their suboptimal choices, and they are well known for their strictness and abrupt scoldings.
+              Nils is an optimist, as he believes in every student’s potential for greatness. However, this outlook also means he's constantly disappointed by their suboptimal choices. He is well known for their strictness and abrupt scoldings.
             </p>
 
           </Col>
@@ -112,7 +112,7 @@ export default function Silverquill() {
         <Row>
           <Col md={6} className="float-left-order float-container">
             <h3> Brenneth Blackstone, Scriptology Star </h3>
-            <h6>Neutral Good, dhampir, Silver­quill professor of shadow, Agender (he/she/they)</h6>
+            <h6>Neutral Good, dhampir, Silver­quill professor of shadow, Transfem but uses all pronouns (he/she/they)</h6>
             <p>
               Brenneth Blackstone is a rising star in the study of magical writing and symbols. With a dynamic lecturing style, this dhampir—a partial vampire—attracts students from across Strixhaven purely for her lessons’ value as performance art.
             </p>

@@ -21,7 +21,7 @@ export default function Prismari() {
           />
           <h3>Uvilda Mistcoiler, Dean of Perfection</h3>
           <h6>
-            Neutral Good, genasi, Prismari professor of perfection, they/them</h6>
+            Neutral Good, genasi, Prismari professor of perfection, they/she</h6>
           <p>
             Uvilda Mistcoiler is the current Dean of Perfection. A master of artistic technique, Uvilda trains with a range of elements whenever they aren't focused on their teaching. They are known for giving students profoundly insightful feedback, which they tailor to each individual. After a review, they often offer a small piece of advice that alters the student’s point of view and work forever—for the better.
           </p>
