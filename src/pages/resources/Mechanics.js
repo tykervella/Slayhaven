@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import extracurricular from '../../components/images/extracurricular.png'
 import studentStudying from '../../components/images/student-studying.png'
+import job from '../../components/images/job-image.png'
 
 
 
@@ -18,10 +19,19 @@ export default function Mechanics() {
                         alt="Students celebrating their academic successes with magical fireworks"
                     />
                     <h6>Students find many magical ways to celebrate their achievements</h6>
+                    <img
+                        src={job}
+                        style={{width:"100%"}}
+                        alt="Gyome the witherbloom campus' executive chef"
+                    />
+                    <h6>Strixhaven student employees work beside staff members to fill the many jobs available on campus</h6>
                 </Col>
                 <Col md={8} className="float-container">
                     <p>
-                        Extracurriculars are a key part of student life at Strixhaven. Characters can join extracurriculars to add flavor to the book’s adventures, gain minor rules benefits, and perhaps more easily befriend—or irritate—their classmates. For our adventure, characters will be able to enroll in a single extracurricular for their first year. In their second year, you can enroll in a second extracurricular, but not if your character already has a job.
+                        Extracurriculars are a key part of student life at Strixhaven. Characters can join extracurriculars to add flavor to the book’s adventures, gain minor rules benefits, and perhaps more easily befriend—or irritate—their classmates. For our adventure, characters will be able to enroll in two extracurricular activities, but only if your character does not hold a campus job.
+                    </p>
+                    <p>
+                        A character can hold one job at a time, and they can participate in only one extracurricular while they have a job. A student can switch Jobs whenever they wish, even in the middle of the academic year, as long as they don’t work more than one Job at a time. A student who works a Job gains 5 gp at the start of each session that they hold the Job. If a student quits during the academic year, they stop earning this money at the end of the session in which they quit.
                     </p>
                     <p>
                         Characters can gain the benefit from a new extracurricular only by joining it at the start of an academic year, which corresponds to the beginning of a new adventure. Typically, joining an extracurricular in between academic years isn’t eventful. Players should note the changes on their tracking sheet.
@@ -39,7 +49,8 @@ export default function Mechanics() {
             </Row>
             <br />
 
-            <Row className="infoBox2">
+
+            <Row className="infoBox1">
                 <h2>Student Schedules</h2>
                 <p>
                     Before starting their first day, your characters must choose at least three courses they are taking this year. You must enroll in the first year course offered by your prospective college, if you are unsure which other first year courses to take you may roll a d6 to decide. 
@@ -47,9 +58,9 @@ export default function Mechanics() {
                 <p>
                     First year characters are also enrolled in a required course, Magical Physiologies, which will be the class representing exam encounters for the academic year. Exam Encounters will be explained in the next section of this page. 
                 </p>
-                <Col md={6}>
+                <Col md={6} className="float-container">
                     <h4> First Year Courses </h4>
-                    <ul style={{ listStyleType: "decimal" }} className="float-container-dean">
+                    <ul style={{ listStyleType: "decimal", width: "100%", textAlign:"center"}} >
                         <li>
                             Arcano-botany for Beginners (Witherbloom)
                         </li>
@@ -70,9 +81,9 @@ export default function Mechanics() {
                         </li>
                     </ul>
                 </Col>
-                <Col md={6} >
+                <Col md={6} className="float-container">
                     <h4> Second Year Courses </h4>
-                    <ul style={{listStyleType: "decimal"}} className="float-container-dean">
+                    <ul style={{listStyleType: "decimal", width: "100%", textAlign:"center"}} >
                         <li>
                             Applied Computational Magic (Quandrix)
                         </li>
@@ -119,7 +130,7 @@ export default function Mechanics() {
             </Row>
             <br />
 
-            <Row className="infoBox1">
+            <Row className="infoBox2">
                 <h2> Exams </h2>
                 <Col md={6} className="float-container float-left-order">
                     <p>

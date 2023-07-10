@@ -117,7 +117,7 @@ const CustomNavbar = () => {
                   Witherbloom
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/npcs/students/relationships" onClick={handleNavClose}>
-                  Student NPC Relationships
+                  NPC Relationships
                 </NavDropdown.Item>
               </NavDropdown>
 
