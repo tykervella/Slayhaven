@@ -129,9 +129,12 @@ const CustomNavbar = () => {
                 <NavDropdown.Item as={Link} to="/creation" onClick={handleNavClose}>
                   Character Creation
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/rules" onClick={handleNavClose}>
-                  Rule Changes
+                <NavDropdown.Item as={Link} to="/mechanics" onClick={handleNavClose}>
+                  Student Mechanics
                 </NavDropdown.Item>
+                {/* <NavDropdown.Item as={Link} to="/rules" onClick={handleNavClose}>
+                  Rule Changes
+                </NavDropdown.Item> */}
               </NavDropdown>
 
               <NavDropdown

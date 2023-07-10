@@ -36,6 +36,7 @@ import WitherbloomStudents from './pages/npcs/students/Witherbloom';
 //import resources pages 
 import Archetypes from './pages/resources/Archetypes'
 import Creation from './pages/resources/Creation'
+import Mechanics from './pages/resources/Mechanics'
 
 
 import backgroundIMG from './components/images/backgroundimg.jpg'
@@ -156,6 +157,10 @@ function App() {
             <Route
               path="/creation"
               element={<Creation />}
+            />
+            <Route
+              path="/mechanics"
+              element={<Mechanics />}
             />
 
           </Routes>
