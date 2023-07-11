@@ -135,9 +135,9 @@ const CustomNavbar = () => {
                 <NavDropdown.Item as={Link} to="/mechanics" onClick={handleNavClose}>
                   Student Life Mechanics
                 </NavDropdown.Item>
-                {/* <NavDropdown.Item as={Link} to="/rules" onClick={handleNavClose}>
-                  Rule Changes
-                </NavDropdown.Item> */}
+                <NavDropdown.Item as={Link} to="/memories" onClick={handleNavClose}>
+                  Memory Tracking Sheet 
+                </NavDropdown.Item>
               </NavDropdown>
 
             </Nav>
