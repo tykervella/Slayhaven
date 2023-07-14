@@ -21,11 +21,11 @@ export default function Archetypes() {
                 </p>
 
                 <p>
-                    Mechanically speaking, choosing an archetype will grant you additional active and passive abilities as your character reaches certain levels. Each archetype has a combination of passive and active abilities that are available for your characters to learn. You will choose a passive ability for your character at levels 2 and 6 and a active ability for your character at levels 5 and 9.
+                    Mechanically speaking, choosing an archetype will grant you additional abilities as your character reaches certain levels. Each archetype has a combination of passive and active abilities that characters can learn. You will choose a passive ability for your character at levels 2 and 6 and a active ability for your character at levels 5 and 9.
                 </p>
 
                 <p>
-                    You get the following ability at level 2 when you choose the given archetype.
+                    Moreover, you get the following static ability at level 2 when you choose the given archetype.
 
                     <ul>
                         <li>
