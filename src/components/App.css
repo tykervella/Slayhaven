@@ -190,7 +190,7 @@ li {
 @media (max-width: 968px) {
 
   p {
-    text-align: left;
+    text-align: center;
   }
   .container {
     height: auto;
