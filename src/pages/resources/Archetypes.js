@@ -23,6 +23,28 @@ export default function Archetypes() {
                 <p>
                     Mechanically speaking, choosing an archetype will grant you additional active and passive abilities as your character reaches certain levels. Each archetype has a combination of passive and active abilities that are available for your characters to learn. You will choose a passive ability for your character at levels 2 and 6 and a active ability for your character at levels 5 and 9.
                 </p>
+
+                <p>
+                    You get the following ability at level 2 when you choose the given archetype.
+
+                    <ul>
+                        <li>
+                            <b><u>The Damager,</u></b> add +2 to your primary spellcasting ability, up to a maximum of 20. Additionally, whenever you cast a cantrip that requires enemies to make a ST, they still take half damage even if they fail the ST. 
+                        </li>
+                        <li>
+                            <b><u>The Expert,</u></b> add +2 to any ability, up to a maximum of 20.  Additionally, you gain a permanent +1 to all saving throws and ability checks.
+                        </li>
+                        <li>
+                            <b><u>The Healer,</u></b> add +2 to your primary spellcasting ability , up to a maximum of 20. Additionally, whenever you level up you may choose spells from the cleric spell list in addition to your own. 
+                        </li>
+                        <li>
+                            <b><u>The Protector,</u></b> add +2 to your constitution or strength ability, up to a maximum of 20. Additionally, you gain proficiency in light and shields. You are still able to complete all somatic components for your spells while wielding your shield. 
+                        </li>
+                        <li>
+                            <b><u>The Trickster,</u></b> Upon taking archetype: add +2 to your dexterity ability, up to a maximum of 20. Additionally, you have advantage on dexterity saving throws. 
+                        </li>
+                    </ul>
+                </p>
             </Row>
             <br />
 
@@ -45,7 +67,7 @@ export default function Archetypes() {
                 <h4>Passive Abilities:</h4>
                 <ul>
                     <li>
-                        <b><u>Tactical Precision</u></b>, requires level 2, add +2 to any stat of your choice, up to a maximum of 20. Additionally, you gain a permanent +1 to all attacks rolls, magical or otherwise.
+                        <b><u>Tactical Precision</u></b>, requires level 2, when you cast a spell that dealts AOE damage, you do not damage your allies. Additionally, you gain a permanent +1 to your spell save DC and spell attack bonus. 
                     </li>
                     <li>
                         <b><u>Elemental Adept</u></b>, requires level 2, choose a damage type from acid, cold, fire, lighting, necrotic, thunder, or radiant. You ignore resistances and can reroll 1s for damage of the selected type. You must use the damage roll even if it is another 1 (unless you have another ability that allows you to reroll for the selected damage type).
@@ -78,27 +100,28 @@ export default function Archetypes() {
 
             <Row className="infoBox1">
                 <h2>The Expert</h2>
+                <Row>
+                    <Col md={6} className="float-container float-left-order">
 
-                <Col md={6} className="float-container float-left-order">
-
-                    <p>
-                        The Expert is the intellectual powerhouse of the group. They are the masters of a specific field, be it magic, history, or politics, bringing depth and clarity to the team's understanding of the world. Their knowledge often uncovers hidden paths, deciphers ancient languages, or unravels the mysteries that block the group's progress. Even though they might not be frontline fighters, their intellectual contributions are pivotal to the group's success. With their vast knowledge comes the burden of the truths they uncover, often revealing harsh realities or uncomfortable truths.
-                    </p>
-                </Col>
-                <Col md={6} className="float-container float-right-order">
-                    <img
-                        src={Expert}
-                        style={{ width: "80%", marginBottom: "2.5%" }}
-                        alt="Mage unlocking new skills with the borrowed knowledge spell"
-                    />
-                </Col>
+                        <p>
+                            The Expert is the intellectual powerhouse of the group. They are the masters of a specific field, be it magic, history, or politics, bringing depth and clarity to the team's understanding of the world. Their knowledge often uncovers hidden paths, deciphers ancient languages, or unravels the mysteries that block the group's progress. Even though they might not be frontline fighters, their intellectual contributions are pivotal to the group's success. With their vast knowledge comes the burden of the truths they uncover, often revealing harsh realities or uncomfortable truths.
+                        </p>
+                    </Col>
+                    <Col md={6} className="float-container float-right-order">
+                        <img
+                            src={Expert}
+                            style={{ width: "80%", marginBottom: "2.5%" }}
+                            alt="Mage unlocking new skills with the borrowed knowledge spell"
+                        />
+                    </Col>
+                </Row>
                 <h4>Passive Abilities:</h4>
                 <ul>
                     <li>
-                        <b><u>Strategic Precision</u></b>, requires level 2, add +2 to any stat of your choice, up to a maximum of 20. Additionally, you gain a permanent +1 to all saving throws and ability checks.
+                        <b><u>Tactical Insights</u></b>, requires level 2, You, and any friendly creature that starts combat within 5ft of you, gain a bonus to your initiative equal to your proficiency bonus. 
                     </li>
                     <li>
-                        <b><u>Language Savant</u></b>, requires level 2, you gain the ability to understand and speak all languages. Additionally, you can perfectly recall any thing you have read within the past month.
+                        <b><u>Sentinel's Wisdom</u></b>, requires level 2, you gain proficiency in any two skills of your choice. Additionally, when you are conscious, you are unable to be surprised. 
                     </li>
                     <li>
                         <b><u>Arcane Excellence</u></b>, requires level 6, you have pushed past the limits of what is considered possible. Add +2 to your choice of Charisma, Intellegence, or Wisdom. This also raises your ability score cap from 20 to 22 for the selected ability.
@@ -116,7 +139,7 @@ export default function Archetypes() {
                         <b><u>Spellweaver's Insight</u></b>, requires level 5, once per long rest you are able to tap into the infinite knowledge of the weave and gain magical insights. As a bonus action, you instantly prepare a single spell from any class's spell list. This spell must be of a level that you can cast.
                     </li>
                     <li>
-                        <b><u>Mystic Retreat</u></b>, requires level 9, you learn the spell <a href="http://dnd5e.wikidot.com/spell:temporal-shunt" target="_blank">temporal shunt</a> and always have it prepared, even if it is not typically on your class's spell list. You can cast it once per long rest without expending a spell slot. Additionally, as part of the same reaction as casting this spell, you grant the ability to you and a number of allies within 60ft equal to your proficiency to move up to their speed without provoking opportunity attacks. An ally must use their own reaction in order to be able to move in this way.
+                        <b><u>Historical Echoes</u></b>, requires level 9, you learn the spell <a href="http://dnd5e.wikidot.com/spell:true-seeing" target="_blank">true seeing</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, when you cast true seeing, you also get brief glimpses of significant past events that happened in your immediate surroundings within the last 24 hours.
                     </li>
                     <li>
                         <b><u>Expert Cleansing</u></b>, requires level 9, once per long rest you are able to utilize your breadth of knowledge in order to disrupt spells' effects. As an action you may touch a friendly creature and end the effect all spells that are currently affecting them.
@@ -144,10 +167,12 @@ export default function Archetypes() {
                 <h4>Passive Abilities:</h4>
                 <ul>
                     <li>
-                        <b><u>Studied Healer</u></b>, requires level 2, you may learn one cantrip and any two first level spells of your choice from the <a href="http://dnd5e.wikidot.com/spells:cleric" target="_blank">cleric spell list</a>. You can cast each of the spells once at their lowest level without expending a spell slot.
+                        <b><u>Overflowing Life</u></b>, requires level 2, whenever you cast a healing spell, and the healing points exceed their maximum health, the excess healing is granted as temporary hit points. The number of temporary HP granted in this way cannot exceed your level.
+
+
                     </li>
                     <li>
-                        <b><u>Healing Adept</u></b>, requires level 2, when casting a spell of 1st level or higher you can reroll 1s and 2s when restoring HP to yourself or others. You must use the roll even if it is another 1 or 2 (unless you have another ability that allows you to reroll). Additionally, when you restore HP to another creature you also regain HP equal to your proficiency bonus.
+                        <b><u>Healing Adept</u></b>, requires level 2, when casting a spell of 1st level or higher you can reroll 1s when restoring HP to yourself or others. You must use the roll even if it is another 1 (unless you have another ability that allows you to reroll). Additionally, when you restore HP to another creature you also regain HP equal to your proficiency bonus.
                     </li>
                     <li>
                         <b><u>Arcane Excellence</u></b>, requires level 6, you have pushed past the limits of what is considered possible. Add +2 to your choice of Charisma, Intellegence, or Wisdom. This also raises your ability score cap from 20 to 22 for the selected ability.
@@ -178,20 +203,20 @@ export default function Archetypes() {
 
             <Row className="infoBox1">
                 <h2>The Protector</h2>
-
-                <Col md={6} className="float-left-order float-container">
-                    <p>
-                        The Protector, often seen as a guardian or tank, prioritizes the defense of the group. As a magical barrier wielder, they position themselves between harm and their companions. Their sense of duty and sacrifice are unparalleled, willing to endure the brunt of enemy attacks to keep their allies safe. Though they often bear the physical scars of battle, it's their emotional resilience and unwavering loyalty that truly define them. Their protective instincts extend beyond the battlefield as they often seek to mediate conflicts and maintain group cohesion.
-                    </p>
-                </Col>
-                <Col md={6} className="float-right-order float-container">
-                    <img
-                        src={Protector}
-                        style={{ width: "80%", marginBottom: "2.5%" }}
-                        alt="Mage deflecting a blow with the stone shape spell"
-                    />
-                </Col>
-
+                <Row>
+                    <Col md={6} className="float-left-order float-container">
+                        <p>
+                            The Protector, often seen as a guardian or tank, prioritizes the defense of the group. As a magical barrier wielder, they position themselves between harm and their companions. Their sense of duty and sacrifice are unparalleled, willing to endure the brunt of enemy attacks to keep their allies safe. Though they often bear the physical scars of battle, it's their emotional resilience and unwavering loyalty that truly define them. Their protective instincts extend beyond the battlefield as they often seek to mediate conflicts and maintain group cohesion.
+                        </p>
+                    </Col>
+                    <Col md={6} className="float-right-order float-container">
+                        <img
+                            src={Protector}
+                            style={{ width: "80%", marginBottom: "2.5%" }}
+                            alt="Mage deflecting a blow with the stone shape spell"
+                        />
+                    </Col>
+                </Row>
                 <h4>Passive Abilities:</h4>
                 <ul>
                     <li>
@@ -204,7 +229,7 @@ export default function Archetypes() {
                         <b><u>Arcane Excellence</u></b>, requires level 6, you have pushed past the limits of what is considered possible. Add +2 to your choice of Charisma, Intellegence, or Wisdom. This also raises your ability score cap from 20 to 22 for the selected ability.
                     </li>
                     <li>
-                        <b><u>Protective Presence</u></b>, requires level 6, your solid presence allows it such that after a short or long rest, you and your party members gain a number of temporary HP equal to your total level plus your constitution modifier.
+                        <b><u>Protective Presence</u></b>, requires level 6, your solid presence allows it such that you are more sturdy. You gain 2HP for each level you currently have, and you gain an additional 2HP each time you level up. Additionally you gain the Protection Fighting Style
                     </li>
 
                 </ul>
@@ -280,7 +305,7 @@ export default function Archetypes() {
                         <b><u>Multi Step</u></b>, requires level 5, you learn the spell <a href="http://dnd5e.wikidot.com/spell:misty-step" target="_blank">misty step</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, you learn how to manipulate the weave and take someone else with you as you teleport. You may target a willing creature within 5ft of you and bring them with you as you misty step. They must appear within 5ft of where you teleport to in a position of your choice.
                     </li>
                     <li>
-                        <b><u>Uncanny Redirection</u></b>, requires level 5, once per long rest you can use your reaction in response to being hit by a melee weapon attack. Utilizing techniques of misdirection, you cause the attacker to instead harm themselves. Roll critical damage for the weapon damage they would normally have inflicted against you.
+                        <b><u>Uncanny Redirection</u></b>, requires level 5, once per short or long rest you can use your reaction in response to being hit by a melee weapon attack. Utilizing techniques of misdirection, you cause the attacker to instead harm themselves. You deal the maximum damage that would have been dealt to you. 
                     </li>
                     <li>
                         <b><u>Disappearing act</u></b>, requires level 9, you learn the spell <a href="http://dnd5e.wikidot.com/spell:greater-invisibility" target="_blank">greater invisibility</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, you gain the ability to cast this spell as a reaction in response to taking damage. When cast in this way, you gain resistance to all damage until the start of your next turn.
