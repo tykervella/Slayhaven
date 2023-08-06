@@ -59,7 +59,7 @@ export default function Silverquill() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Grayson Wildemere</h3>
-            <h6>Neutral, Human, First Year, he/him</h6>
+            <h6>Neutral, Human, Bard, First Year, he/him</h6>
             <p>
               Grayson comes from an old, moneyed, and influential family. To him, studying at Strixhaven is a means to an end. Learning business acumen is just as important to Grayson as his classes, so he has joined the Future Entrepreneurs of Strixhaven. Grayson makes a point to know as much about everyone as possible, gathering information until he finds the best circumstance to use it. Having learned to pick locks, he often accesses places where he’s unauthorized, searching for secrets.
             </p>
@@ -85,12 +85,12 @@ export default function Silverquill() {
         <Row>
           <Col md={6} className="float-container float-left-order">
             <h3>Mina Lee</h3>
-            <h6>Lawful Good, Humanm Second Year, they/them</h6>
+            <h6>Lawful Good, Wizard (onomancy), Humanm Second Year, she/her</h6>
             <p>
-              Mina’s greatest love is the use of language; they adores how subtle differences in intonation and vocabulary can shape one’s perception of reality. Their fascination with language extends to spells and verbal components. After graduation, they plans to conduct research on the variance of language in spells and how one might tweak verbal components that the greater magical community considers immutable.
+              Mina’s greatest love is the use of language; she adores how subtle differences in intonation and vocabulary can shape one’s perception of reality. Her fascination with language extends to spells and verbal components. After graduation, she plans to conduct research on the variance of language in spells and how one might tweak verbal components that the greater magical community considers immutable.
             </p>
             <p>
-              Mina’s love of language and nuance has led them to join the Strixhaven Star as an investigative journalist. Here, they reveal truth, correct misconceptions, and combat injustice. They have also taken a job as a server at Firejolt Café, which not only provides some cash but also puts them in a position to overhear snippets of conversation that might provide leads for their journalistic investigations.
+              Mina’s love of language and nuance has led her to join the Strixhaven Star as an investigative journalist. Here, she reveals truth, corrects misconceptions, and combats injustice. She has also taken a job as a server at Firejolt Café, which not only provides some cash but also puts her in a position to overhear snippets of conversation that might provide leads for her journalistic investigations.
             </p>
           </Col>
           <Col md={6} className="float-container float-right-order">
@@ -125,7 +125,7 @@ export default function Silverquill() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Rubina Larkingdale</h3>
-            <h6>Lawful Neutral, Human, First Year, she/her</h6>
+            <h6>Lawful Neutral, Human, Cleric (knowledge), First Year, she/her</h6>
             <p>
               When Rubina walks into a room, people take notice. A measured performer with gravitas beyond her years, Rubina is a valued member of the Playactors Drama Guild who can handle weightier roles that more melodramatic actors can’t. This has caused friction within the guild as members vie for parts. Rubina’s stage presence extends to delivering presentations in class. When she orates, one can almost imagine a hardened general marshaling her bloodied and exhausted troops for a final push against a far superior foe.
             </p>
@@ -151,11 +151,11 @@ export default function Silverquill() {
         <Row>
           <Col md={6} className="float-container float-left-order">
             <h3>Shuvadri Glintmantle</h3>
-            <h6>Lawful Good, Owlin, First Year, she/they </h6>
+            <h6>Lawful Good, Owlin, Cleric (light), First Year, she/her </h6>
             <p>
-              Her peers are often surprised when they learn Shuvadri is interested in joining Silverquill College, since its members sometimes earn a reputation as abrasive. Shuvadri, on the other hand, exhibits an air of absolute serenity. Anything that might frustrate or delight another student, whether it’s a poor test score or success at a competition, elicits little outward response from Shuvadri. A deep thinker, Shuvadri is rarely surprised by such an outcome, and they enjoys being a centering presence for their peers.
+              Her peers are often surprised when they learn Shuvadri is interested in joining Silverquill College, since its members sometimes earn a reputation as abrasive. Shuvadri, on the other hand, exhibits an air of absolute serenity. Anything that might frustrate or delight another student, whether it’s a poor test score or success at a competition, elicits little outward response from Shuvadri. A deep thinker, Shuvadri is rarely surprised by such an outcome, and she enjoys being a centering presence for herr peers.
             </p>
-              Also a member of the Student-Mages of Faith, Shuvadri is happy to talk about their appreciation of deities who are devoted to service and community. Many of her peers think she is destined to hold high rank in a temple.
+              Also a member of the Student-Mages of Faith, Shuvadri is happy to talk about her appreciation of deities who are devoted to service and community. Many of her peers think she is destined to hold high rank in a temple.
             <p>
               Shuvadri works on the campus grounds to erase graffiti, wearing a content smile on her face.
             </p>

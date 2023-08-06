@@ -113,10 +113,15 @@ td {
   display:flex; 
   flex-direction: column; 
   align-items: center; 
+  
 }
 
 .float-container {
   justify-content: center;
+}
+
+.float-containr img {
+  margin: 0 auto;
 }
 
 .float-conatiner-dean {

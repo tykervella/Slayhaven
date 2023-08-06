@@ -58,7 +58,7 @@ export default function Quandrix() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Cadoras Damellawar</h3>
-            <h6>Chaotic Good, Elf, First Year, they/them </h6>
+            <h6>Chaotic Good, Wood Elf, Druid (land-forest) First Year, he/him </h6>
             <p>
               Cadoras is a jolly soul, and anyone who spends time with them ends up chuckling at whatever nonsense they are currently sporting. They are a passionate member of the Live-Action Roleplaying Guild and love playing out all sorts of fantastical adventures. They always roleplay archers, entirely because they've recently spent a lot of money on a prop-bow and can’t afford anything else. They are also a member of the university’s Distinguished Society of Fine Artists, where they uses magic to sculpt beautiful statuary of complex fractal patterns. The fact that they are self-taught makes the quality of their work that much more impressive.
             </p>
@@ -85,7 +85,7 @@ export default function Quandrix() {
         <Row>
           <Col md={6} className="float-container float-left-order">
             <h3>Drazhomir Yarnask</h3>
-            <h6>Neutral Good, Minotaur, Second Year, he/him</h6>
+            <h6>Neutral Good, Minotaur, Wizard (transmutation), Second Year, he/him</h6>
             <p>
               Drazhomir is so soft-spoken that many of his peers must ask him to speak up to be understood. He is over seven feet tall, yet he continuously stoops, as if trying to occupy as little space as possible. Several activities and clubs that involve feats of strength and size continuously try to recruit him—to no avail. Drazhomir prefers spending his time in the Biblioplex, where he works as a book clerk, assisting students in finding required texts and shelving returns. He moves silently through the stacks, and he has given more than one student a scare when they’ve turned around to suddenly find him there.
             </p>
@@ -125,9 +125,9 @@ export default function Quandrix() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Larine Arneza</h3>
-            <h6>Neutral Good, Human, First Year, Agender any pronouns (he/she/they) </h6>
+            <h6>Neutral Good, Human, Sorcerer (wild magic), First Year, she/they </h6>
             <p>
-              Some think Larine is aloof to the point of being rude, but their friends say that nothing is further from the truth. They are a delightful presence, who doesn’t ignore social obligations so much as get distracted easily. Larine is a member of the Intramural Water-Dancing Club, where they perform underwater balletic movements effortlessly. Despite their swimming ability, his tendency to lose focus means learning group choreography takes them more time and effort. Larine has a natural affinity with animals, especially aquatic species, and they're working on a solo synchronized swimming routine that replaces the other students with a shoal of fish. Rehearsals aren’t going well. As an employee of the Strixhaven Performing Arts Society, Larine is a ticket taker, a job he’s recently switched to as a result of struggling to give correct change while working at the box office.
+              Some think Larine is aloof to the point of being rude, but their friends say that nothing is further from the truth. They are a delightful presence, who doesn’t ignore social obligations so much as get distracted easily. Larine is a member of the Intramural Water-Dancing Club, where they perform underwater balletic movements effortlessly. Despite their swimming ability, his tendency to lose focus means learning group choreography takes them more time and effort. Larine has a natural affinity with animals, especially aquatic species, and they're working on a solo synchronized swimming routine that replaces the other students with a shoal of fish. Rehearsals aren’t going well. As an employee of the Strixhaven Performing Arts Society, Larine is a ticket taker, a job she’s recently switched to as a result of struggling to give correct change while working at the box office.
             </p>
           </Col>
         </Row>
@@ -148,7 +148,7 @@ export default function Quandrix() {
         <Row>
           <Col md={6} className="float-container float-left-order">
             <h3>Tilana Kapule</h3>
-            <h6>Neutral Good, Human, First Year, she/her</h6>
+            <h6>Neutral Good, Human, Wizard (conjuration), First Year, she/her</h6>
             <p>
               Tilana’s poised demeanor and steady gaze are remarkable. An excellent judge of character, she doesn’t associate with those she deems mean-spirited. Her exacting judgment has led her to join the Dragonchess Club, and while she is still honing her skill at the game itself, she compensates by reading her opponent instead of the board. Many a foe has struggled to sit in silence as she gives them her full attention, probing for weaknesses, the pieces seemingly incidental.
             </p>

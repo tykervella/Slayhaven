@@ -59,7 +59,7 @@ export default function Lorehold() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Bhedum “Rampart” Sooviij</h3>
-            <h6>Lawful Neutral, Loxodon, First Year, they/them </h6>
+            <h6>Lawful Neutral, Loxodon, Wizard (order of scribes), First Year, they/them </h6>
             <p>
               Since their name is difficult to pronounce without a trunk, Bhedum has taken to referring to themself as “Rampart,” the closest translation of their name in Common. They are often found poring over ancient texts detailing battles, seeking to better understand the tactical decisions that result in victory and defeat. Rampart is happy to discuss their knowledge with fellow members of the Dragonsguard Historical Society, often doing so late into the night.
             </p>
@@ -85,12 +85,12 @@ export default function Lorehold() {
         <Row>
           <Col md={6} className="float-container float-left-order">
             <h3>Greta Gorunn</h3>
-            <h6>Chaotic Good, Dwarf, First Year, she/they </h6>
+            <h6>Chaotic Good, Dwarf, Fighter, First Year, she/her </h6>
             <p>
-              Greta is often heard long before she is seen, as their raucous laughter echoes through the university’s halls. Enjoying a reputation as a golden-hearted troublemaker, Greta hates studying and grumbles about it at length. This has led to numerous warnings from the librarians for unnecessarily loud behavior, much to Greta’s amusement.
+              Greta is often heard long before she is seen, as her raucous laughter echoes through the university’s halls. Enjoying a reputation as a golden-hearted troublemaker, Greta hates studying and grumbles about it at length. This has led to numerous warnings from the librarians for unnecessarily loud behavior, much to Greta’s amusement.
             </p>
             <p>
-              A fervent member of the Strixhaven Iron-Lifters Society, she has already started to break long-held records in both powerlifting and weightlifting. When not training or competing (or occasionally studying), Greta spends their time in Bow’s End Tavern carousing. As beer isn’t free, they help out at Strixhaven Stadium, setting up and putting away heavy equipment. Most people would begrudge the hard labor, but Greta happily does it, reasoning that she is being paid to work out.
+              A fervent member of the Strixhaven Iron-Lifters Society, she has already started to break long-held records in both powerlifting and weightlifting. When not training or competing (or occasionally studying), Greta spends her time in Bow’s End Tavern carousing. As beer isn’t free, she helps out at Strixhaven Stadium, setting up and putting away heavy equipment. Most people would begrudge the hard labor, but Greta happily does it, reasoning that she is being paid to work out.
             </p>
             <p>
               Greta makes a point to write regularly to her older brother, Grog, whom she misses terribly.
@@ -128,7 +128,7 @@ export default function Lorehold() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Javenesh Stoutclaw</h3>
-            <h6>Neutral Good, Owlin, Second Year, he/him</h6>
+            <h6>Neutral Good, Owlin, cleric (order), Second Year, he/him</h6>
             <p>
               Javenesh is an imposing and powerfully built owlin who looks permanently scruffy despite his best efforts. Contributing to his dishevelment are tufts of juvenile plumage that refuse to smooth down, a handful of scars whose origin he’s not sure of, and at least one hole in whatever clothing he’s wearing.
             </p>
@@ -154,7 +154,7 @@ export default function Lorehold() {
         <Row>
           <Col md={6} className="float-container float-left-order">
             <h3>Rosimyffenbip “Rosie” Wuzfeddlims</h3>
-            <h6>Chaotic Good, Gnome, First Year, she/her</h6>
+            <h6>Chaotic Good, Gnome, Sorcerer (divine soul), First Year, she/her</h6>
             <p>
               Excitable and impish, Rosimyffenbip is proud of her name; she insists you can call her “Rosie” only if you are her friend. Or a teacher. Or a student. Or any other member of the university staff. Rosie speaks quickly and with so much energy that it often takes a moment to recover from a conversation with her. She moves far faster than one would expect; it’s unclear whether this is due to magic, a gnomish technological contraption, or just the laws of physics bending to Rosie’s force of personality.
             </p>

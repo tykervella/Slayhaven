@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 
 import Aurora from '../../../components/images/characters/students/03-008.aurora.png'
+import Ehsan from '../../../components/images/characters/students/ehsan.png'
 import Melwythorne from '../../../components/images/characters/students/03-016.melwythorne.png'
 import Urzmaktok from '../../../components/images/characters/students/03-024.urzmaktok.png'
 
@@ -56,15 +57,15 @@ export default function Witherbloomx() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Aurora Luna Wynterstarr</h3>
-            <h6>Neutral, Dhampir, First Year, she/they </h6>
+            <h6>Neutral, Dhampir, Bard, First Year, she/her</h6>
             <p>
-              Before arriving at Strixhaven, Aurora changed their name and appearance to that of her on-stage persona: Aurora Luna Wynterstarr, the brilliant singer and songwriter. Aurora was born a dhampir (a partial vampire), which they've taken as a cosmic sign that they are meant for greatness.
+              Before arriving at Strixhaven, Aurora changed her name and appearance to that of her on-stage persona: Aurora Luna Wynterstarr, the brilliant singer and songwriter. Aurora was born a dhampir (a partial vampire), which she's taken as a cosmic sign that she is meant for greatness.
             </p>
             <p>
               An accomplished musician on several instruments, Aurora is often found at Bow’s End Tavern performing beautiful dirges on the hurdy-gurdy for the assembled patrons. Aurora is also a member of the Strixhaven Show Band Association, though she believes the music they play lacks the raw emotion of their original compositions.
             </p>
             <p>
-              They work as a groundskeeper at the Strixhaven Stadium, where she takes great pleasure in using magic to blight undesirable vegetation on the field.
+              She works as a groundskeeper at the Strixhaven Stadium, where she takes great pleasure in using magic to blight undesirable vegetation on the field.
             </p>
           </Col>
         </Row>
@@ -84,21 +85,54 @@ export default function Witherbloomx() {
         </div>
         <Row>
           <Col md={6} className="float-container float-left-order">
+            <h3>Ehsan Goldenmane</h3>
+            <h6>Chaotic Good, Leonin, Ranger, First Year, he/him</h6>
+            <p>Ehsan’s magical gifts bloomed late, meaning he is a good twenty or so years older than his peers. Those additional decades did not go to waste, however, as Ehsan is an excellent archer, forger, and all-around naturalist.</p>
+            <p>As punctual and attentive in classes as he is, Ehsan appreciates his privacy from fellow students and faculty alike. With his worldly experience and keen senses, Ehsan has found a few places around campus where he can get away, whether it’s from the incessant rumour mill (students love gossip) or just to study alone.</p>
+            <p>When not in seclusion, Ehsan can be found cooking at the Bow's End Tavern, or keeping himself in shape at the Stadium. He appreciates the friendly competition with his Iron-Lifters Society peers.</p>
+          </Col>
+          <Col md={6} className="float-container float-right-order">
+            <img 
+              src={Ehsan} 
+              className= "student-portait"
+              alt="" 
+            />
+          </Col>
+        </Row>
+        <div className="student-info">
+          <p>
+            <b><u>Extracurriculars</u></b>: Strixhaven Iron-Lifters Society
+          </p>
+          <p>
+            <b><u>Job</u></b>: Bow's End Tavern Cook
+          </p>
+          <p>
+            <b><u>Bond Boon</u></b>: Ehsan has shared a few secret hiding places and quiet corners where you won’t be found by other students or faculty, unless you want them to.
+
+          </p>
+          <p>
+            <b><u>Bond Bane</u></b>: Other students can track you down easily whether you want them to or not, as can Witherbloom faculty.
+
+          </p>
+        </div>
+       
+        <Row>
+          <Col md={6} className="float-container">
+            <img 
+              src={Melwythorne} 
+              className= "student-portait"
+              alt="" 
+            />
+          </Col>
+          <Col md={6} className="float-container ">
             <h3>Melwythorne</h3>
-            <h6>Neutral Good, Dryad, First Year, Xe/Xir </h6>
+            <h6>Neutral Good, Dryad, Druid (land-swamp), First Year, Xe/Xir </h6>
             <p>
               Towering over most students, Melwythorne strikes an imposing figure, especially given the branches that grow from xir head like antlers. Calm in demeanor, xe’s often confused by the people rushing around xim, as xir haste won’t lengthen their brief lifespans. Melwythorne had never been away from xir grove before coming to Strixhaven and has found the transition to university life difficult. However, since xe joined the Intramural Silkball Club, this close-knit surrogate family has helped xim deal with xir homesickness.
             </p>
             <p>
               Xe is also a member of the Student-Mages of Faith. Xe enjoys helping xir fellow students celebrate their high holidays and discussing theology and spirituality. For xim, the natural world and all living beings form a vast consciousness across all planes of existence, transcending the power and reach of any one deity.
             </p>
-          </Col>
-          <Col md={6} className="float-container float-right-order">
-            <img 
-              src={Melwythorne} 
-              className= "student-portait"
-              alt="" 
-            />
           </Col>
         </Row>
         <div className="student-info">
@@ -116,17 +150,12 @@ export default function Witherbloomx() {
             <b><u>Bond Bane</u></b>: Members of the silkball club and the Student-Mages of Faith refuse to acknowledge your presence.
           </p>
         </div>
+
         <Row>
-          <Col md={6} className="float-container">
-            <img 
-              src={Urzmaktok} 
-              className= "student-portait"
-              alt="" 
-            />
-          </Col>
-          <Col md={6} className="float-container">
+
+          <Col md={6} className="float-container float-left-order">
             <h3>Urzmaktok Grojsh</h3>
-            <h6>Neutral, Orc, Second Year, He/Him </h6>
+            <h6>Neutral, Orc, Wizard (necromancy), Second Year, He/Him </h6>
             <p>
               First to class, last to leave, and always asking for additional homework, Urzmaktok is a meticulous student. Despite his consistently high marks, Urzmaktok makes no attempt to show off, although his studies seem rudimentary to him. Rumor has it that he is completing enough credits to earn multiple degrees when he graduates.
             </p>
@@ -136,6 +165,13 @@ export default function Witherbloomx() {
             <p>
               Urzmaktok makes it clear he wants everyone to use his full first name. Should anyone use a nickname, he won’t acknowledge the address.\
             </p>
+          </Col>
+          <Col md={6} className="float-container float-right-order">
+            <img 
+              src={Urzmaktok} 
+              className= "student-portait"
+              alt="" 
+            />
           </Col>
         </Row>
         <div className="student-info">
