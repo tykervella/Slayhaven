@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8760308.css",
-    "main.js": "/static/js/main.fa0c4da5.js",
+    "main.css": "/static/css/main.c763ed75.css",
+    "main.js": "/static/js/main.91113da7.js",
     "static/media/memory-sheet.png": "/static/media/memory-sheet.e36a061b10156d6706c6.png",
     "static/media/lh-Losheel.png": "/static/media/lh-Losheel.da9c0de96d8bb7976b1b.png",
     "static/media/sq-Fain.png": "/static/media/sq-Fain.3aa581066b1812f291fc.png",
@@ -20,7 +20,9 @@
     "static/media/wb-dean1.png": "/static/media/wb-dean1.8d1fc252a5cb49b432d6.png",
     "static/media/qd-Ruxa.png": "/static/media/qd-Ruxa.5084d12637883fe47045.png",
     "static/media/wb-Tivash.png": "/static/media/wb-Tivash.13216dc61d73190466ba.png",
+    "static/media/ehsan.png": "/static/media/ehsan.fe74fb1d2cf4169a2e12.png",
     "static/media/strixhaven-campus-map.jpg": "/static/media/strixhaven-campus-map.1f2a6416bd49450f8b3a.jpg",
+    "static/media/iya-ruan.png": "/static/media/iya-ruan.ef39768813e1f8f971ed.png",
     "static/media/witherbloom-dragon.png": "/static/media/witherbloom-dragon.95d78c11bd7135b8b0c3.png",
     "static/media/lh-dean2.png": "/static/media/lh-dean2.21da0b2e2caa07411768.png",
     "static/media/qd-Deekah.png": "/static/media/qd-Deekah.47dadaa75466b3852948.png",
@@ -94,11 +96,11 @@
     "static/media/ps-symbol.png": "/static/media/ps-symbol.a2cb4015604e396c80b4.png",
     "static/media/sq-symbol.png": "/static/media/sq-symbol.98c43d884bf3774f9e98.png",
     "index.html": "/index.html",
-    "main.c8760308.css.map": "/static/css/main.c8760308.css.map",
-    "main.fa0c4da5.js.map": "/static/js/main.fa0c4da5.js.map"
+    "main.c763ed75.css.map": "/static/css/main.c763ed75.css.map",
+    "main.91113da7.js.map": "/static/js/main.91113da7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8760308.css",
-    "static/js/main.fa0c4da5.js"
+    "static/css/main.c763ed75.css",
+    "static/js/main.91113da7.js"
   ]
 }
