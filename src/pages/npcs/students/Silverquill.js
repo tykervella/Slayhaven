@@ -85,7 +85,7 @@ export default function Silverquill() {
         <Row>
           <Col md={6} className="float-container float-left-order">
             <h3>Mina Lee</h3>
-            <h6>Lawful Good, Wizard (onomancy), Humanm Second Year, she/her</h6>
+            <h6>Lawful Good, Rogue (arcane trickster), Humanm Second Year, she/her</h6>
             <p>
               Mina’s greatest love is the use of language; she adores how subtle differences in intonation and vocabulary can shape one’s perception of reality. Her fascination with language extends to spells and verbal components. After graduation, she plans to conduct research on the variance of language in spells and how one might tweak verbal components that the greater magical community considers immutable.
             </p>

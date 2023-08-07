@@ -58,7 +58,7 @@ export default function Prismari() {
           </Col>
           <Col md={6} className="float-container">
             <h3>Iya Ruan</h3>
-            <h6>Neutral Good, Merfolk, Rogue, First Year, she/her</h6>
+            <h6>Neutral Good, Merfolk, Sorcerer (storm sorcery), First Year, she/her</h6>
             <p> 
               Iya is a forthright soul, never one to mince her words when the unvarnished truth gets straight to the point. This would be an intolerable trait in anyone other than Iya, who seldom has a dark thought about anyone who hasn’t purposefully tried to cause her trouble. She is fascinated by the many fashions worn by the students and faculty of Strixhaven, with many a passerby being questioned about the origin of their clothing or complimented on their sense of style.
             </p>

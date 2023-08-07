@@ -35,10 +35,10 @@ export default function Archetypes() {
                             <b><u>The Expert,</u></b> add +2 to any ability, up to a maximum of 20.  Additionally, you gain a permanent +1 to all saving throws and ability checks.
                         </li>
                         <li>
-                            <b><u>The Healer,</u></b> add +2 to your primary spellcasting ability , up to a maximum of 20. Additionally, whenever you level up you may choose spells from the cleric spell list in addition to your own. 
+                            <b><u>The Healer,</u></b> add +2 to your primary spellcasting ability or to your constitution, up to a maximum of 20. Additionally, whenever you level up you may choose spells from the cleric spell list in addition to your own. You learn the spells cure wounds and healing word if you do not already know them. 
                         </li>
                         <li>
-                            <b><u>The Protector,</u></b> add +2 to your constitution or strength ability, up to a maximum of 20. Additionally, you gain proficiency in light and shields. You are still able to complete all somatic components for your spells while wielding your shield. 
+                            <b><u>The Protector,</u></b> add +2 to your constitution or strength ability, up to a maximum of 20. Additionally, you gain proficiency in light and medium armor as well as shields. You are still able to complete all somatic components for your spells while wielding your shield. 
                         </li>
                         <li>
                             <b><u>The Trickster,</u></b> Upon taking archetype: add +2 to your dexterity ability, up to a maximum of 20. Additionally, you have advantage on dexterity saving throws. 
@@ -67,7 +67,7 @@ export default function Archetypes() {
                 <h4>Passive Abilities:</h4>
                 <ul>
                     <li>
-                        <b><u>Tactical Precision</u></b>, requires level 2, when you cast a spell that dealts AOE damage, you do not damage your allies. Additionally, you gain a permanent +1 to your spell save DC and spell attack bonus. 
+                        <b><u>Elemental Sculpting</u></b>, requires level 2, when you cast a spell that dealts AOE damage, you do not damage your allies. Additionally, you gain a permanent +1 to your spell save DC and spell attack bonus. 
                     </li>
                     <li>
                         <b><u>Elemental Adept</u></b>, requires level 2, choose a damage type from acid, cold, fire, lighting, necrotic, thunder, or radiant. You ignore resistances and can reroll 1s for damage of the selected type. You must use the damage roll even if it is another 1 (unless you have another ability that allows you to reroll for the selected damage type).
@@ -85,7 +85,7 @@ export default function Archetypes() {
                         <b><u>Catastrophic Spark</u></b>, requires level 5, chose from either <a href="http://dnd5e.wikidot.com/spell:fireball" target="_blank">fireball</a> or <a href="http://dnd5e.wikidot.com/spell:lightning-bolt" target="_blank">lightning bolt</a>. You learn the selected spell and always have it prepared, even if it is not typically on your class's spell list. Once per day, you may cast the selected spell at its lowest level without expending a spell slot. When you cast the selected spell this way, you may choose a number of creatures up to your proficiency bonus to to have disadvantage on their saving throw.
                     </li>
                     <li>
-                        <b><u>Moment of Brilliance</u></b>, requires level 5, once per long rest your mastery of arcane technique allows you to momentarily slow time down in order to perform a combo attack. You gain the ability to cast a spell of 3rd level or lower that would normally take an action as a bonus action. More importantly, you can cast two spells that expend a spell slot in the same turn when casting a spell as a bonus action in this way.
+                        <b><u>Moment of Brilliance</u></b>, requires level 5, once per long rest your mastery of arcane technique allows you to momentarily slow time down in order to perform a show-stopping combo attack. You gain the ability to cast a spell of 3rd level or lower that would normally take an action to cast as a bonus action. More importantly, you can cast two spells that expend a spell slot in the same turn when casting a spell as a bonus action in this way.
                     </li>
                     <li>
                         <b><u>Force of Nature</u></b>, requires level 9, you learn the spell <a href="http://dnd5e.wikidot.com/spell:conjure-elemental" target="_blank">conjure elemental</a> and always have it prepared, even if it is not typically on your class's spell list. You can cast it once per long rest without expending a spell slot. When you cast the selected spell this way, it does not require concentration.
@@ -118,7 +118,7 @@ export default function Archetypes() {
                 <h4>Passive Abilities:</h4>
                 <ul>
                     <li>
-                        <b><u>Tactical Insights</u></b>, requires level 2, You, and any friendly creature that starts combat within 5ft of you, gain a bonus to your initiative equal to your proficiency bonus. 
+                        <b><u>Tactical Insights</u></b>, requires level 2, you gain proficiency in a saving throw of your choice. Additionally, you and any friendly creature that starts combat within 5ft of you, gain a bonus to your initiative equal to your proficiency bonus. 
                     </li>
                     <li>
                         <b><u>Sentinel's Wisdom</u></b>, requires level 2, you gain proficiency in any two skills of your choice. Additionally, when you are conscious, you are unable to be surprised. 
@@ -127,22 +127,22 @@ export default function Archetypes() {
                         <b><u>Arcane Excellence</u></b>, requires level 6, you have pushed past the limits of what is considered possible. Add +2 to your choice of Charisma, Intellegence, or Wisdom. This also raises your ability score cap from 20 to 22 for the selected ability.
                     </li>
                     <li>
-                        <b><u>Scholarly Fortitude</u></b>, requires level 6, you gain proficiency in a saving throw of your choice. Additionally, through intense study and discipline, you've fortified your mind against mental manipulation, rendering you immune to the charmed and frightened conditions.
+                        <b><u>Expert Analysis</u></b>, requires level 6, you may learn any level 2 passive ability from one of the other archetypes listed here. 
                     </li>
                 </ul>
                 <h4>Active Abilities:</h4>
                 <ul>
                     <li>
-                        <b><u>Arcane Appropriation</u></b>, requires level 5, you learn the spell <a href="http://dnd5e.wikidot.com/spell:counterspell" target="_blank">counterspell</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, when you successfully counter an enemy's spell, you gain temporary insights into the arcane essence of that spell. Until the end of your next turn, you learn the exact details of the countered spell and gain the ability to cast it using one of your own spell slots of the appropriate level.
+                        <b><u>Arcane Appropriation</u></b>, requires level 5, you learn the spell <a href="http://dnd5e.wikidot.com/spell:counterspell" target="_blank">counterspell</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, when you successfully counter an enemy's spell, you gain temporary insights into the arcane essence of that spell. Until the end of your next turn, you learn the exact details of the countered spell and gain the ability to cast it using one of your own spell slots of the appropriate level. You may appropriate a spell in this way a number of times equal to your proficiency bonus.
                     </li>
                     <li>
-                        <b><u>Spellweaver's Insight</u></b>, requires level 5, once per long rest you are able to tap into the infinite knowledge of the weave and gain magical insights. As a bonus action, you instantly prepare a single spell from any class's spell list. This spell must be of a level that you can cast.
+                        <b><u>Spellweaver's Insight</u></b>, requires level 5, once per long rest you are able to tap into the infinite knowledge of the weave and gain magical insights. As a bonus action, you instantly prepare a single spell from any class's spell list. This spell must be of a level that you can cast. You may remember a spell in this way a number of times equal to your proficiency bonus, though you may not have more than one spell added to your spell list in this manner at a time.
                     </li>
                     <li>
                         <b><u>Historical Echoes</u></b>, requires level 9, you learn the spell <a href="http://dnd5e.wikidot.com/spell:true-seeing" target="_blank">true seeing</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, when you cast true seeing, you also get brief glimpses of significant past events that happened in your immediate surroundings within the last 24 hours.
                     </li>
                     <li>
-                        <b><u>Expert Cleansing</u></b>, requires level 9, once per long rest you are able to utilize your breadth of knowledge in order to disrupt spells' effects. As an action you may touch a friendly creature and end the effect all spells that are currently affecting them.
+                        <b><u>Expert Cleansing</u></b>, requires level 9, once per long rest you are able to utilize your breadth of knowledge in order to disrupt spells' effects. As an action you may touch a friendly creature and end the effect all spells that are currently affecting them. You may end a spell's effect in this way a number of times equal to your proficiency bonus.
                     </li>
                 </ul>
 
@@ -167,7 +167,7 @@ export default function Archetypes() {
                 <h4>Passive Abilities:</h4>
                 <ul>
                     <li>
-                        <b><u>Overflowing Life</u></b>, requires level 2, whenever you cast a healing spell, and the healing points exceed their maximum health, the excess healing is granted as temporary hit points. The number of temporary HP granted in this way cannot exceed your level.
+                        <b><u>Overflowing Life</u></b>, requires level 2, whenever you cast a healing spell, and the healing points exceed their maximum health, the excess healing is granted as temporary hit points. The number of temporary HP granted in this way cannot exceed your level. While a creature has temporary hitpoints granted in this way, they are under the effects of the bless spell. 
 
 
                     </li>
@@ -188,7 +188,7 @@ export default function Archetypes() {
                         <b><u>Group Healer</u></b>, requires level 5, you learn the spell <a href="http://dnd5e.wikidot.com/spell:mass-healing-word" target="_blank">mass healing word</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Whenever you cast mass healing word, the dice rolled to regain HP increases from a d4 to a d8.
                     </li>
                     <li>
-                        <b><u>Essence Drain</u></b>, requires level 5, once per long rest you are able to manipulate the forces of life and death. When you deal damage to an enemy you can use your reaction to cause one creature within 60ft of you to restore HP equal to the damage you just inflicted.
+                        <b><u>Essence Drain</u></b>, requires level 5, once per long rest you are able to manipulate the forces of life and death. When you deal damage to an enemy you can use your reaction to cause one creature within 60ft of you to restore HP equal to the damage you just inflicted. You can restore HP in this way a number of times equal to your proficiency bonus. 
                     </li>
                     <li>
                         <b><u>Divine Cure</u></b>, requires level 9, you learn the spell <a href="http://dnd5e.wikidot.com/spell:heal" target="_blank">heal</a> and always have it prepared, even if it is not typically on your class's spell list. You can cast it once per long rest without expending a spell slot. When casting this spell, you can divide the HP restored by a number of creatures up to your proficiency bonus in any way you would like. Each creature must be within range of the spell. All other effects of heal are extended to each creature that had at least 1 HP restored from this spell.
@@ -229,7 +229,7 @@ export default function Archetypes() {
                         <b><u>Arcane Excellence</u></b>, requires level 6, you have pushed past the limits of what is considered possible. Add +2 to your choice of Charisma, Intellegence, or Wisdom. This also raises your ability score cap from 20 to 22 for the selected ability.
                     </li>
                     <li>
-                        <b><u>Protective Presence</u></b>, requires level 6, your solid presence allows it such that you are more sturdy. You gain 2HP for each level you currently have, and you gain an additional 2HP each time you level up. Additionally you gain the Protection Fighting Style
+                        <b><u>Protective Presence</u></b>, requires level 6, your solid presence allows it such that you are more sturdy. You gain 2HP for each level you currently have, and you gain an additional 2HP each time you level up. Additionally are immune to the frightened and charmed condition. 
                     </li>
 
                 </ul>
@@ -240,7 +240,7 @@ export default function Archetypes() {
                         <b><u>Elastic Shield</u></b>, requires level 5, you learn the spell <a href="http://dnd5e.wikidot.com/spell:shield" target="_blank">shield</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, you gain the ability to target an ally within 60ft of you instead of targeting yourself with this spell. When cast in this way, the effects of the shield only last until the end of the triggering attack and your reaction is still consumed.
                     </li>
                     <li>
-                        <b><u>Guardian Angel</u></b>, requires level 5, once per long rest you are able to manipulate the forces of life and death to protect an ally. As a reaction, when an ally within 60ft of you would be reduced to 0HP you can prevent all damage that would've been inflicted on them. The protected ally is then teleported to a spot within 5ft of you of your choice.
+                        <b><u>Guardian Angel</u></b>, requires level 5, once per long rest you are able to manipulate the forces of life and death to protect an ally. As a reaction, when an ally within 60ft of you would be reduced to 0HP you can prevent all damage that would've been inflicted on them. The protected ally is then teleported to a spot within 5ft of you of your choice and they gain resistance to all types of damage until the end of their next turn.  
                     </li>
                     <li>
                         <b><u>Luxury Accomodations</u></b>, requires level 9, your mastery of protective magic has grown so vastly that you are able to manipulate time and space itself in order to keep your allies from danger. You learn the spell <a href="http://dnd5e.wikidot.com/spell:mordenkainens-magnificent-mansion" target="_blank">Mordenkainen's Magnificent Mansion</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot.
@@ -305,7 +305,7 @@ export default function Archetypes() {
                         <b><u>Multi Step</u></b>, requires level 5, you learn the spell <a href="http://dnd5e.wikidot.com/spell:misty-step" target="_blank">misty step</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, you learn how to manipulate the weave and take someone else with you as you teleport. You may target a willing creature within 5ft of you and bring them with you as you misty step. They must appear within 5ft of where you teleport to in a position of your choice.
                     </li>
                     <li>
-                        <b><u>Uncanny Redirection</u></b>, requires level 5, once per short or long rest you can use your reaction in response to being hit by a melee weapon attack. Utilizing techniques of misdirection, you cause the attacker to instead harm themselves. You deal the maximum damage that would have been dealt to you. 
+                        <b><u>Uncanny Redirection</u></b>, requires level 5, you can use your reaction in response to being hit by a melee weapon attack. Utilizing techniques of misdirection, you cause the attacker to instead harm themselves. You deal the maximum damage that would have been dealt to you. You may redirect damage in this way a number of times equal to your proficiency bonus. 
                     </li>
                     <li>
                         <b><u>Disappearing act</u></b>, requires level 9, you learn the spell <a href="http://dnd5e.wikidot.com/spell:greater-invisibility" target="_blank">greater invisibility</a> and always have it prepared, even if it is not typically on your class's spell list. Once per long rest, you may cast the selected spell at its lowest level without expending a spell slot. Additionally, you gain the ability to cast this spell as a reaction in response to taking damage. When cast in this way, you gain resistance to all damage until the start of your next turn.
